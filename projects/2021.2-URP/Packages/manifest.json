@@ -5,6 +5,7 @@
     "com.needle.inspector": "file:../../../../inspector/package",
     "com.needle.package-tools": "file:D:/git/needle-packages-master/development/pfc-packagetools",
     "com.needle.timeline-editor": "file:../../../../../package",
+    "com.needle.timeline-editor-extras": "file:../../../extras",
     "com.needle.transform-extensions": "file:../../../../transform-changed-helper/package",
     "com.unity.collab-proxy": "1.13.5",
     "com.unity.ide.rider": "3.0.7",
