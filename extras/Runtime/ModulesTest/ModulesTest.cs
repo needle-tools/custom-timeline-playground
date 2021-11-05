@@ -7,8 +7,11 @@ namespace Needle.Timeline
 {
 	public class ModulesTest : MonoBehaviour, IAnimated
 	{
-		[Animate] private List<MyType> MyTypeList;
+		[Animate, SerializeField] private List<MyType> MyTypeList;
+		[Animate] private List<Vector3> Points;
+		[Animate] private List<Direction> Directions;
 
+		[System.Serializable]
 		private struct MyType
 		{
 			public MyEnum Options;
@@ -20,6 +23,9 @@ namespace Needle.Timeline
 			}
 
 			public Vector3 Position;
+			public float Weight;
+			public Color Color;
+			public Color Color2;
 		}
 
 		private void OnDrawGizmos()
@@ -27,12 +33,37 @@ namespace Needle.Timeline
 #if UNITY_EDITOR
 			if (MyTypeList != null)
 			{
-				foreach (var t in MyTypeList)
+				var style = new GUIStyle(GUI.skin.label);
+				style.alignment = TextAnchor.MiddleLeft;
+				style.fontSize = 9;
+				var ct = Camera.current.transform;
+				var offset = ct.right * .2f + ct.up * .11f;
+				for (var index = 0; index < MyTypeList.Count; index++)
 				{
-					Handles.Label(t.Position, t.Options.ToString());
+					var t = MyTypeList[index];
+					if (t.Color.a <= 0) t.Color.a = 1;
+					Handles.color = Gizmos.color = t.Color;
+					Gizmos.DrawSphere(t.Position, .05f + t.Weight);
+					style.normal.textColor = t.Color;
+					Handles.Label(t.Position + offset, t.Options.ToString(), style);
+					MyTypeList[index] = t;
 				}
 			}
 #endif
+
+			if (Points != null)
+			{
+				Gizmos.color = Color.gray;
+				foreach (var pt in Points)
+				{
+					Gizmos.DrawSphere(pt, .1f);
+				}
+			}
+
+			if (Directions != null)
+			{
+				foreach(var dir in Directions) dir.RenderOnionSkin(OnionData.Default);
+			}
 		}
 	}
 }
