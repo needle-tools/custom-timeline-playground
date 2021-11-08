@@ -20,6 +20,7 @@ namespace Needle.Timeline
                 originalMaterial = rend.sharedMaterial;
                 materialInstance = Instantiate(originalMaterial);
                 materialInstance.hideFlags = HideFlags.DontSave;
+                rend.sharedMaterial = materialInstance;
             }
         }
 
@@ -34,6 +35,7 @@ namespace Needle.Timeline
             public Vector3 from;
             public Vector3 to;
             public float thickness = 0.1f;
+            [ColorUsage(true, true)]
             public Color color = Color.white;
         }
     }

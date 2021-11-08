@@ -176,7 +176,7 @@ MonoBehaviour:
     m_DisplayName: SticksFromData
   m_Markers:
     m_Objects: []
-  dirtyCount: 3110
+  dirtyCount: 15482
   clips:
   - id: 3b3dcda7e3c89ac45872b8720a8497cf@-7262967758348067753_SticksFromData_0
     clip: {fileID: -3499308299129891093}

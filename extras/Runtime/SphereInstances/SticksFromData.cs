@@ -21,10 +21,21 @@ public class SticksFromData : InstancesFromData<StickLogic, StickLogic.StickData
         
         var tr = sph.transform;
         var dat = sph.stickData;
-        tr.localPosition = (dat.from + dat.to) / 2;
+        // tr.localPosition = (dat.from + dat.to) / 2;
+        
+        // if (lerpRotation)
+        //     tr.localRotation = Quaternion.Slerp(tr.rotation, Quaternion.LookRotation(dat.to - dat.from), Time.fixedDeltaTime * 10f);
+        // else
+        //     tr.localRotation = Quaternion.LookRotation(dat.to - dat.from);
+        
         var len = Vector3.Distance(dat.from, dat.to);
-        tr.localRotation = Quaternion.Slerp(tr.rotation, Quaternion.LookRotation(dat.to - dat.from), Time.fixedDeltaTime * 10f);
         tr.localScale = new Vector3(dat.thickness, dat.thickness, len);
+
+        var fromNow = sph.transform.position + sph.transform.forward * len * 0.5f;
+        var toNow = sph.transform.position - sph.transform.forward * len * 0.5f;
+        sph.rigid.AddForceAtPosition((dat.from - fromNow).normalized * force, fromNow);
+        sph.rigid.AddForceAtPosition((dat.to - toNow).normalized * force, toNow);
+        
         sph.materialInstance.color = dat.color;
     }
 
