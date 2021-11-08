@@ -4,3 +4,5 @@ projects/*/*.csproj
 projects/*/*.sln
 projects/*/UserSettings
 projects/*/Logs
+projects/*/obj
+projects/*/.idea/*
