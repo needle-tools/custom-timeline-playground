@@ -28,13 +28,12 @@
       "url": "https://packages.needle.tools"
     },
     "com.needle.package-tools": {
-      "version": "0.9.2",
+      "version": "file:H:/git/needle-packages-master/development/pfc-packagetools",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.nuget.mono-cecil": "1.10.1"
-      },
-      "url": "https://packages.needle.tools"
+      }
     },
     "com.needle.timeline-editor": {
       "version": "file:../../../../../package",
