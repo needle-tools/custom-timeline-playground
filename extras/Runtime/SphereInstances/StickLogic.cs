@@ -38,7 +38,7 @@ namespace Needle.Timeline
             [ColorUsage(true, true)]
             public Color color = Color.white;
 
-            public float GetCustomWeight(object caller, InputData context)
+            public float? GetCustomWeight(object caller, InputData context)
             {
                 Debug.Log("someone is getting custom weight");
                 return context.GetLineDistanceScreenSpace(1f, @from, to) ?? 0f;
