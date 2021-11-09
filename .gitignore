@@ -6,3 +6,4 @@ projects/*/UserSettings
 projects/*/Logs
 projects/*/obj
 projects/*/.idea/*
+projects/*/*.DotSettings.user

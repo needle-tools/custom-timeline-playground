@@ -41,6 +41,7 @@ public class SticksFromData : InstancesFromData<StickLogic, StickLogic.StickData
 
     public override void DrawGizmo(StickLogic behaviour)
     {
+        if (!behaviour || behaviour.stickData == null) return;
         var c = behaviour.stickData.color;
         c.a = 0.1f;
         Gizmos.color = c;

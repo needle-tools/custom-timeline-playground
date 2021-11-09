@@ -30,13 +30,19 @@ namespace Needle.Timeline
             rend.sharedMaterial = originalMaterial;
         }
 
-        public class StickData
+        public class StickData : IWeightProvider<InputData>
         {
             public Vector3 from;
             public Vector3 to;
             public float thickness = 0.1f;
             [ColorUsage(true, true)]
             public Color color = Color.white;
+
+            public float GetCustomWeight(object caller, InputData context)
+            {
+                Debug.Log("someone is getting custom weight");
+                return context.GetLineDistanceScreenSpace(1f, @from, to) ?? 0f;
+            }
         }
     }
 }
