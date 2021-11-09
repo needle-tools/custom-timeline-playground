@@ -109,7 +109,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -7262967758348067753}
-    m_Duration: 5
+    m_Duration: 6.8
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8362878833988932371}
     m_EaseInDuration: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
     m_DisplayName: SticksFromData
   m_Markers:
     m_Objects: []
-  dirtyCount: 15482
+  dirtyCount: 18105
   clips:
   - id: 3b3dcda7e3c89ac45872b8720a8497cf@-7262967758348067753_SticksFromData_0
     clip: {fileID: -3499308299129891093}

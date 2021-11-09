@@ -40,8 +40,8 @@ namespace Needle.Timeline
 
             public float? GetCustomWeight(object caller, InputData context)
             {
-                Debug.Log("someone is getting custom weight");
-                return context.GetLineDistanceScreenSpace(1f, @from, to) ?? 0f;
+                var radius = caller is ModifierModule module ? module.Radius : 1f;
+                return 1 - context.GetLineDistanceScreenSpace(radius, @from, to) ?? 0f;
             }
         }
     }
