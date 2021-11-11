@@ -107,7 +107,7 @@ namespace Needle.Timeline
             }
         }
 
-        public abstract void ApplyPhysics(TBehaviour behaviour);
+        public virtual void ApplyPhysics(TBehaviour behaviour) {}
 
         private void OnDrawGizmos()
         {
@@ -121,7 +121,7 @@ namespace Needle.Timeline
             }
         }
 
-        public abstract void DrawGizmo(TBehaviour behaviour);
+        public virtual void DrawGizmo(TBehaviour behaviour) {}
 
         private void OnEnable()
         {

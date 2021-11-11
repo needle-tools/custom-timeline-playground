@@ -13,12 +13,5 @@ namespace Needle.Timeline
             behaviour.position = data.position;
             behaviour.localScale = data.radius * Vector3.one;
         }
-
-        public override void ApplyPhysics(Transform behaviour){}
-
-        public override void DrawGizmo(Transform behaviour)
-        {
-            Gizmos.DrawWireSphere(behaviour.position, behaviour.lossyScale.x);
-        }
     }
 }
