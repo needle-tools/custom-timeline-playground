@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: Timeline1
   m_EditorClassIdentifier: 
+  id: 9f1dd34cd4a376e42872b020daa27024@-7681196141625544987
+  clipData:
+  - {fileID: 8733040348429353293}
 --- !u!114 &-4509960228118245177
 MonoBehaviour:
   m_ObjectHideFlags: 8
