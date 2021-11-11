@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Needle.Timeline
 {
@@ -9,11 +10,11 @@ namespace Needle.Timeline
 	{
 		[Animate, SerializeField] private List<MyType> MyTypeList;
 		[Animate] private List<Vector3> Points;
-		[Animate] private List<Direction> Directions;
+		[Animate, FormerlySerializedAs("Directions1")] private List<Direction> Directions;
 
 		[System.Serializable]
-		private struct MyType
-		{
+		private struct MyType 
+		{ 
 			public MyEnum Options;
 
 			public enum MyEnum
