@@ -30,7 +30,7 @@ namespace Needle.Timeline
             rend.sharedMaterial = originalMaterial;
         }
 
-        public class StickData : IWeightProvider<InputData>
+        public class StickData : IWeightProvider<InputData>, IToolEvents
         {
             public Vector3 from;
             public Vector3 to;
@@ -42,6 +42,21 @@ namespace Needle.Timeline
             {
                 var radius = caller is ModifierModule module ? module.Radius : 1f;
                 return 1 - context.GetLineDistanceScreenSpace(radius, @from, to) ?? 0f;
+            }
+            
+            public void OnToolEvent(ToolStage stage, IToolData data)
+            {
+                if (data == null) return;
+                if (stage == ToolStage.BasicValuesSet)
+                {
+                    // Debug.Log(data.DeltaWorld.GetValueOrDefault());
+                    to = from + Vector3.ClampMagnitude(data.DeltaWorld.GetValueOrDefault()*5,1);
+                }
+                else if (stage == ToolStage.InputUpdated)
+                {
+                    // if (stage == CreationStage.BasicValuesSet) _deltaSum = data.DeltaWorld.GetValueOrDefault().normalized;
+                    to += data.DeltaWorld.GetValueOrDefault() * 0.005f;
+                }
             }
         }
     }
