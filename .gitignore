@@ -8,3 +8,4 @@ projects/*/obj
 projects/*/.idea/*
 projects/*/*.DotSettings.user
 projects/**/builds
+projects/*/ProjectSettings/Logs
