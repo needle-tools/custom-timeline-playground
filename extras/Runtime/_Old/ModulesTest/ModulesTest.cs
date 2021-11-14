@@ -19,8 +19,8 @@ namespace Needle.Timeline
 
 			public enum MyEnum
 			{
-				EnumVal0,
-				OtherOption
+				Sphere,
+				Cube
 			}
 
 			public Vector3 Position;
@@ -44,9 +44,11 @@ namespace Needle.Timeline
 					var t = MyTypeList[index];
 					if (t.Color.a <= 0) t.Color.a = 1;
 					Handles.color = Gizmos.color = t.Color;
-					Gizmos.DrawSphere(t.Position, .05f + t.Weight);
+					if(t.Options == MyType.MyEnum.Sphere)
+						Gizmos.DrawSphere(t.Position, .05f + t.Weight);
+					else Gizmos.DrawCube(t.Position, Vector3.one * (.05f + t.Weight));
 					style.normal.textColor = t.Color;
-					Handles.Label(t.Position + offset, t.Options.ToString(), style);
+					// Handles.Label(t.Position + offset, t.Options.ToString(), style);
 					MyTypeList[index] = t;
 				}
 			}

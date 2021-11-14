@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: Timeline3
   m_EditorClassIdentifier: 
+  id: 3b3dcda7e3c89ac45872b8720a8497cf@-7262967758348067753
+  clipData: []
 --- !u!74 &-3499308299129891093
 AnimationClip:
   m_ObjectHideFlags: 0

@@ -163,6 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: Timeline2
   m_EditorClassIdentifier: 
+  id: 8db177d8006fb474f8299ffea2540017@-4750693826580079858
+  clipData: []
 --- !u!114 &-2793290635219942520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -175,6 +177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: Timeline2
   m_EditorClassIdentifier: 
+  id: 8db177d8006fb474f8299ffea2540017@-2793290635219942520
+  clipData: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
