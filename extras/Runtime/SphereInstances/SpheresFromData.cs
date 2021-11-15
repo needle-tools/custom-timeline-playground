@@ -11,12 +11,14 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
     {
         public Vector3 position = Vector3.zero;
         public float radius = 1f;
+        public float forceFactor = 50;
     }
     
     public override void ApplyDataToBehaviour(SphereData dat, SphereLogic inst)
     {
         inst.targetPosition = dat.position;
         inst.targetScale = dat.radius;
+        inst.force = dat.forceFactor;
     }
 
     public override void ApplyPhysics(SphereLogic sph)
@@ -29,6 +31,7 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
 
     public override void DrawGizmo(SphereLogic inst)
     {
+        Gizmos.color = Color.Lerp(Color.green, Color.red, inst.force / 100f);
         Gizmos.DrawWireSphere(inst.targetPosition, inst.targetScale);
         Gizmos.DrawLine(inst.targetPosition, inst.transform.localPosition);
     }

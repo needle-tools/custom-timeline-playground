@@ -51,6 +51,67 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &-6987933312272559728
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 8db177d8006fb474f8299ffea2540017@-4750693826580079858_SpheresFromData_0_data
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"8db177d8006fb474f8299ffea2540017@-4750693826580079858_SpheresFromData_0_data","Name":"data","IsRecording":true,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.383408,"y":-4.089714,"z":8.030702},"radius":1.0,"forceFactor":32.99987},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.574881,"y":-4.5929184,"z":7.96271324},"radius":1.0,"forceFactor":32.9999962},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.167735,"y":-5.33482456,"z":8.880821},"radius":1.0,"forceFactor":32.9998665},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.380637,"y":-5.26139259,"z":8.752344},"radius":1.0,"forceFactor":32.99998},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.833231,"y":-5.01984549,"z":8.090365},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.171428,"y":-4.938497,"z":8.146622},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.18660545,"y":-6.017971,"z":7.14695358},"radius":1.0,"forceFactor":32.9999962},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.977021,"y":-5.51745033,"z":5.600579},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.256691,"y":-4.779966,"z":5.573081},"radius":1.0,"forceFactor":32.99999},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.39310932,"y":-5.22919226,"z":3.70830369},"radius":1.0,"forceFactor":32.99999},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.403559,"y":-6.103044,"z":3.13433337},"radius":1.0,"forceFactor":32.9999962},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.84907627,"y":-5.53964424,"z":2.07691646},"radius":1.0,"forceFactor":32.9999924},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.89364,"y":-6.11041927,"z":0.674390137},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.9546175,"y":-5.998063,"z":1.385253},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.83742666,"y":-5.438728,"z":-0.180853546},"radius":1.0,"forceFactor":32.9999924},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.97959471,"y":-6.309611,"z":-1.00941229},"radius":1.0,"forceFactor":32.9741974},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.156021,"y":-5.68109035,"z":-0.11950773},"radius":1.0,"forceFactor":32.9999924},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.0253334,"y":-5.2051115,"z":-0.774448156},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.615328,"y":-5.39899349,"z":-0.5960538},"radius":1.0,"forceFactor":32.9999962},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.83291245,"y":-5.20186758,"z":-1.12220049},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.10868359,"y":-5.963289,"z":-0.925158441},"radius":1.0,"forceFactor":32.99654},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.73127937,"y":-6.032696,"z":-1.50466847},"radius":1.0,"forceFactor":32.9989281},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.017268,"y":-5.46558332,"z":-1.44771743},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.27762556,"y":-4.521327,"z":-0.7694021},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.58967733,"y":-5.379018,"z":-2.100223},"radius":1.0,"forceFactor":32.9987068},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.57369661,"y":-5.07763052,"z":-1.90556574},"radius":1.0,"forceFactor":32.9998779},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.05768,"y":-4.35644674,"z":-0.997436464},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.67228556,"y":-4.595533,"z":-2.69128132},"radius":1.0,"forceFactor":32.9675179},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.69148445,"y":-4.72811842,"z":-1.177695},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.14414549,"y":-4.45999765,"z":-1.42055869},"radius":1.0,"forceFactor":33.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.355468,"y":-3.91078019,"z":-2.62179422},"radius":1.0,"forceFactor":32.99076},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.368074,"y":-3.4101665,"z":-2.37403},"radius":1.0,"forceFactor":32.99851},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.730202,"y":-3.27386284,"z":-2.22382951},"radius":1.0,"forceFactor":32.9999847},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.544697,"y":-3.51321387,"z":-1.79978669},"radius":1.0,"forceFactor":32.9999733},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.249424,"y":-3.15218616,"z":-1.99257112},"radius":1.0,"forceFactor":32.9999657},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.01175642,"y":-2.72153187,"z":-2.51254654},"radius":1.0,"forceFactor":32.97794},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.012309,"y":-2.887176,"z":-2.2811017},"radius":1.0,"forceFactor":32.9999847},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.832431,"y":-3.880355,"z":-2.699934},"radius":1.0,"forceFactor":32.9983826},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.28938055,"y":-3.914548,"z":-1.89258635},"radius":1.0,"forceFactor":32.9999924}]},"time":0.0,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
 --- !u!114 &-5732534472918827686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,7 +204,7 @@ MonoBehaviour:
     m_DisplayName: SpheresFromData
   m_Markers:
     m_Objects: []
-  dirtyCount: 5585
+  dirtyCount: 7975
   clips:
   - id: f11d1b0d1984fe74abfcf6a31ced6d88@-5245312903617351445_SpheresFromData_0
     clip: {fileID: 0}
@@ -151,6 +212,64 @@ MonoBehaviour:
   - id: 8db177d8006fb474f8299ffea2540017@-2793290635219942520_SpheresFromData_0
     clip: {fileID: 1055363619787048618}
     solo: 0
+--- !u!114 &-5461886533094217712
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 8db177d8006fb474f8299ffea2540017@-2793290635219942520_SpheresFromData_0_data
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"8db177d8006fb474f8299ffea2540017@-2793290635219942520_SpheresFromData_0_data","Name":"data","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.87071407,"y":0.690972447,"z":10.305481},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.9305955,"y":2.29794526,"z":10.1059008},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.34224236,"y":3.42865419,"z":10.6994333},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.53795028,"y":3.56599665,"z":10.5195265},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.962390959,"y":3.01912737,"z":10.4940529},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.429359,"y":5.25879526,"z":10.7213144},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.843064547,"y":4.279287,"z":10.056716},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.7401904,"y":5.4820447,"z":10.5852184},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.5519886,"y":5.93384075,"z":9.749213},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.942015946,"y":6.104231,"z":9.87936},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.07781893,"y":6.360601,"z":10.3124561},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.56092119,"y":6.79957247,"z":9.900571},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.243249357,"y":5.56378746,"z":9.186471},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.21811891,"y":5.72689867,"z":9.766941},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.2736442,"y":6.94908237,"z":9.198877},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.688495457,"y":6.80805826,"z":9.37842},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.44957,"y":7.31035233,"z":8.586963},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.163278639,"y":6.96889973,"z":7.9110074},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.5718356,"y":6.667334,"z":7.30536556},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.53539813,"y":7.38315725,"z":5.700581},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.44753623,"y":6.911196,"z":5.37383127},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.90179133,"y":6.480208,"z":5.111202},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.180617,"y":6.40818834,"z":4.41884041},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.49295,"y":6.83515263,"z":4.417254},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.48037124,"y":6.658864,"z":3.79486871},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.07051,"y":7.774379,"z":3.61013675},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.03075314,"y":7.709178,"z":2.34231758},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.14193058,"y":5.973728,"z":2.98925972},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.65401959,"y":5.935707,"z":2.01356435},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.36819267,"y":5.41956568,"z":1.68050444},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.39146757,"y":6.22694874,"z":1.49505329},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.34755087,"y":5.284897,"z":1.0871793},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.40817142,"y":4.728517,"z":-0.107775122},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.411125,"y":4.548776,"z":1.27836072},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.87608862,"y":4.25059,"z":-0.0165524185},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.48750544,"y":3.62844443,"z":0.180304348},"radius":1.0,"forceFactor":1.0}]},"time":0.0,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
 --- !u!114 &-4750693826580079858
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -164,7 +283,8 @@ MonoBehaviour:
   m_Name: Timeline2
   m_EditorClassIdentifier: 
   id: 8db177d8006fb474f8299ffea2540017@-4750693826580079858
-  clipData: []
+  clipData:
+  - {fileID: -6987933312272559728}
 --- !u!114 &-2793290635219942520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -178,7 +298,8 @@ MonoBehaviour:
   m_Name: Timeline2
   m_EditorClassIdentifier: 
   id: 8db177d8006fb474f8299ffea2540017@-2793290635219942520
-  clipData: []
+  clipData:
+  - {fileID: -5461886533094217712}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,7 +465,7 @@ MonoBehaviour:
     m_DisplayName: SpheresFromData
   m_Markers:
     m_Objects: []
-  dirtyCount: 3425
+  dirtyCount: 5706
   clips:
   - id: f11d1b0d1984fe74abfcf6a31ced6d88@225320643175938271_SpheresFromData_0
     clip: {fileID: 0}
