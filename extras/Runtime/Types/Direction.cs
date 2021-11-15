@@ -1,11 +1,14 @@
-﻿using System;
-using Needle.Timeline;
-using Newtonsoft.Json;
+﻿using Needle.Timeline;
 using UnityEditor;
 using UnityEngine;
 
+public interface IHasDirection
+{
+	Vector3 Start { get; set; }
+	Vector3 End { get; set; }
+}
 
-public struct Direction : ICustomControls, IToolEvents, IOnionSkin
+public struct Direction : ICustomControls, IToolEvents, IOnionSkin, IHasDirection
 {
 	public Vector3 Start;
 	public Vector3 End;
@@ -61,4 +64,7 @@ public struct Direction : ICustomControls, IToolEvents, IOnionSkin
 		ort *= -1;
 		Gizmos.DrawLine(End, Vector3.Lerp(Start, End + ort, .9f));
 	}
+
+	Vector3 IHasDirection.Start { get => Start; set => Start = value; }
+	Vector3 IHasDirection.End { get => End; set => End = value; }
 }
