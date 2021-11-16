@@ -1,12 +1,8 @@
 ﻿using Needle.Timeline;
+using Needle.Timeline.CustomClipTools.ToolModule;
 using UnityEditor;
 using UnityEngine;
 
-public interface IHasDirection
-{
-	Vector3 Start { get; set; }
-	Vector3 End { get; set; }
-}
 
 public struct Direction : ICustomControls, IToolEvents, IOnionSkin, IHasDirection
 {
