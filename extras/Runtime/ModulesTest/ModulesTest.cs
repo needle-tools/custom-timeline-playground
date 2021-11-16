@@ -8,7 +8,7 @@ namespace Needle.Timeline
 {
 	public class ModulesTest : MonoBehaviour, IAnimated
 	{
-		[Animate, SerializeField] private List<MyType> MyTypeList;
+		[Animate] private List<MyType> MyTypeList;
 		[Animate] private List<Vector3> Points;
 		[Animate, FormerlySerializedAs("Directions1")] private List<Direction> Directions;
 
