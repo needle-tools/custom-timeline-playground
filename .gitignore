@@ -9,3 +9,5 @@ projects/*/.idea/*
 projects/*/*.DotSettings.user
 projects/**/builds
 projects/*/ProjectSettings/Logs
+projects/*/Webserver
+projects/*/Recordings

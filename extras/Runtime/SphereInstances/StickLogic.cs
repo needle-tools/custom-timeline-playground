@@ -22,6 +22,13 @@ namespace Needle.Timeline
                 materialInstance.hideFlags = HideFlags.DontSave;
                 rend.sharedMaterial = materialInstance;
             }
+            if(stickData != null)
+            {
+                var len = Vector3.Distance(stickData.from, stickData.to);
+                transform.localScale = new Vector3(stickData.thickness, stickData.thickness, len);
+                transform.position = (stickData.@from + stickData.to) / 2;
+                transform.LookAt(transform.position + stickData.to);
+            }
         }
 
         private void OnDisable()
