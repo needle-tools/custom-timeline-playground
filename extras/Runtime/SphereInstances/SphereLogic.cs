@@ -13,5 +13,8 @@ namespace Needle.Timeline
         {
             if(!rigid) rigid = GetComponent<Rigidbody>();
         }
+
+        public MaterialPropertyBlock block;
+        public Renderer rend;
     }
 }

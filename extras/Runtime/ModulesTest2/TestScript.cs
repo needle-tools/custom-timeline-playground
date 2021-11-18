@@ -15,7 +15,7 @@ public class TestScript : MonoBehaviour, IAnimated
 		public float Size; 
 	}
 
-	[Animate] private List<ColorPoint> colorPoints;
+	[Animate] private List<ColorPoint> colorPoints; 
 	[Animate] private List<ColorPoint> colorPoints2;
 
 	private void OnDrawGizmos()

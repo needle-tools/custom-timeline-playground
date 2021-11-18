@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Needle.Timeline
 {
+    [ExecuteAlways]
     public abstract class InstancesFromData<TBehaviour, TData> : MonoBehaviour, IAnimated where TBehaviour : Component
     {
         internal void ResetData()
@@ -42,7 +43,7 @@ namespace Needle.Timeline
             if (data == null) data = new List<TData>();
             if (buffer == null) buffer = new List<TBehaviour>();
 
-            if (instances.Count != data.Count)
+            // if (instances.Count != data.Count)
             {
                 while (instances.Count > data.Count)
                 {
@@ -59,12 +60,17 @@ namespace Needle.Timeline
                         var last = buffer.Last();
                         instances.Add(last);
                         buffer.Remove(last);
-                        if (last) last.gameObject.SetActive(true);
+                        if (last)
+                        {
+                            last.gameObject.transform.localScale = Vector3.zero;
+                            last.gameObject.SetActive(true);
+                        }
                     }
                     else
                     {
                         var newInstance = Instantiate(template, transform);
                         newInstance.gameObject.hideFlags = HideFlags.DontSave;
+                        ApplyDataToBehaviour(data[instances.Count], newInstance);
                         instances.Add(newInstance);
                         newInstance.gameObject.SetActive(true);
                     }

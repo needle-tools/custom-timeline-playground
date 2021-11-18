@@ -382,7 +382,7 @@ MonoBehaviour:
     m_DisplayName: TestScript
   m_Markers:
     m_Objects: []
-  dirtyCount: 28387
+  dirtyCount: 29033
   clips:
   - id: 1f94dcba921b7ea45ac74d27b229f629@8304779164946966167_TestScript_0
     clip: {fileID: -4187532281411831305}
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
-  m_Name: 5.6_colorPoints2
+  m_Name: 6.0_colorPoints2
   m_EditorClassIdentifier: 
   <Id>k__BackingField: 95092000cb011e542bac88635362a414@5613640394364808533_TestScript_0_colorPoints2
   <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
@@ -951,7 +951,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
-  m_Name: 5.6_Vecs
+  m_Name: 6.0_Vecs
   m_EditorClassIdentifier: 
   <Id>k__BackingField: 95092000cb011e542bac88635362a414@5613640394364808533_TestScript_0_Vecs
   <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[UnityEngine.Vector3,
@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
-  m_Name: 5.6_colorPoints
+  m_Name: 6.0_colorPoints
   m_EditorClassIdentifier: 
   <Id>k__BackingField: 95092000cb011e542bac88635362a414@5613640394364808533_TestScript_0_colorPoints
   <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
@@ -1694,73 +1694,73 @@ MonoBehaviour:
     Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[TestScript+ColorPoint,
     Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":-2.267964,"y":0.7364489,"z":-1.13304377},"Color":{"r":0.6873629,"g":0.164858609,"b":0.164858609,"a":0.6873629},"Size":0.136832789},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.8704705,"y":-0.0366677046,"z":-1.83633089},"Color":{"r":0.9206073,"g":0.746054947,"b":0.746054947,"a":0.9206073},"Size":0.13725403},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.32921624,"y":-0.20242691,"z":-1.320405},"Color":{"r":0.7853683,"g":0.313479424,"b":0.313479424,"a":0.7853683},"Size":0.13711746},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.8704705,"y":-0.0366677046,"z":-1.83633089},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.13725403},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.32921624,"y":-0.20242691,"z":-1.320405},"Color":{"r":0.99999994,"g":0.2122642,"b":0.7520092,"a":1.0},"Size":0.13711746},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":-1.25575721,"y":-0.7449554,"z":-0.846812},"Color":{"r":0.6873629,"g":0.6873629,"b":0.6873629,"a":0.6873629},"Size":0.137534156},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.614336,"y":0.239458084,"z":-1.04615021},"Color":{"r":0.899370134,"g":0.678126156,"b":0.678126156,"a":0.899370134},"Size":0.136805832},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":0.121898971,"y":-0.9330103,"z":-2.30596375},"Color":{"r":0.6873629,"g":0.659465849,"b":0.659465849,"a":0.6873629},"Size":0.13675262},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.614336,"y":0.239458084,"z":-1.04615021},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.136805832},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":0.121898971,"y":-0.9330103,"z":-2.30596375},"Color":{"r":0.9903012,"g":0.561240256,"b":0.0165654682,"a":0.9997489},"Size":0.13675262},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":0.647846043,"y":-1.38638425,"z":-2.06637025},"Color":{"r":0.242544711,"g":0.242544711,"b":0.242544711,"a":0.889682055},"Size":0.137117445},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":-0.6039086,"y":-0.188826919,"z":0.201651871},"Color":{"r":0.6873629,"g":0.000260055385,"b":0.000260055385,"a":0.6873629},"Size":0.137250841},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.04493308,"y":-0.735383034,"z":-1.7152313},"Color":{"r":0.800307155,"g":0.361262739,"b":0.361262739,"a":0.800307155},"Size":0.136752516},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.848245,"y":-0.743038654,"z":-1.08277011},"Color":{"r":0.6873629,"g":0.231693357,"b":0.231693357,"a":0.6873629},"Size":0.136915624},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.50611031,"y":0.372966528,"z":-0.9293294},"Color":{"r":0.261306673,"g":0.007113854,"b":0.007113854,"a":0.8843841},"Size":0.136846483},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.04493308,"y":-0.735383034,"z":-1.7152313},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.136752516},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.848245,"y":-0.743038654,"z":-1.08277011},"Color":{"r":0.7221835,"g":0.269421875,"b":0.205888048,"a":0.7221835},"Size":0.136915624},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.50611031,"y":0.372966528,"z":-0.9293294},"Color":{"r":0.385803521,"g":0.102054805,"b":0.0059149093,"a":0.903869569},"Size":0.136846483},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":-1.75293446,"y":-0.142340124,"z":-0.7509368},"Color":{"r":0.6873629,"g":0.03141742,"b":0.03141742,"a":0.6873629},"Size":0.136762246},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":0.507930756,"y":-1.33568943,"z":-1.9863019},"Color":{"r":0.2432743,"g":0.2432743,"b":0.2432743,"a":0.8893502},"Size":0.1368601},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":-1.35011923,"y":-0.3385176,"z":-0.36820507},"Color":{"r":0.6873629,"g":0.6873629,"b":0.6873629,"a":0.6873629},"Size":0.137072235},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.21520317,"y":1.40579391,"z":-1.10197592},"Color":{"r":0.446137369,"g":0.00519911759,"b":0.00519911759,"a":0.79944557},"Size":0.136790365},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-2.14123559,"y":-0.2556827,"z":-1.17131531},"Color":{"r":0.6873629,"g":0.6873629,"b":0.6873629,"a":0.6873629},"Size":0.136923686},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-2.45165443,"y":0.388260365,"z":-1.70831585},"Color":{"r":0.652134955,"g":0.0147995865,"b":0.0147995865,"a":0.70338583},"Size":0.1369055},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-2.488426,"y":-0.324186742,"z":-1.77609277},"Color":{"r":0.671415746,"g":1.60147131E-08,"b":1.60147131E-08,"a":0.6946164},"Size":0.136502087},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.21520317,"y":1.40579391,"z":-1.10197592},"Color":{"r":0.488371968,"g":0.0483013019,"b":0.004802661,"a":0.81473875},"Size":0.136790365},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-2.14123559,"y":-0.2556827,"z":-1.17131531},"Color":{"r":0.743007958,"g":0.6665521,"b":0.5650219,"a":0.743007958},"Size":0.136923686},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-2.45165443,"y":0.388260365,"z":-1.70831585},"Color":{"r":0.9447707,"g":0.3639362,"b":0.250698477,"a":0.9529076},"Size":0.1369055},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-2.488426,"y":-0.324186742,"z":-1.77609277},"Color":{"r":0.9992269,"g":0.2153595,"b":0.745012045,"a":0.9999383},"Size":0.136502087},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":-0.894169,"y":0.7207669,"z":-0.242066413},"Color":{"r":0.320640773,"g":0.014421328,"b":0.014421328,"a":0.8607203},"Size":0.136861444},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.89472592,"y":0.458755255,"z":-1.97072625},"Color":{"r":0.708692,"g":0.207983091,"b":0.207983091,"a":0.772258341},"Size":0.136607647},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.81718725,"y":0.3474106,"z":-2.50076318},"Color":{"r":0.8548927,"g":0.5359755,"b":0.5359755,"a":0.8548927},"Size":0.13695775},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.280926943,"y":0.521802545,"z":-1.60188007},"Color":{"r":0.8545508,"g":0.534766138,"b":0.534766138,"a":0.8545508},"Size":0.1369911},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.28422117,"y":0.4895208,"z":-1.59187245},"Color":{"r":0.8088472,"g":0.388578981,"b":0.388578981,"a":0.8088472},"Size":0.137067556},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.89472592,"y":0.458755255,"z":-1.97072625},"Color":{"r":0.99999994,"g":0.212386549,"b":0.7517524,"a":0.99999994},"Size":0.136607647},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.81718725,"y":0.3474106,"z":-2.50076318},"Color":{"r":0.835816264,"g":0.3147008,"b":0.5959797,"a":1.0},"Size":0.13695775},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.280926943,"y":0.521802545,"z":-1.60188007},"Color":{"r":0.9518422,"g":0.2186496,"b":0.7211295,"a":1.0},"Size":0.1369911},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.28422117,"y":0.4895208,"z":-1.59187245},"Color":{"r":0.9999786,"g":0.212299973,"b":0.7519264,"a":0.99999994},"Size":0.137067556},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.47001934,"y":-1.73904049,"z":-2.58018517},"Color":{"r":0.6873629,"g":0.6873629,"b":0.6873629,"a":0.6873629},"Size":0.136711121},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.47003067,"y":-0.0557103157,"z":-2.241498},"Color":{"r":0.906980157,"g":0.702469468,"b":0.702469468,"a":0.906980157},"Size":0.136640638},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.50162327,"y":-0.494207323,"z":-2.82732272},"Color":{"r":0.910726547,"g":0.7144504,"b":0.7144504,"a":0.910726547},"Size":0.13687101},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":1.677803,"y":0.0141701791,"z":-2.59431672},"Color":{"r":0.620766163,"g":0.236259609,"b":0.236259609,"a":0.7176535},"Size":0.137031},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.47003067,"y":-0.0557103157,"z":-2.241498},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.136640638},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.50162327,"y":-0.494207323,"z":-2.82732272},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.13687101},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":1.677803,"y":0.0141701791,"z":-2.59431672},"Color":{"r":0.952861369,"g":0.5289009,"b":0.0293669812,"a":0.9649044},"Size":0.137031},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.34168351,"y":-1.68332171,"z":-2.37751675},"Color":{"r":0.6873629,"g":0.6873629,"b":0.6873629,"a":0.6873629},"Size":0.13657935},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.81508887,"y":-0.537091,"z":-2.61463833},"Color":{"r":0.6824991,"g":0.0922292247,"b":0.0922292247,"a":0.689575136},"Size":0.136524573},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.50164545,"y":-0.482078463,"z":-3.25656486},"Color":{"r":0.6495736,"g":0.02712993,"b":0.02712993,"a":0.7045508},"Size":0.137076572},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.6636519,"y":-0.2390581,"z":-2.28304029},"Color":{"r":0.848921657,"g":0.517237842,"b":0.517237842,"a":0.848921657},"Size":0.136444822},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.6636519,"y":-0.2390581,"z":-2.28304029},"Color":{"r":0.999971569,"g":0.21226795,"b":0.751991034,"a":1.0},"Size":0.136444822},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.12105441,"y":-1.648131,"z":-2.97353458},"Color":{"r":0.6873629,"g":0.6873629,"b":0.6873629,"a":0.6873629},"Size":0.136879265},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.66289937,"y":-0.58714503,"z":-3.18909979},"Color":{"r":0.666863143,"g":0.00114417821,"b":0.00114417821,"a":0.6966869},"Size":0.137191728},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.14178979,"y":-1.435318,"z":-2.19587255},"Color":{"r":0.8414179,"g":0.8414179,"b":0.8414179,"a":1.0},"Size":0.137189522},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.389733285,"y":-0.188630372,"z":-1.57705784},"Color":{"r":1.0,"g":0.653115034,"b":0.653115034,"a":1.0},"Size":0.136107042},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.389733285,"y":-0.188630372,"z":-1.57705784},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.136107042},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.5512116,"y":-1.84620345,"z":-2.12138677},"Color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"Size":0.137046084},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":1.35283816,"y":0.871128,"z":-4.116941},"Color":{"r":1.0,"g":0.312638968,"b":0.312638968,"a":1.0},"Size":0.10923215},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":3.42232,"y":-1.22958112,"z":-3.83966112},"Color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"Size":0.109905913},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.91241431,"y":0.493979931,"z":-3.303875},"Color":{"r":1.0,"g":0.988114834,"b":0.988114834,"a":1.0},"Size":0.111157186},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":1.05975533,"y":0.8433796,"z":-3.584783},"Color":{"r":1.0,"g":0.31263712,"b":0.31263712,"a":1.0},"Size":0.110673755},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.91241431,"y":0.493979931,"z":-3.303875},"Color":{"r":0.952093,"g":0.273109436,"b":0.6870058,"a":1.0},"Size":0.111157186},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":1.05975533,"y":0.8433796,"z":-3.584783},"Color":{"r":1.0,"g":0.561811268,"b":0.0104632676,"a":1.0},"Size":0.110673755},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.67419744,"y":0.0515414067,"z":-4.046726},"Color":{"r":1.0,"g":0.312738538,"b":0.312738538,"a":1.0},"Size":0.110323146},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.733611,"y":-0.105300158,"z":-4.585684},"Color":{"r":1.0,"g":0.273042053,"b":0.273042053,"a":1.0},"Size":0.109648988},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":4.05237436,"y":0.472297,"z":-5.22835732},"Color":{"r":1.0,"g":0.31263712,"b":0.31263712,"a":1.0},"Size":0.11103072},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-2.4343648,"y":-0.193327069,"z":-2.65973115},"Color":{"r":0.9322356,"g":0.9322356,"b":0.9322356,"a":1.0},"Size":0.1168372},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.270154,"y":0.5763538,"z":-2.86198139},"Color":{"r":1.0,"g":0.6157531,"b":0.6157531,"a":1.0},"Size":0.110314757},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":0.9303794,"y":0.8578387,"z":-3.73658085},"Color":{"r":1.0,"g":0.31263712,"b":0.31263712,"a":1.0},"Size":0.111130968},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-2.4343648,"y":-0.193327069,"z":-2.65973115},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.1168372},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.270154,"y":0.5763538,"z":-2.86198139},"Color":{"r":0.632318,"g":0.6792453,"b":0.253115,"a":1.0},"Size":0.110314757},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":0.9303794,"y":0.8578387,"z":-3.73658085},"Color":{"r":1.0,"g":0.547988832,"b":0.0272258222,"a":1.0},"Size":0.111130968},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.95993733,"y":-0.00550966058,"z":-3.27800846},"Color":{"r":1.0,"g":0.892594,"b":0.892594,"a":1.0},"Size":0.110073045},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-2.92108,"y":-1.11470342,"z":-2.32411385},"Color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"Size":0.110529974},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-2.92108,"y":-1.11470342,"z":-2.32411385},"Color":{"r":0.983804,"g":0.2144117,"b":0.741623938,"a":1.0},"Size":0.110529974},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.974769,"y":-0.9712348,"z":-3.773252},"Color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"Size":0.111524969},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.84779644,"y":-0.684361458,"z":-2.205733},"Color":{"r":1.0,"g":0.959066868,"b":0.959066868,"a":1.0},"Size":0.109924316},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.78488529,"y":-0.728993058,"z":-1.48354948},"Color":{"r":1.0,"g":0.7038989,"b":0.7038989,"a":1.0},"Size":0.110406183},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.84779644,"y":-0.684361458,"z":-2.205733},"Color":{"r":1.0,"g":0.21226418,"b":0.7520093,"a":1.0},"Size":0.109924316},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.78488529,"y":-0.728993058,"z":-1.48354948},"Color":{"r":0.9969124,"g":0.21272172,"b":0.7499452,"a":1.0},"Size":0.110406183},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":3.02564049,"y":-0.08579915,"z":-4.0561595},"Color":{"r":1.0,"g":0.274023622,"b":0.274023622,"a":1.0},"Size":0.110012442},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.47868562,"y":0.160259888,"z":-3.75781584},"Color":{"r":1.0,"g":0.6069768,"b":0.6069768,"a":1.0},"Size":0.10996443},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.42314053,"y":0.3112401,"z":-4.0092597},"Color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"Size":0.111715436},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-2.07942963,"y":-1.301394,"z":-3.311274},"Color":{"r":1.0,"g":0.619453669,"b":0.619453669,"a":1.0},"Size":0.111191235},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":0.134416282,"y":0.8569159,"z":-2.666391},"Color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"Size":0.114505857},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":1.4194001,"y":1.10347867,"z":-3.43015242},"Color":{"r":1.0,"g":0.3190629,"b":0.3190629,"a":1.0},"Size":0.11245954},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":0.243150949,"y":0.803412855,"z":-3.75171781},"Color":{"r":1.0,"g":0.330103,"b":0.330103,"a":1.0},"Size":0.110718496},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-2.07942963,"y":-1.301394,"z":-3.311274},"Color":{"r":0.999811947,"g":0.21228911,"b":0.7518887,"a":1.0},"Size":0.111191235},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":0.134416282,"y":0.8569159,"z":-2.666391},"Color":{"r":0.632318,"g":0.6792453,"b":0.253115,"a":1.0},"Size":0.114505857},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":1.4194001,"y":1.10347867,"z":-3.43015242},"Color":{"r":1.0,"g":0.5187992,"b":0.06554498,"a":1.0},"Size":0.11245954},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":0.243150949,"y":0.803412855,"z":-3.75171781},"Color":{"r":0.851863265,"g":0.6142724,"b":0.101984031,"a":1.0},"Size":0.110718496},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.01810765,"y":-0.0198912621,"z":-4.461181},"Color":{"r":1.0,"g":0.3386381,"b":0.3386381,"a":1.0},"Size":0.110537261},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":1.09502959,"y":1.09773,"z":-3.2179718},"Color":{"r":1.0,"g":0.750316739,"b":0.750316739,"a":1.0},"Size":0.114069834},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":1.23908973,"y":1.103623,"z":-3.726187},"Color":{"r":1.0,"g":0.3289414,"b":0.3289414,"a":1.0},"Size":0.11256884},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":0.923917532,"y":0.859657645,"z":-3.82078886},"Color":{"r":1.0,"g":0.31263712,"b":0.31263712,"a":1.0},"Size":0.1118808},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.213035911,"y":0.5450519,"z":-3.59617734},"Color":{"r":1.0,"g":0.343016863,"b":0.343016863,"a":1.0},"Size":0.1159405},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-2.57736754,"y":1.09372985,"z":-2.55555},"Color":{"r":0.564552546,"g":0.183090851,"b":0.183090851,"a":1.0},"Size":0.119323343},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-1.728565,"y":0.972013831,"z":-2.62128353},"Color":{"r":1.0,"g":0.5272612,"b":0.5272612,"a":1.0},"Size":0.111452036},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":0.165741816,"y":0.8479793,"z":-3.04098248},"Color":{"r":1.0,"g":0.4774957,"b":0.4774957,"a":1.0},"Size":0.114033327},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":1.09502959,"y":1.09773,"z":-3.2179718},"Color":{"r":0.9187566,"g":0.594489,"b":0.05596092,"a":1.0},"Size":0.114069834},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":1.23908973,"y":1.103623,"z":-3.726187},"Color":{"r":1.0,"g":0.38681,"b":0.250119269,"a":1.0},"Size":0.11256884},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":0.923917532,"y":0.859657645,"z":-3.82078886},"Color":{"r":1.0,"g":0.5067734,"b":0.07720773,"a":1.0},"Size":0.1118808},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.213035911,"y":0.5450519,"z":-3.59617734},"Color":{"r":0.6323217,"g":0.6792442,"b":0.253112525,"a":1.0},"Size":0.1159405},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-2.57736754,"y":1.09372985,"z":-2.55555},"Color":{"r":0.9587194,"g":0.5337185,"b":0.0173570961,"a":1.0},"Size":0.119323343},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-1.728565,"y":0.972013831,"z":-2.62128353},"Color":{"r":0.8179114,"g":0.6243237,"b":0.12535122,"a":1.0},"Size":0.111452036},{"$type":"TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":0.165741816,"y":0.8479793,"z":-3.04098248},"Color":{"r":0.632318,"g":0.6792453,"b":0.253115,"a":1.0},"Size":0.114033327},{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":2.49903941,"y":-0.286552548,"z":-5.246152},"Color":{"r":1.0,"g":0.31263712,"b":0.31263712,"a":1.0},"Size":0.110668726},{"$type":"TestScript+ColorPoint,
-    Needle.Timeline-Extras","Point":{"x":-0.9600565,"y":-0.120097876,"z":-3.07831645},"Color":{"r":1.0,"g":0.6374473,"b":0.6374473,"a":1.0},"Size":0.110117331}]},"time":2.55283523,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
+    Needle.Timeline-Extras","Point":{"x":-0.9600565,"y":-0.120097876,"z":-3.07831645},"Color":{"r":0.710953653,"g":0.579372764,"b":0.3598128,"a":1.0},"Size":0.110117331}]},"time":2.55283523,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
     Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[TestScript+ColorPoint,
     Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"TestScript+ColorPoint,
     Needle.Timeline-Extras","Point":{"x":-0.0203909986,"y":-0.129575357,"z":-3.14397955},"Color":{"r":1.0,"g":0.239842162,"b":0.239842162,"a":1.0},"Size":0.100003831},{"$type":"TestScript+ColorPoint,

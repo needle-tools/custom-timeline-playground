@@ -4,6 +4,8 @@ using UnityEngine;
 [ExecuteAlways]
 public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.SphereData>
 {
+    private static readonly int Color1 = Shader.PropertyToID("_Color");
+
     [ContextMenu("Reset Data")]
     internal void ResetStuff() => ResetData();
 
@@ -11,14 +13,24 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
     {
         public Vector3 position = Vector3.zero;
         public float radius = 1f;
-        public float forceFactor = 50;
+        public float force = 50;
+        public float drag;
+        public Color mainColor = Color.white;
     }
     
     public override void ApplyDataToBehaviour(SphereData dat, SphereLogic inst)
     {
         inst.targetPosition = dat.position;
         inst.targetScale = dat.radius;
-        inst.force = dat.forceFactor;
+        inst.force = dat.force;
+        inst.rigid.drag = dat.drag;
+        if (!inst.rend && inst.TryGetComponent(out Renderer r)) inst.rend = r;
+        if (inst.rend )
+        {
+            if (inst.block == null) inst.block = new MaterialPropertyBlock();
+            inst.block.SetColor(Color1, dat.mainColor);
+            inst.rend.SetPropertyBlock(inst.block);
+        }
     }
 
     public override void ApplyPhysics(SphereLogic sph)
