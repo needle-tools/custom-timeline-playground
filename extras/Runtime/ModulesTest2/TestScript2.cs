@@ -14,7 +14,7 @@ namespace DefaultNamespace
 			Gizmos.color = Color.red;
 			if(OtherVecs != null)
 				foreach (var vec in OtherVecs)
-					Gizmos.DrawSphere(vec, .1f);
+					Gizmos.DrawSphere(vec, .1f);  
 		}
 	}
 }

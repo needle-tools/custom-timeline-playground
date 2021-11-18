@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.SphereData>
 {
     private static readonly int Color1 = Shader.PropertyToID("_Color");
+    private static readonly int BaseColor = Shader.PropertyToID("_BaseColor");
 
     [ContextMenu("Reset Data")]
     internal void ResetStuff() => ResetData();
@@ -29,6 +30,8 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
         {
             if (inst.block == null) inst.block = new MaterialPropertyBlock();
             inst.block.SetColor(Color1, dat.mainColor);
+            inst.block.SetColor(BaseColor, dat.mainColor);
+            
             inst.rend.SetPropertyBlock(inst.block);
         }
     }

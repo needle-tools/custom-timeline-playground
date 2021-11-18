@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8224293779182402234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
+  m_Name: Timeline
+  m_EditorClassIdentifier: 
+  id: b050b8770e99b6d42baf751173683cc7@-8224293779182402234
+  clipData:
+  - {fileID: 3454923872601217588}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: BouncingBalls-Timeline
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 1868112039269148870}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &1868112039269148870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf3b3963a2c49bda34535c25f157d87, type: 3}
+  m_Name: Code Control Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -8224293779182402234}
+    m_Duration: 30.85
+    m_TimeScale: 0.16207455429497583
+    m_ParentTrack: {fileID: 1868112039269148870}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 6356562175774334755}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: Infinity
+    m_PreExtrapolationTime: 0
+    m_DisplayName: BouncingBalls
+  m_Markers:
+    m_Objects: []
+  dirtyCount: 2786
+  clips:
+  - id: b050b8770e99b6d42baf751173683cc7@-8224293779182402234_BouncingBalls_0
+    clip: {fileID: 6356562175774334755}
+    solo: 0
+--- !u!114 &3454923872601217588
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: 0.0_source0
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: b050b8770e99b6d42baf751173683cc7@-8224293779182402234_BouncingBalls_0_source0
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"b050b8770e99b6d42baf751173683cc7@-8224293779182402234_BouncingBalls_0_source0","Name":"source0","DisplayName":"source0","IsRecording":true,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":6.72385263,"y":3.20829749,"z":-1.05167294},"MaxAge":2.5986495,"MaxSize":0.9996476},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":5.029412,"y":2.55494666,"z":-2.17708659},"MaxAge":2.27577972,"MaxSize":0.999901},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.619115,"y":2.8873477,"z":0.2777963},"MaxAge":1.85213208,"MaxSize":0.999438763},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.316081,"y":2.59905481,"z":-2.895811},"MaxAge":3.43500328,"MaxSize":0.9995395},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.461101,"y":2.598719,"z":-2.06387234},"MaxAge":2.74368167,"MaxSize":0.9996252},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.798566,"y":2.41929913,"z":3.268378},"MaxAge":2.243464,"MaxSize":0.999741137},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.48349714,"y":2.735218,"z":-1.6005398},"MaxAge":3.944676,"MaxSize":2.981503},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.21887684,"y":2.55505538,"z":-2.04291034},"MaxAge":3.51699376,"MaxSize":2.992171},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":-0.0334830657,"y":3.04535484,"z":0.391428024},"MaxAge":4.933629,"MaxSize":2.55438423},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":-0.0687800348,"y":2.493743,"z":-2.12733746},"MaxAge":4.17517138,"MaxSize":0.999907732},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.2889271,"y":2.08721733,"z":-3.08467078},"MaxAge":3.5837853,"MaxSize":0.9997936}]},"time":0.0,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.3846395,"y":4.750272,"z":1.45939529},"MaxAge":4.49419737,"MaxSize":6.75619459},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.50807023,"y":5.19705629,"z":1.589225},"MaxAge":1.56768811,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.28644085,"y":2.92272449,"z":1.15453315},"MaxAge":2.494139,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.48563981,"y":2.568119,"z":0.537415147},"MaxAge":2.88543177,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.8392227,"y":3.53704333,"z":1.366654},"MaxAge":4.87705469,"MaxSize":7.83022833},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.6372478,"y":5.37777233,"z":0.754029},"MaxAge":2.08508229,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.70646322,"y":5.73984528,"z":1.53791022},"MaxAge":3.00218558,"MaxSize":0.999999762},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.634227,"y":3.18208051,"z":0.6555635},"MaxAge":1.79072607,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.31880236,"y":2.49118757,"z":0.5199886},"MaxAge":4.744252,"MaxSize":1.04946446},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":-0.0249522962,"y":3.33334517,"z":1.45194817},"MaxAge":4.995247,"MaxSize":7.497913},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.343477,"y":4.36906147,"z":2.09867358},"MaxAge":1.85731268,"MaxSize":4.0763855},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.99976957,"y":3.60970163,"z":1.27274382},"MaxAge":2.05665159,"MaxSize":5.06112766},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.663562059,"y":5.25043535,"z":2.160183},"MaxAge":4.920572,"MaxSize":3.29941225},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.913657963,"y":3.21654582,"z":0.704952836},"MaxAge":4.99664259,"MaxSize":5.27053642},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.74562693,"y":4.80914736,"z":-0.127928138},"MaxAge":4.24845839,"MaxSize":7.74876738},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.891343236,"y":4.72822666,"z":0.886401057},"MaxAge":4.93291235,"MaxSize":8.00606251},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.028847,"y":2.73324466,"z":-0.214085668},"MaxAge":4.002914,"MaxSize":0.9999713},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.46442521,"y":4.3497014,"z":0.8680436},"MaxAge":4.670999,"MaxSize":8.463982},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.2121048,"y":2.91414881,"z":0.09799773},"MaxAge":4.98915243,"MaxSize":2.05187964},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.29378581,"y":3.027984,"z":-0.376346439},"MaxAge":2.66127729,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.88510573,"y":3.095573,"z":0.7306824},"MaxAge":2.95210862,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.28565431,"y":2.84254932,"z":-0.6743218},"MaxAge":2.85474658,"MaxSize":0.99999845},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.615156,"y":4.463968,"z":-1.63409722},"MaxAge":4.934725,"MaxSize":5.91574},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.45756054,"y":2.76599741,"z":0.08291062},"MaxAge":2.74437547,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.92273581,"y":3.520444,"z":-1.29404414},"MaxAge":4.99820471,"MaxSize":2.57376838},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.21117783,"y":3.220932,"z":-0.8394128},"MaxAge":4.794644,"MaxSize":1.05983984},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.6362443,"y":3.20029354,"z":-1.44020212},"MaxAge":4.68953276,"MaxSize":1.195291},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.90259385,"y":3.6125586,"z":-0.3745092},"MaxAge":4.89791775,"MaxSize":4.426729},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.65663958,"y":3.38255763,"z":0.482172042},"MaxAge":4.889766,"MaxSize":4.27313471},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.88852763,"y":2.96227121,"z":-1.0660435},"MaxAge":2.91144228,"MaxSize":0.9999642},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.10677481,"y":3.09304667,"z":-0.9634438},"MaxAge":2.8017807,"MaxSize":0.9999886},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.14167857,"y":3.265349,"z":-1.41599762},"MaxAge":3.12890625,"MaxSize":0.9999796},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.08495951,"y":3.78741479,"z":-2.14156628},"MaxAge":4.37876844,"MaxSize":1.242243},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.70176685,"y":3.03647232,"z":-0.643328965},"MaxAge":4.927096,"MaxSize":1.941282},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.89789116,"y":2.93438172,"z":-0.01836893},"MaxAge":4.00956631,"MaxSize":0.9999966},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.54957342,"y":3.92793036,"z":-1.99681616},"MaxAge":3.18322539,"MaxSize":0.999999344},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.02630711,"y":3.548942,"z":-0.119291179},"MaxAge":4.99752474,"MaxSize":4.88363171},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.9284043,"y":2.80407333,"z":0.09938492},"MaxAge":4.89469337,"MaxSize":2.40570545},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.090203,"y":4.2556777,"z":0.328475952},"MaxAge":2.36043167,"MaxSize":0.9999999},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.587387,"y":3.87770224,"z":-3.711345},"MaxAge":2.07816672,"MaxSize":1.75669134},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.185774,"y":3.92905784,"z":-2.48104525},"MaxAge":4.996492,"MaxSize":2.9999516},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.9643852,"y":4.048478,"z":-0.0369799845},"MaxAge":4.90322161,"MaxSize":7.65171146},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.32028639,"y":4.286848,"z":-2.30563188},"MaxAge":4.27529955,"MaxSize":2.999993},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.72505933,"y":2.959264,"z":0.832902551},"MaxAge":4.84394932,"MaxSize":2.41900229},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.122847289,"y":3.24937582,"z":0.587250352},"MaxAge":4.9786067,"MaxSize":4.141841},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.4571557,"y":4.21727276,"z":-3.41562343},"MaxAge":2.13687658,"MaxSize":1.8310442},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.19134,"y":3.52156925,"z":-6.11426258},"MaxAge":2.66707158,"MaxSize":0.999994457},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.02564943,"y":3.350026,"z":-0.6773527},"MaxAge":4.99151754,"MaxSize":2.96413684},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.022059,"y":3.910754,"z":-5.494776},"MaxAge":3.0,"MaxSize":1.01503682},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.3477121,"y":3.66290045,"z":-0.381486356},"MaxAge":4.99492359,"MaxSize":2.99866867},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.775719345,"y":4.446934,"z":-1.82283866},"MaxAge":4.24745226,"MaxSize":2.99742341},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.71573126,"y":4.75976658,"z":-2.47623372},"MaxAge":3.88667965,"MaxSize":2.99996734},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.6442011,"y":4.27945232,"z":-0.007376915},"MaxAge":4.99478,"MaxSize":2.99999928},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.44651747,"y":4.17904139,"z":-4.21924257},"MaxAge":3.0,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.52941513,"y":4.5279007,"z":-3.10670018},"MaxAge":4.98873,"MaxSize":4.55209446},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":2.47768855,"y":5.21196842,"z":-0.179564714},"MaxAge":3.961566,"MaxSize":3.613493},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.39412785,"y":5.063355,"z":0.08223745},"MaxAge":4.75279236,"MaxSize":7.78675127},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":0.443918377,"y":4.717622,"z":0.183061987},"MaxAge":3.67015576,"MaxSize":6.140924}]},"time":2.1833334,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.7554574,"y":5.369714,"z":1.52880442},"MaxAge":4.998762,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.66168451,"y":4.80035353,"z":0.945260346},"MaxAge":1.0724386,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.48865175,"y":5.91438246,"z":-1.679424},"MaxAge":4.999379,"MaxSize":1.572033},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.776541,"y":8.505338,"z":2.37642765},"MaxAge":4.549803,"MaxSize":0.9984089},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.523659,"y":5.50994062,"z":0.11211177},"MaxAge":4.99256325,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":5.252439,"y":5.22779751,"z":0.232670173},"MaxAge":2.160123,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.524066,"y":5.43810654,"z":0.114435419},"MaxAge":4.942564,"MaxSize":1.08416212},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.41466331,"y":5.803182,"z":0.5628095},"MaxAge":4.80968237,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.50357771,"y":5.646721,"z":0.3051247},"MaxAge":4.997712,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":3.36388969,"y":8.587236,"z":2.65334368},"MaxAge":4.75241,"MaxSize":0.9999971},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.613404,"y":4.899814,"z":2.17359734},"MaxAge":4.77808142,"MaxSize":1.0},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.66194344,"y":6.770971,"z":-2.54909825},"MaxAge":4.997089,"MaxSize":1.99991727},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.05971086,"y":5.282076,"z":-0.411060184},"MaxAge":1.73011839,"MaxSize":0.999998331},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.615524,"y":6.690358,"z":-2.28057146},"MaxAge":4.71363449,"MaxSize":1.999378},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.03001356,"y":5.653591,"z":-0.320682377},"MaxAge":4.967688,"MaxSize":1.82928419},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.359731,"y":5.755266,"z":0.80492264},"MaxAge":2.84058166,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.55959,"y":6.76888275,"z":-3.04303312},"MaxAge":3.883936,"MaxSize":1.88054788},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.32736,"y":5.821747,"z":-0.0234937519},"MaxAge":4.998478,"MaxSize":0.99999994},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.62397146,"y":6.693269,"z":-2.36863375},"MaxAge":4.952386,"MaxSize":1.93999708},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.3856554,"y":6.065485,"z":-0.881514251},"MaxAge":4.794549,"MaxSize":1.2807312},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.320495,"y":6.051997,"z":-1.02295971},"MaxAge":4.993903,"MaxSize":1.45211267},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.58855867,"y":6.82419348,"z":-2.94045043},"MaxAge":2.88504434,"MaxSize":1.95397937},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.92111826,"y":5.52670145,"z":-3.80724263},"MaxAge":2.94821382,"MaxSize":1.98920107},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.56007862,"y":6.724297,"z":-2.53713775},"MaxAge":4.415332,"MaxSize":1.98002148},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.548841,"y":6.67027044,"z":-2.60953331},"MaxAge":4.94554949,"MaxSize":1.991728},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":1.9898231,"y":5.14706945,"z":-0.8040992},"MaxAge":1.0864774,"MaxSize":1.475257},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.07825136,"y":5.72460556,"z":-0.469445229},"MaxAge":4.9976387,"MaxSize":1.85695064},{"$type":"Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras","Position":{"x":4.3058176,"y":6.64775133,"z":-3.380154},"MaxAge":3.606926,"MaxSize":1.46976674}]},"time":4.8,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[Needle.Timeline.SongTest01.BouncingBalls+SourceData,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
+--- !u!74 &6356562175774334755
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: b050b8770e99b6d42baf751173683cc7@-8224293779182402234
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []
