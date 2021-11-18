@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Linq.Expressions;
-using System.Reflection;
-using Needle.Timeline.CurveEasing;
 using UnityEditor;
 using UnityEngine;
 
 namespace Needle.Timeline.ExpressionTrees
 {
 	// https://tyrrrz.me/blog/expression-trees
-	
+#if UNITY_EDITOR
 	[InitializeOnLoad]
+#endif
 	public static class MyFirstTree
 	{
 		static MyFirstTree()
@@ -55,7 +54,7 @@ namespace Needle.Timeline.ExpressionTrees
 				Expression.Call(logMethod, Expression.Constant("Hello Line2"))
 			);
 			var action = Expression.Lambda<Action>(block).Compile();
-			
+
 			action();
 		}
 
@@ -64,17 +63,17 @@ namespace Needle.Timeline.ExpressionTrees
 		{
 			public float Test;
 		}
-		
+
 		private static void AssignValue()
 		{
 			var type = typeof(MyType);
-			
+
 			var field = type.GetField("Test");
 			var target = Expression.Parameter(type, "instance");
 			var member = Expression.Field(target, field);
 
 			var value = Expression.Parameter(typeof(float), "value");
-			
+
 			var assign = Expression.Assign(member, value);
 
 			var exp = Expression.Lambda(assign, target, value).Compile();
@@ -99,13 +98,13 @@ namespace Needle.Timeline.ExpressionTrees
 		private static Action<T, float> BuildAssignExpression<T>()
 		{
 			var type = typeof(T);
-			
+
 			var field = type.GetField("Test");
 			var target = Expression.Parameter(type, "instance");
 			var member = Expression.Field(target, field);
 
 			var value = Expression.Parameter(typeof(float), "value");
-			
+
 			var assign = Expression.Assign(member, value);
 
 			var setter = Expression.Lambda<Action<T, float>>(assign, target, value).Compile();
