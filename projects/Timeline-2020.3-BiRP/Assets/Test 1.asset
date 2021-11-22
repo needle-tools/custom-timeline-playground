@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7989457420525650681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: 5.0_colorPoints2
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: colorPoints2
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"colorPoints2","Name":"colorPoints2","DisplayName":"colorPoints2","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[TestScript+ColorPoint,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4df81af81545e1984db029e0ace4ba, type: 3}
+  m_Name: Test 1
+  m_EditorClassIdentifier: 
+  ClipData:
+  - {fileID: 3486854974268474374}
+  - {fileID: 4448926134102912660}
+  - {fileID: -7989457420525650681}
+  - {fileID: 3906784501108403320}
+--- !u!114 &3486854974268474374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: 5.0_Vecs
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: Vecs
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"Vecs","Name":"Vecs","DisplayName":"Vecs","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule]], mscorlib]], Needle.Timeline]], mscorlib","$values":[]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
+--- !u!114 &3906784501108403320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: 5.0_directions
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: directions
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"directions","Name":"directions","DisplayName":"directions","IsRecording":true,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Direction, Needle.Timeline-Extras","Start":{"x":12.901969,"y":8.26629448,"z":-6.46929932},"End":{"x":12.8644419,"y":8.291284,"z":-6.56974173}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.6023264,"y":6.39224863,"z":-5.14948654},"End":{"x":12.1517611,"y":6.711028,"z":-6.11016226}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.49177,"y":6.74901438,"z":-7.2109623},"End":{"x":11.8297338,"y":7.272087,"z":-7.907076}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.3313236,"y":7.565525,"z":-5.360606},"End":{"x":12.04246,"y":7.74060154,"z":-6.35971355}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.4389229,"y":6.39337826,"z":-6.125198},"End":{"x":11.8124075,"y":6.881084,"z":-6.879572}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.010252,"y":8.867592,"z":-7.13683939},"End":{"x":10.4873629,"y":9.254969,"z":-8.023629}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.8162956,"y":8.3793335,"z":-8.319269},"End":{"x":11.1915789,"y":8.865693,"z":-9.070769}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.8956814,"y":8.932729,"z":-6.35144138},"End":{"x":11.2378778,"y":9.452567,"z":-7.041751}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.1694088,"y":8.184532,"z":-8.097509},"End":{"x":9.54748249,"y":8.668702,"z":-8.845897}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.2279539,"y":8.811672,"z":-7.59870958},"End":{"x":9.576982,"y":9.325556,"z":-8.28914452}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.874058,"y":9.604788,"z":-8.892952},"End":{"x":9.285014,"y":10.0574131,"z":-9.679506}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.9172983,"y":10.4840593,"z":-6.9774704},"End":{"x":10.280242,"y":10.98471,"z":-7.68253231}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.1194572,"y":10.7405548,"z":-9.479713},"End":{"x":9.506471,"y":11.2176876,"z":-10.2183666}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.2283745,"y":9.023457,"z":-10.0724039},"End":{"x":9.683042,"y":9.4349,"z":-10.8999557}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.296543,"y":11.3225031,"z":-9.457493},"End":{"x":8.777295,"y":11.7092094,"z":-10.3115406}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.654446,"y":11.1158466,"z":-9.562066},"End":{"x":8.1245985,"y":11.5132675,"z":-10.39673}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.516596,"y":9.833088,"z":-9.105133},"End":{"x":9.089965,"y":10.1333485,"z":-10.03536}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.1888313,"y":11.0229073,"z":-9.552955},"End":{"x":9.780801,"y":11.3062248,"z":-10.4930592}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.859638,"y":11.4884672,"z":-9.836714},"End":{"x":9.549571,"y":11.6820564,"z":-10.8350086}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.0572319,"y":10.1181889,"z":-11.8718529},"End":{"x":9.671992,"y":10.3809328,"z":-12.8215275}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":7.871398,"y":10.5858221,"z":-12.1046247},"End":{"x":7.49369955,"y":10.841877,"z":-13.056016}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.116291,"y":10.9661293,"z":-10.5282249},"End":{"x":7.80926466,"y":11.1576891,"z":-11.5184269}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.4072018,"y":10.6681442,"z":-11.8608608},"End":{"x":10.080802,"y":10.87772,"z":-12.8360634}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.100693,"y":12.6649361,"z":-12.8085241},"End":{"x":7.776151,"y":12.8733034,"z":-13.7783422}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.55945,"y":10.1138067,"z":-12.7677593},"End":{"x":9.302161,"y":10.2654028,"z":-13.7144518}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":7.66675,"y":11.4648361,"z":-11.96249},"End":{"x":7.50132132,"y":11.5303154,"z":-12.9895706}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.414146,"y":11.080183,"z":-11.8084707},"End":{"x":8.121234,"y":11.2603159,"z":-12.7874928}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.402433,"y":12.6379719,"z":-14.39428},"End":{"x":8.312583,"y":12.6373062,"z":-15.4260492}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":7.376198,"y":10.03434,"z":-13.5706882},"End":{"x":7.20888853,"y":10.1023788,"z":-14.5857391}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.84094143,"y":12.0727634,"z":-13.8541908},"End":{"x":6.66979933,"y":12.1443653,"z":-14.8662119}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.25420952,"y":11.0422707,"z":-15.2288933},"End":{"x":8.043817,"y":11.1490984,"z":-16.2271748}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":7.51298666,"y":9.713307,"z":-16.1843662},"End":{"x":7.42494726,"y":9.711952,"z":-17.2045135}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.507829,"y":10.2521162,"z":-15.9485092},"End":{"x":6.41997671,"y":10.2507267,"z":-16.9670563}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":7.213916,"y":9.52228,"z":-15.8959761},"End":{"x":7.126146,"y":9.52097,"z":-16.91245}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.849565,"y":10.8366537,"z":-15.4926777},"End":{"x":8.762281,"y":10.8351269,"z":-16.506422}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.84422731,"y":10.5183525,"z":-17.7321625},"End":{"x":6.75696325,"y":10.517005,"z":-18.7433681}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.274191,"y":10.8440151,"z":-16.13791},"End":{"x":8.18714,"y":10.8426046,"z":-17.1475163}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.871076,"y":11.4750738,"z":-17.69927},"End":{"x":6.784216,"y":11.4737072,"z":-18.7061214}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.727679,"y":11.9531727,"z":-17.5823154},"End":{"x":6.64110374,"y":11.9517908,"z":-18.5861874}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.72195339,"y":9.667053,"z":-16.8129044},"End":{"x":6.6355176,"y":9.665722,"z":-17.8144779}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.636202,"y":9.704541,"z":-19.1477222},"End":{"x":6.65686369,"y":9.610154,"z":-20.1469688}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.331661,"y":10.49504,"z":-18.0296631},"End":{"x":8.46398,"y":10.3053436,"z":-19.0042477}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":5.80920124,"y":9.747108,"z":-18.3318119},"End":{"x":6.114595,"y":9.443895,"z":-18.820694}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":7.18390369,"y":9.821622,"z":-17.7397232},"End":{"x":7.29649544,"y":9.669823,"z":-18.4432316}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":6.256524,"y":9.776995,"z":-19.2096539},"End":{"x":6.40942764,"y":9.625195,"z":-19.45422}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":7.373622,"y":10.1339989,"z":-19.22889},"End":{"x":7.54617,"y":9.982656,"z":-19.2437477}}]},"time":0.370299816,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Direction, Needle.Timeline-Extras","Start":{"x":13.5131369,"y":8.106584,"z":-8.461603},"End":{"x":13.48948,"y":8.121879,"z":-8.530919}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.7672558,"y":9.10382,"z":-9.22693},"End":{"x":12.65642,"y":9.119067,"z":-10.2894344}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.1536045,"y":6.204198,"z":-9.332074},"End":{"x":12.0896807,"y":6.21978,"z":-9.856175}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.76573,"y":6.664201,"z":-9.914507},"End":{"x":11.6551819,"y":6.679391,"z":-10.9744959}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":13.1909571,"y":7.622196,"z":-11.7490482},"End":{"x":13.0805206,"y":7.637455,"z":-12.8069668}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":13.4559984,"y":8.851023,"z":-9.941292},"End":{"x":13.3457155,"y":8.866259,"z":-10.9976063}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.0250139,"y":7.42435741,"z":-11.9997444},"End":{"x":11.7931356,"y":7.54752636,"z":-13.02895}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.07569,"y":7.87466,"z":-11.6639414},"End":{"x":10.6948719,"y":8.133186,"z":-12.6184206}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.5554094,"y":7.223851,"z":-12.5746288},"End":{"x":11.2926569,"y":7.37527275,"z":-13.585824}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.5189381,"y":8.924009,"z":-12.1392736},"End":{"x":12.1149874,"y":9.204365,"z":-13.0716658}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.5578079,"y":7.78387547,"z":-11.6040182},"End":{"x":11.1735983,"y":8.04637051,"z":-12.545186}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.6600513,"y":8.679447,"z":-12.718133},"End":{"x":11.4003973,"y":8.82885551,"z":-13.7203226}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.689045,"y":7.10004044,"z":-12.5849571},"End":{"x":11.3132572,"y":7.355282,"z":-13.5251551}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":13.0919161,"y":7.53774548,"z":-13.4195156},"End":{"x":12.7312851,"y":7.77922726,"z":-14.3670588}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.5185547,"y":7.8713026,"z":-13.3216181},"End":{"x":10.2613525,"y":8.019122,"z":-14.3166533}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":12.1188517,"y":9.908885,"z":-13.0584316},"End":{"x":11.729784,"y":10.1771317,"z":-13.9797821}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.8537407,"y":8.596475,"z":-14.7109184},"End":{"x":11.648036,"y":8.698555,"z":-15.717782}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.4811964,"y":8.771731,"z":-13.3540945},"End":{"x":10.1033459,"y":9.030136,"z":-14.2764139}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.0468388,"y":7.93785238,"z":-13.7843885},"End":{"x":10.7462559,"y":8.125894,"z":-14.747241}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.922039,"y":8.524114,"z":-14.1798277},"End":{"x":10.5781078,"y":8.751949,"z":-15.1157761}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.5516243,"y":8.195281,"z":-14.6044235},"End":{"x":11.1835127,"y":8.445521,"z":-15.5226564}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.06459,"y":7.51413965,"z":-16.107975},"End":{"x":10.7226944,"y":7.740617,"z":-17.0385551}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.9115849,"y":8.996603,"z":-15.4743958},"End":{"x":11.638381,"y":9.160848,"z":-16.4367676}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.4230776,"y":7.950635,"z":-15.59118},"End":{"x":10.0719261,"y":8.186005,"z":-16.51085}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.09817,"y":9.50258,"z":-15.8319416},"End":{"x":10.6794262,"y":9.800547,"z":-16.702343}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.0965414,"y":9.725759,"z":-16.5990658},"End":{"x":9.631197,"y":10.0675325,"z":-17.4271717}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.437435,"y":9.132602,"z":-18.2300682},"End":{"x":8.841328,"y":9.600711,"z":-18.894556}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":11.4973288,"y":8.656706,"z":-17.1746635},"End":{"x":11.2407036,"y":8.810677,"z":-18.0826664}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.286392,"y":8.788958,"z":-17.8203545},"End":{"x":8.763386,"y":9.185946,"z":-18.5827427}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.868265,"y":8.742147,"z":-18.3962784},"End":{"x":8.274039,"y":9.208794,"z":-19.0585461}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.3104477,"y":8.144283,"z":-18.7132931},"End":{"x":10.0955591,"y":8.297176,"z":-19.16018}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.780373,"y":10.3146009,"z":-17.348732},"End":{"x":8.393378,"y":10.6184721,"z":-17.78034}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.318661,"y":9.860016,"z":-17.6103287},"End":{"x":7.90381765,"y":10.1550837,"z":-18.4742756}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.1823044,"y":9.43454,"z":-17.2453766},"End":{"x":9.776095,"y":9.737758,"z":-17.9045029}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.641092,"y":8.547279,"z":-16.9126053},"End":{"x":8.42762852,"y":8.699112,"z":-17.3570843}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":10.1020288,"y":8.20837,"z":-17.0574913},"End":{"x":10.0614443,"y":8.2085495,"z":-17.5172844}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":9.740354,"y":9.48660851,"z":-16.8950462},"End":{"x":9.527157,"y":9.638285,"z":-17.3386135}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.179804,"y":9.150383,"z":-16.8380032},"End":{"x":7.98686028,"y":9.301927,"z":-17.0526466}},{"$type":"Direction,
+    Needle.Timeline-Extras","Start":{"x":8.11710548,"y":9.682302,"z":-17.1869831},"End":{"x":8.09705448,"y":9.682274,"z":-17.4157219}}]},"time":3.42670059,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[Direction, Needle.Timeline-Extras,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
+--- !u!114 &4448926134102912660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: 5.0_colorPoints
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: colorPoints
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"colorPoints","Name":"colorPoints","DisplayName":"colorPoints","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[TestScript+ColorPoint,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[TestScript+ColorPoint,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
