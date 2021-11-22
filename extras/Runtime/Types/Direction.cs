@@ -1,5 +1,6 @@
 ﻿using Needle.Timeline;
 using Needle.Timeline.CustomClipTools.ToolModule;
+using Needle.Timeline.CustomClipTools.ToolModule.Implementations;
 using UnityEditor;
 using UnityEngine;
 
