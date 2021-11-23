@@ -36,7 +36,7 @@ public class SticksFromData : InstancesFromData<StickLogic, StickLogic.StickData
         sph.rigid.AddForceAtPosition((dat.from - fromNow).normalized * force, fromNow);
         sph.rigid.AddForceAtPosition((dat.to - toNow).normalized * force, toNow);
         
-        sph.materialInstance.color = dat.color;
+        if(sph.materialInstance) sph.materialInstance.color = dat.color;
     }
 
     public override void DrawGizmo(StickLogic behaviour)

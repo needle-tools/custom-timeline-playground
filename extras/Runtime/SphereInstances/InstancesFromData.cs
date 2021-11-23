@@ -29,6 +29,7 @@ namespace Needle.Timeline
         }
 
         public TBehaviour template;
+        public HideFlags instanceFlags = HideFlags.DontSave;
 
         [Animate]
         public List<TData> data = new List<TData>();
@@ -50,7 +51,11 @@ namespace Needle.Timeline
                     var last = instances.Last();
                     instances.Remove(last);
                     buffer.Add(last);
-                    if (last) last.gameObject.SetActive(false);
+                    if (last)
+                    {
+                        last.gameObject.SetActive(false);
+                        last.gameObject.transform.localScale = Vector3.zero;
+                    }
                 }
 
                 while (instances.Count < data.Count)
@@ -69,7 +74,8 @@ namespace Needle.Timeline
                     else
                     {
                         var newInstance = Instantiate(template, transform);
-                        newInstance.gameObject.hideFlags = HideFlags.DontSave;
+                        newInstance.name = template.name + "-" + newInstance.transform.GetSiblingIndex();
+                        newInstance.gameObject.hideFlags = instanceFlags;
                         ApplyDataToBehaviour(data[instances.Count], newInstance);
                         instances.Add(newInstance);
                         newInstance.gameObject.SetActive(true);
@@ -132,6 +138,7 @@ namespace Needle.Timeline
         private void OnEnable()
         {
             Physics.autoSimulation = false;
+            buffer = GetComponentsInChildren<TBehaviour>(true).ToList();
         }
 
         private void OnDisable()
