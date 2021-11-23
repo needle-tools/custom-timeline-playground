@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4df81af81545e1984db029e0ace4ba, type: 3}
+  m_Name: SticksClip 2
+  m_EditorClassIdentifier: 
+  Id: 56ccd51ff2697dd40bdab04dcf9c129c@11400000
+  ClipData:
+  - {fileID: 7496525009358931400}
+--- !u!114 &7496525009358931400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: 21.7_data
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: data
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"data","Name":"data","DisplayName":"data","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-2.325642,"y":-8.093569,"z":6.772684},"to":{"x":-2.5459218,"y":-8.002566,"z":6.872507},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-2.131094,"y":-9.688671,"z":5.835991},"to":{"x":-2.35137367,"y":-9.59767,"z":5.935814},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-2.822998,"y":-8.47324,"z":5.45004129},"to":{"x":-3.49863482,"y":-7.63757038,"z":5.07500362},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-3.11350965,"y":-7.587402,"z":5.56500149},"to":{"x":-3.786243,"y":-6.75648,"z":5.19299126},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-5.01358175,"y":-6.242005,"z":5.99211073},"to":{"x":-5.984173,"y":-5.535241,"z":6.05767536},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-5.745287,"y":-5.706236,"z":6.3908596},"to":{"x":-6.702002,"y":-5.01094627,"z":6.457165},"thickness":5.807809,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.36824751,"y":-3.53855515,"z":4.94171858},"to":{"x":-8.251987,"y":-2.7994864,"z":4.884469},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.32322645,"y":-4.46385527,"z":5.14310169},"to":{"x":-8.198456,"y":-3.73309541,"z":5.087862},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.522663,"y":-2.36709785,"z":4.875367},"to":{"x":-8.263815,"y":-1.59387136,"z":4.63958454},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.969552,"y":-3.20558262,"z":4.36561966},"to":{"x":-8.705447,"y":-2.43908119,"z":4.133031},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-8.118381,"y":-1.79131293,"z":3.667378},"to":{"x":-8.733607,"y":-1.01697111,"z":3.30948782},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-8.65339,"y":-1.25753021,"z":3.6331408},"to":{"x":-9.26643848,"y":-0.486749947,"z":3.277522},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-9.391823,"y":-1.04636443,"z":2.53653479},"to":{"x":-10.09826,"y":-0.28866148,"z":2.28647041},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-9.714157,"y":-0.9953197,"z":2.70625973},"to":{"x":-10.4164448,"y":-0.243155956,"z":2.45899653},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-9.580132,"y":0.12736851,"z":2.9431293},"to":{"x":-10.387392,"y":0.8462569,"z":2.83725357},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-10.1629362,"y":0.0694974661,"z":3.98437142},"to":{"x":-10.9679832,"y":0.7860118,"z":3.879279},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-11.1880417,"y":-0.07147235,"z":3.423303},"to":{"x":-11.9728756,"y":0.647929966,"z":3.29528379},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-10.5589275,"y":1.11069882,"z":3.06362319},"to":{"x":-11.3401985,"y":1.826144,"z":2.93703127},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-11.8821335,"y":1.575949,"z":2.228184},"to":{"x":-12.7743607,"y":2.21025324,"z":2.307313},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-11.1881056,"y":2.05280066,"z":2.763557},"to":{"x":-12.0732737,"y":2.68116951,"z":2.84318185},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-14.442729,"y":2.26181841,"z":3.69444084},"to":{"x":-15.4090757,"y":2.611425,"z":4.19310665},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-13.4655752,"y":2.014946,"z":3.11251354},"to":{"x":-14.423646,"y":2.36099124,"z":3.60760427},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-15.1841536,"y":1.99112725,"z":5.159877},"to":{"x":-16.1019535,"y":2.18518519,"z":5.802389},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-15.5619888,"y":1.94957852,"z":5.454649},"to":{"x":-16.4693317,"y":2.140867,"z":6.09052324},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-16.56779,"y":3.301837,"z":5.55248547},"to":{"x":-17.4288158,"y":3.388061,"z":6.27254963},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-16.0441532,"y":2.69341278,"z":6.028459},"to":{"x":-16.8997421,"y":2.77884579,"z":6.744277},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-18.9660168,"y":2.03947043,"z":7.73972225},"to":{"x":-19.7511978,"y":2.010994,"z":8.527457},"thickness":7.54150152,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-18.3821049,"y":3.24293,"z":8.047793},"to":{"x":-19.15814,"y":3.21445322,"z":8.826758},"thickness":14.1412945,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.9581814,"y":3.22430539,"z":8.402174},"to":{"x":-20.72924,"y":3.1958015,"z":9.176409},"thickness":8.526578,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.4704151,"y":2.92196941,"z":9.137856},"to":{"x":-20.2365189,"y":2.89346552,"z":9.907339},"thickness":12.3121233,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.3869553,"y":2.56209326,"z":10.0998631},"to":{"x":-20.6977482,"y":2.06262136,"z":11.009223},"thickness":3.79080224,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.704792,"y":2.59230113,"z":8.806253},"to":{"x":-20.01357,"y":2.09639,"z":9.709323},"thickness":10.6836958,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.463726,"y":0.9113016,"z":10.3889589},"to":{"x":-20.4432449,"y":0.235249847,"z":11.1968212},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.991312,"y":0.756389737,"z":11.4684029},"to":{"x":-19.9713078,"y":0.08548167,"z":12.2704258},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.1150188,"y":0.639028668,"z":11.8732395},"to":{"x":-19.175209,"y":0.007938301,"z":12.7034178},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.00122,"y":0.08011967,"z":11.8391857},"to":{"x":-20.0613022,"y":-0.5474094,"z":12.6649008},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-18.9804077,"y":0.4614827,"z":12.1194944},"to":{"x":-18.77972,"y":0.0622713,"z":12.4157133},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.7176628,"y":0.8228487,"z":11.9258938},"to":{"x":-19.5172176,"y":0.424032927,"z":12.22186},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.31191,"y":-0.1008482,"z":12.7305946},"to":{"x":-20.9100437,"y":-0.31814304,"z":13.5700884},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.1765785,"y":-0.6242184,"z":12.741991},"to":{"x":-20.7716255,"y":-0.8403264,"z":13.5770741},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-21.929924,"y":-0.7434733,"z":14.2850342},"to":{"x":-22.6592484,"y":-0.7726722,"z":15.0200958},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-22.8226433,"y":0.07484192,"z":14.9354782},"to":{"x":-23.5423012,"y":0.04603871,"z":15.6607866},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-22.9335022,"y":-0.3951381,"z":15.9915342},"to":{"x":-23.6652031,"y":-0.395145774,"z":16.6931438},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-24.3234673,"y":0.107478112,"z":15.5192471},"to":{"x":-25.04907,"y":0.107470535,"z":16.2150116},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-23.7935753,"y":0.37710163,"z":15.564292},"to":{"x":-24.5173225,"y":0.3771632,"z":16.2581768},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-23.6999512,"y":0.624756753,"z":15.3684874},"to":{"x":-24.421793,"y":0.624818146,"z":16.060545},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":0.0,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-2.325642,"y":-8.093569,"z":6.772684},"to":{"x":-2.5459218,"y":-8.002566,"z":6.872507},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-2.131094,"y":-9.688671,"z":5.835991},"to":{"x":-2.35137367,"y":-9.59767,"z":5.935814},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-2.822998,"y":-8.47324,"z":5.45004129},"to":{"x":-3.49863482,"y":-7.63757038,"z":5.07500362},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-3.11350965,"y":-7.587402,"z":5.56500149},"to":{"x":-3.786243,"y":-6.75648,"z":5.19299126},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-5.01358175,"y":-6.242005,"z":5.99211073},"to":{"x":-5.984173,"y":-5.535241,"z":6.05767536},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-5.745287,"y":-5.706236,"z":6.3908596},"to":{"x":-6.702002,"y":-5.01094627,"z":6.457165},"thickness":5.807809,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.36824751,"y":-3.53855515,"z":4.94171858},"to":{"x":-8.251987,"y":-2.7994864,"z":4.884469},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.32322645,"y":-4.46385527,"z":5.14310169},"to":{"x":-8.198456,"y":-3.73309541,"z":5.087862},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.522663,"y":-2.36709785,"z":4.875367},"to":{"x":-8.263815,"y":-1.59387136,"z":4.63958454},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-7.969552,"y":-3.20558262,"z":4.36561966},"to":{"x":-8.705447,"y":-2.43908119,"z":4.133031},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-8.118381,"y":-1.79131293,"z":3.667378},"to":{"x":-8.733607,"y":-1.01697111,"z":3.30948782},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-8.65339,"y":-1.25753021,"z":3.6331408},"to":{"x":-9.26643848,"y":-0.486749947,"z":3.277522},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-9.391823,"y":-1.04636443,"z":2.53653479},"to":{"x":-10.09826,"y":-0.28866148,"z":2.28647041},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-9.714157,"y":-0.9953197,"z":2.70625973},"to":{"x":-10.4164448,"y":-0.243155956,"z":2.45899653},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-9.580132,"y":0.12736851,"z":2.9431293},"to":{"x":-10.387392,"y":0.8462569,"z":2.83725357},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-10.1629362,"y":0.0694974661,"z":3.98437142},"to":{"x":-10.9679832,"y":0.7860118,"z":3.879279},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-11.1880417,"y":-0.07147235,"z":3.423303},"to":{"x":-11.9728756,"y":0.647929966,"z":3.29528379},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-10.5589275,"y":1.11069882,"z":3.06362319},"to":{"x":-11.3401985,"y":1.826144,"z":2.93703127},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-11.8821335,"y":1.575949,"z":2.228184},"to":{"x":-12.7743607,"y":2.21025324,"z":2.307313},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-11.1881056,"y":2.05280066,"z":2.763557},"to":{"x":-12.0732737,"y":2.68116951,"z":2.84318185},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-14.442729,"y":2.26181841,"z":3.69444084},"to":{"x":-15.4090757,"y":2.611425,"z":4.19310665},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-13.4655752,"y":2.014946,"z":3.11251354},"to":{"x":-14.423646,"y":2.36099124,"z":3.60760427},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-15.1841536,"y":1.99112725,"z":5.159877},"to":{"x":-16.1019535,"y":2.18518519,"z":5.802389},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-15.5619888,"y":1.94957852,"z":5.454649},"to":{"x":-16.4693317,"y":2.140867,"z":6.09052324},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-16.56779,"y":3.301837,"z":5.55248547},"to":{"x":-17.4288158,"y":3.388061,"z":6.27254963},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-16.0441532,"y":2.69341278,"z":6.028459},"to":{"x":-16.8997421,"y":2.77884579,"z":6.744277},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-18.9660168,"y":2.03947043,"z":7.73972225},"to":{"x":-19.7511978,"y":2.010994,"z":8.527457},"thickness":7.54150152,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-18.3821049,"y":3.24293,"z":8.047793},"to":{"x":-19.15814,"y":3.21445322,"z":8.826758},"thickness":14.1412945,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.9581814,"y":3.22430539,"z":8.402174},"to":{"x":-20.72924,"y":3.1958015,"z":9.176409},"thickness":8.526578,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.4704151,"y":2.92196941,"z":9.137856},"to":{"x":-20.2365189,"y":2.89346552,"z":9.907339},"thickness":12.3121233,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.3869553,"y":2.56209326,"z":10.0998631},"to":{"x":-20.6977482,"y":2.06262136,"z":11.009223},"thickness":3.79080224,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.704792,"y":2.59230113,"z":8.806253},"to":{"x":-20.01357,"y":2.09639,"z":9.709323},"thickness":10.6836958,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.463726,"y":0.9113016,"z":10.3889589},"to":{"x":-20.4432449,"y":0.235249847,"z":11.1968212},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.991312,"y":0.756389737,"z":11.4684029},"to":{"x":-19.9713078,"y":0.08548167,"z":12.2704258},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.1150188,"y":0.639028668,"z":11.8732395},"to":{"x":-19.175209,"y":0.007938301,"z":12.7034178},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.00122,"y":0.08011967,"z":11.8391857},"to":{"x":-20.0613022,"y":-0.5474094,"z":12.6649008},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-18.9804077,"y":0.4614827,"z":12.1194944},"to":{"x":-18.77972,"y":0.0622713,"z":12.4157133},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-19.7176628,"y":0.8228487,"z":11.9258938},"to":{"x":-19.5172176,"y":0.424032927,"z":12.22186},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.31191,"y":-0.1008482,"z":12.7305946},"to":{"x":-20.9100437,"y":-0.31814304,"z":13.5700884},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-20.1765785,"y":-0.6242184,"z":12.741991},"to":{"x":-20.7716255,"y":-0.8403264,"z":13.5770741},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-21.929924,"y":-0.7434733,"z":14.2850342},"to":{"x":-22.6592484,"y":-0.7726722,"z":15.0200958},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-22.8226433,"y":0.07484192,"z":14.9354782},"to":{"x":-23.5423012,"y":0.04603871,"z":15.6607866},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-22.9335022,"y":-0.3951381,"z":15.9915342},"to":{"x":-23.6652031,"y":-0.395145774,"z":16.6931438},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-24.3234673,"y":0.107478112,"z":15.5192471},"to":{"x":-25.04907,"y":0.107470535,"z":16.2150116},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-23.7935753,"y":0.37710163,"z":15.564292},"to":{"x":-24.5173225,"y":0.3771632,"z":16.2581768},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-23.6999512,"y":0.624756753,"z":15.3684874},"to":{"x":-24.421793,"y":0.624818146,"z":16.060545},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":7.883333,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'

@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc4df81af81545e1984db029e0ace4ba, type: 3}
-  m_Name: 3b3dcda7e3c89ac45872b8720a8497cf@-7262967758348067753
+  m_Name: SticksClip 1
   m_EditorClassIdentifier: 
+  Id: 56ccd51ff2697dd40bdab04dcf9c129c@11400000
   ClipData:
   - {fileID: 7496525009358931400}
 --- !u!114 &7496525009358931400
@@ -24,7 +25,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
-  m_Name: 0.0_data
+  m_Name: 10.3_data
   m_EditorClassIdentifier: 
   <Id>k__BackingField: data
   <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
@@ -164,7 +165,7 @@ MonoBehaviour:
     Needle.Timeline-Extras","from":{"x":-41.24451,"y":-13.0543785,"z":5.72165},"to":{"x":-36.4355774,"y":-13.6943,"z":5.94118643},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
     Needle.Timeline-Extras","from":{"x":-12.8385439,"y":-2.32209921,"z":-2.72087741},"to":{"x":-23.11331,"y":-10.9774933,"z":3.594737},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
     Needle.Timeline-Extras","from":{"x":-32.6439743,"y":-9.82154,"z":3.005278},"to":{"x":-37.526,"y":-14.0432129,"z":6.0799675},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,
-    Needle.Timeline-Extras","from":{"x":-31.6313477,"y":-9.615974,"z":3.80020571},"to":{"x":-32.05593,"y":-10.3568611,"z":4.32060242},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":4.65,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-31.6313477,"y":-9.615974,"z":3.80020571},"to":{"x":-32.05593,"y":-10.3568611,"z":4.32060242},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":3.13722277,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
     Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
     Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.StickLogic+StickData,
     Needle.Timeline-Extras","from":{"x":0.3984928,"y":-14.9571075,"z":5.45641136},"to":{"x":0.381137967,"y":-14.9563541,"z":5.45667267},"thickness":1.0,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"Needle.Timeline.StickLogic+StickData,

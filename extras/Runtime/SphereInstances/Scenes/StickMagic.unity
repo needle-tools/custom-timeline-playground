@@ -5587,6 +5587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   template: {fileID: 382636894}
+  instanceFlags: 52
   force: 20
 --- !u!1 &1744958484
 GameObject:
