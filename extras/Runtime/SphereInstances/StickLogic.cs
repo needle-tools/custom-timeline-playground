@@ -19,9 +19,12 @@ namespace Needle.Timeline
             if (!materialInstance)
             {
                 originalMaterial = rend.sharedMaterial;
-                materialInstance = Instantiate(originalMaterial);
-                materialInstance.hideFlags = HideFlags.DontSave;
-                rend.sharedMaterial = materialInstance;
+                if(originalMaterial)
+                {
+                    materialInstance = Instantiate(originalMaterial);
+                    materialInstance.hideFlags = HideFlags.DontSave;
+                    rend.sharedMaterial = materialInstance;
+                }
             }
             if(stickData != null)
             {

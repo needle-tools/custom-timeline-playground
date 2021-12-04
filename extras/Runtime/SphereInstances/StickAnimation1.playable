@@ -1566,26 +1566,17 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 3.349999999999998
-    m_DisplayName: SticksClip 2
+    m_DisplayName: SticksFromData
   m_Markers:
     m_Objects: []
   dirtyCount: 30786
-  clips:
+  clipModels:
   - id: 3b3dcda7e3c89ac45872b8720a8497cf@-7262967758348067753_SticksFromData_0
     clip: {fileID: -3499308299129891093}
-    solo: 0
-  - id: 3b3dcda7e3c89ac45872b8720a8497cf@8638171437221619537_SticksFromData_0
-    clip: {fileID: 0}
-    solo: 0
-  - id: 3b3dcda7e3c89ac45872b8720a8497cf@2433382025237228969_SticksFromData_0
-    clip: {fileID: 0}
     solo: 0
   - id: 3b3dcda7e3c89ac45872b8720a8497cf@1620478987640596256_SticksFromData_0
     clip: {fileID: -3478497149383041145}
     solo: 0
   - id: 3b3dcda7e3c89ac45872b8720a8497cf@635581289878063567_SticksFromData_0
     clip: {fileID: -1203560260083378881}
-    solo: 0
-  - id: 3b3dcda7e3c89ac45872b8720a8497cf@610539555524930405_SticksFromData_0
-    clip: {fileID: 0}
     solo: 0
