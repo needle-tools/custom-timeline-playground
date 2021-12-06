@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: Timeline1
   m_EditorClassIdentifier: 
+  id: f11d1b0d1984fe74abfcf6a31ced6d88@-7681196141625544987
+  data: {fileID: 11400000, guid: cd892ec0e2ad65f4cbc16012dad53ced, type: 2}
+  clipData: []
 --- !u!114 &-4509960228118245177
 MonoBehaviour:
   m_ObjectHideFlags: 8
@@ -59,6 +62,7 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: 3749874886448990695}
+  - {fileID: 4469371801239758820}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -141,7 +145,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -7681196141625544987}
-    m_Duration: 4.566666666666666
+    m_Duration: 9.366666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3749874886448990695}
     m_EaseInDuration: 0
@@ -205,11 +209,123 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
-    m_DisplayName: TransformFromData
+    m_DisplayName: New timeline clip 3
   m_Markers:
     m_Objects: []
-  dirtyCount: 843
-  clips:
+  dirtyCount: 5720
+  clipModels:
   - id: f11d1b0d1984fe74abfcf6a31ced6d88@-7681196141625544987_TransformFromData_0
     clip: {fileID: 2876996711090740692}
     solo: 0
+  - id: f11d1b0d1984fe74abfcf6a31ced6d88@-7681196141625544987_SpheresFromData_0
+    clip: {fileID: 2876996711090740692}
+    solo: 0
+--- !u!114 &4469371801239758820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f4885dbb1716a34b84ab7851fb37ccd, type: 3}
+  m_Name: Gltf Recorder Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 8568003330521416896}
+    m_Duration: 9.366666666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4469371801239758820}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: GltfRecorderClip
+  m_Markers:
+    m_Objects: []
+--- !u!114 &8568003330521416896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ec2229f5635a54cbc23eec87b45654, type: 3}
+  m_Name: GltfRecorderClip
+  m_EditorClassIdentifier: 
+  m_exportRoot:
+    exposedName: 9b129fc35d4b4af4ba93155f1bc3aa7d
+    defaultValue: {fileID: 0}
+  m_File: Assets/Recording4.glb
+  m_CaptureFrameRate: 60
