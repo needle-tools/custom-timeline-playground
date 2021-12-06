@@ -182,7 +182,13 @@ public class GltfRecording : MonoBehaviour
 
 		public override int GetHashCode()
 		{
-			return HashCode.Combine(position, rotation, scale);
+			unchecked
+			{
+				var hashCode = position.GetHashCode();
+				hashCode = (hashCode * 397) ^ rotation.GetHashCode();
+				hashCode = (hashCode * 397) ^ scale.GetHashCode();
+				return hashCode;
+			}
 		}
 
 		public static bool operator ==(TransformData left, TransformData right)
