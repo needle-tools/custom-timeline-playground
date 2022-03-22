@@ -2118,7 +2118,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 2.2333333333333325
     m_PreExtrapolationTime: 0
-    m_DisplayName: SticksFromData
+    m_DisplayName: SticksClip 1
   - m_Version: 1
     m_Start: 10.283333333333333
     m_ClipIn: 0
@@ -2169,7 +2169,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 3.349999999999998
     m_PreExtrapolationTime: 2.2333333333333325
-    m_DisplayName: SticksFromData
+    m_DisplayName: SticksClip 1
   - m_Version: 1
     m_Start: 21.683333333333334
     m_ClipIn: 0
@@ -2238,7 +2238,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 3.349999999999998
-    m_DisplayName: SticksFromData
+    m_DisplayName: SticksClip 2
   m_Markers:
     m_Objects: []
   model:

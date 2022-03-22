@@ -115,11 +115,13 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
-    m_DisplayName: TransformFromData
+    m_DisplayName: ca9054baefc89b54c9a9213e5c501a1b@5619062778567529707
   m_Markers:
     m_Objects: []
+  model:
+    recording: 
   dirtyCount: 513
-  clips:
+  clipModels:
   - id: ca9054baefc89b54c9a9213e5c501a1b@5619062778567529707_TransformFromData_0
     clip: {fileID: 2552276389333508434}
     solo: 0
@@ -208,5 +210,5 @@ MonoBehaviour:
   m_Name: Timeline1
   m_EditorClassIdentifier: 
   id: ca9054baefc89b54c9a9213e5c501a1b@5619062778567529707
-  clipData:
-  - {fileID: -4801765267810975366}
+  data: {fileID: 11400000, guid: 4dddbeeba04e1344aa8f46d589b2fee7, type: 2}
+  clipData: []
