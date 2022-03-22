@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4df81af81545e1984db029e0ace4ba, type: 3}
+  m_Name: New timeline clip 2
+  m_EditorClassIdentifier: 
+  Id: 
+  ClipData:
+  - {fileID: 1847011966836841688}
+--- !u!114 &1847011966836841688
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: data
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"data","Name":"data","DisplayName":"data","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-0.145116881,"y":1.56899309,"z":-1.393597},"to":{"x":-0.145116881,"y":1.56899309,"z":-1.393597},"thickness":1.04,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":0.0,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib","$values":[]},"time":1.0,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras","from":{"x":-0.145116881,"y":1.56899309,"z":-1.393597},"to":{"x":-0.145116881,"y":1.56899309,"z":-1.393597},"thickness":1.04,"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":2.01666665,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[Needle.Timeline.StickLogic+StickData,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'

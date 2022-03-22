@@ -333,7 +333,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: f11d1b0d1984fe74abfcf6a31ced6d88, type: 2}
   m_InitialState: 1
-  m_WrapMode: 1
+  m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -342,9 +342,10 @@ PlayableDirector:
   - key: {fileID: 4985560729850645264, guid: f11d1b0d1984fe74abfcf6a31ced6d88, type: 2}
     value: {fileID: 1111848726}
   - key: {fileID: 3749874886448990695, guid: f11d1b0d1984fe74abfcf6a31ced6d88, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1731040456}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 9b129fc35d4b4af4ba93155f1bc3aa7d: {fileID: 1731040457}
 --- !u!1 &331911623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5558,7 +5559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1111848726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5572,7 +5573,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   template: {fileID: 1013229318}
-  force: 3.11
+  instanceFlags: 52
+  force: 50
 --- !u!4 &1111848727
 Transform:
   m_ObjectHideFlags: 0
@@ -5618,8 +5620,8 @@ Rigidbody:
   m_GameObject: {fileID: 1238156686}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 1
-  m_AngularDrag: 1
+  m_Drag: 0.3
+  m_AngularDrag: 0.3
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5717,7 +5719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
   targetScale: 0
-  force: 90
+  force: 5000
   rigid: {fileID: 1238156687}
   rend: {fileID: 0}
 --- !u!1 &1325114062
@@ -5838,7 +5840,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   template: {fileID: 1238156692}
-  force: 5
+  instanceFlags: 52
+  force: 30000
 --- !u!4 &1731040457
 Transform:
   m_ObjectHideFlags: 0

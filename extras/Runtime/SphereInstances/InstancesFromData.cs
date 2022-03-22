@@ -87,6 +87,7 @@ namespace Needle.Timeline
             {
                 var dat = data[i];
                 var inst = instances[i];
+                inst.gameObject.SetActive(true); // TODO figure out why the buffer logic doesn't do this
 
                 ApplyDataToBehaviour(dat, inst);
             }

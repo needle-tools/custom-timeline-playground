@@ -15,7 +15,7 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
         public Vector3 position = Vector3.zero;
         public float radius = 1f;
         public float force = 50;
-        public float drag;
+        // public float drag;
         public Color mainColor = Color.white;
     }
     
@@ -24,7 +24,7 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
         inst.targetPosition = dat.position; 
         inst.targetScale = dat.radius;
         inst.force = dat.force;
-        inst.rigid.drag = dat.drag;
+        // inst.rigid.drag = dat.drag;
         if (!inst.rend && inst.TryGetComponent(out Renderer r)) inst.rend = r;
         if (inst.rend )
         {
@@ -38,8 +38,14 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
 
     public override void ApplyPhysics(SphereLogic sph)
     {
+        if (sph.rigid.isKinematic)
+        {
+            sph.rigid.position = sph.targetPosition;
+            sph.transform.localScale = Vector3.one * sph.targetScale;
+            return;
+        }
         var pos = sph.transform.position;
-        sph.rigid.AddForce((transform.position - pos).normalized * force);
+        // sph.rigid.AddForce((transform.position - pos).normalized * force);
         sph.rigid.AddForce((sph.targetPosition - pos).normalized * sph.force);
         sph.transform.localScale = Vector3.one * sph.targetScale;
     } 
