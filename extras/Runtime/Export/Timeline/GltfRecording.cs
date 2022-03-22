@@ -1,3 +1,4 @@
+#if UNITYGLTF
 using UnityEngine;
 
 namespace UnityGLTF.Timeline
@@ -52,3 +53,4 @@ namespace UnityGLTF.Timeline
 		}
 	}
 }
+#endif
