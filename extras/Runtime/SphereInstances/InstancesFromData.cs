@@ -13,6 +13,7 @@ namespace Needle.Timeline
             foreach (var inst in instances)
             {
                 if (!inst) continue;
+                if (inst.gameObject == this.gameObject) continue;
                 if (Application.isPlaying) Destroy(inst.gameObject);
                 else DestroyImmediate(inst.gameObject);
             }
@@ -20,6 +21,7 @@ namespace Needle.Timeline
             foreach (var inst in buffer)
             {
                 if (!inst) continue;
+                if (inst.gameObject == this.gameObject) continue;
                 if (Application.isPlaying) Destroy(inst.gameObject);
                 else DestroyImmediate(inst.gameObject);
             }
@@ -53,6 +55,7 @@ namespace Needle.Timeline
                     buffer.Add(last);
                     if (last)
                     {
+                        if (last.gameObject == this.gameObject) continue;
                         last.gameObject.SetActive(false);
                         last.gameObject.transform.localScale = Vector3.zero;
                     }
@@ -87,6 +90,13 @@ namespace Needle.Timeline
             {
                 var dat = data[i];
                 var inst = instances[i];
+                if (!inst)
+                {
+                    instances.RemoveAt(i);
+                    data.RemoveAt(i);
+                    i--;
+                    continue;
+                }
                 inst.gameObject.SetActive(true); // TODO figure out why the buffer logic doesn't do this
 
                 ApplyDataToBehaviour(dat, inst);
