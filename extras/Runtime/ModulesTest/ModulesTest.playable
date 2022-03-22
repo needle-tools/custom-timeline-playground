@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: GameObject
   m_EditorClassIdentifier: 
+  id: 9c58dba5db2be9040ac2b33bc4750f9a@-6333906913704338471
   data: {fileID: 11400000, guid: 331e244e65b5d884bb63e4b77b9d6fe8, type: 2}
-  id: 
   clipData: []
 --- !u!74 &-3977836310488319520
 AnimationClip:
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: GameObject
   m_EditorClassIdentifier: 
+  id: 9c58dba5db2be9040ac2b33bc4750f9a@1160632205987759844
   data: {fileID: 11400000, guid: 331e244e65b5d884bb63e4b77b9d6fe8, type: 2}
-  id: 
   clipData: []
 --- !u!114 &1841976109162926943
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 4.066666666666666
     m_PreExtrapolationTime: 0
-    m_DisplayName: ModulesTest
+    m_DisplayName: MyClip
   - m_Version: 1
     m_Start: 14.15
     m_ClipIn: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
     m_DisplayName: ModulesTest
   m_Markers:
     m_Objects: []
-  dirtyCount: 39532
+  dirtyCount: 39731
   clips:
   - id: 9c58dba5db2be9040ac2b33bc4750f9a@7452822330620547370_ModulesTest_0
     clip: {fileID: 0}
@@ -361,6 +361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
   m_Name: GameObject
   m_EditorClassIdentifier: 
+  id: 9c58dba5db2be9040ac2b33bc4750f9a@7051411504710288023
   data: {fileID: 11400000, guid: 331e244e65b5d884bb63e4b77b9d6fe8, type: 2}
-  id: 
   clipData: []

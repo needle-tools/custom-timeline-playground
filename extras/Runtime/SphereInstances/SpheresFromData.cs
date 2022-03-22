@@ -21,7 +21,7 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
     
     public override void ApplyDataToBehaviour(SphereData dat, SphereLogic inst)
     {
-        inst.targetPosition = dat.position;
+        inst.targetPosition = dat.position; 
         inst.targetScale = dat.radius;
         inst.force = dat.force;
         inst.rigid.drag = dat.drag;
@@ -42,7 +42,7 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
         sph.rigid.AddForce((transform.position - pos).normalized * force);
         sph.rigid.AddForce((sph.targetPosition - pos).normalized * sph.force);
         sph.transform.localScale = Vector3.one * sph.targetScale;
-    }
+    } 
 
     public override void DrawGizmo(SphereLogic inst)
     {

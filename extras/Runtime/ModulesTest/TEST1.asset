@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4df81af81545e1984db029e0ace4ba, type: 3}
+  m_Name: TEST1
+  m_EditorClassIdentifier: 
+  Id: 58b30d5531401424c83854b64ef1ab91@11400000
+  ClipData:
+  - {fileID: 730343383730059998}
+  - {fileID: 8088448223729737437}
+  - {fileID: 7024229673171051821}
+--- !u!114 &730343383730059998
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: MyTypeList
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: MyTypeList
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"MyTypeList","Name":"MyTypeList","DisplayName":"MyTypeList","IsRecording":true,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.7052753,"y":7.18589973,"z":-2.15852714},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.46768928,"y":9.356243,"z":-2.79795575},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.6812439,"y":8.692949,"z":-3.19315147},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.800406456,"y":10.408639,"z":-3.29738188},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.64677048,"y":8.87023449,"z":-2.67179942},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.40573931,"y":9.801775,"z":-1.22266781},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.61261582,"y":9.213462,"z":-1.6632638},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.58402443,"y":9.00587749,"z":-2.409297},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.8198309,"y":10.56018,"z":-2.32102823},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.26695657,"y":10.1308041,"z":-0.7978456},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.57857156,"y":8.963668,"z":-2.41148615},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.896162033,"y":10.0117455,"z":-3.39844513},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.21785831,"y":9.447992,"z":-3.08618164},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.35719657,"y":9.519898,"z":-1.99065816},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.991323,"y":8.79797,"z":-0.167840242},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.70481443,"y":7.47434425,"z":0.2811234},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.49725723,"y":7.837623,"z":0.271307468},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.08963346,"y":6.48822546,"z":-0.110984564},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.97333765,"y":6.87805,"z":0.454103947},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.655642,"y":7.2472,"z":-0.3574915},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.41780567,"y":5.960108,"z":0.25751543},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.01345277,"y":6.83278751,"z":0.3940997},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.936764,"y":6.44239,"z":-1.50908029},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.467274,"y":7.459357,"z":-1.68479586},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.09704971,"y":7.835514,"z":-3.32095718},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.674154,"y":8.762642,"z":-3.39628863},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.58339572,"y":9.112386,"z":-3.00905252},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.14527941,"y":9.773002,"z":-3.74572372},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.6467066,"y":10.1468649,"z":-5.623335},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.539052963,"y":10.3092766,"z":-5.637856},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.12092495,"y":11.15355,"z":-5.53181744},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":0.08525324,"y":11.3059368,"z":-6.172751},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.448177338,"y":10.1909714,"z":-6.19475174},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":0.458148479,"y":12.1911459,"z":-5.66432},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.127103329,"y":11.1081972,"z":-5.35329056},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":0.32070303,"y":11.834528,"z":-6.05933762},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":0.08177519,"y":11.4664936,"z":-5.82247257},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.847575665,"y":9.696891,"z":-5.660928},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.612499237,"y":10.1262884,"z":-5.95647526},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.02379274,"y":9.528425,"z":-5.359932},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.828272343,"y":10.1959925,"z":-4.66455126},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.12982941,"y":9.456062,"z":-5.20354843},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.392674,"y":9.393574,"z":-3.86591959},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.08544064,"y":9.879029,"z":-4.33575439},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.58779979,"y":8.892293,"z":-4.28715134},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.43246484,"y":9.110529,"z":-4.59493637},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.19224834,"y":9.643253,"z":-4.47311354},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.968791962,"y":9.966917,"z":-4.936263},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.51966357,"y":8.830009,"z":-4.999255},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.9492655,"y":9.896222,"z":-5.287197},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.08656454,"y":9.870844,"z":-4.50949764},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.769284,"y":8.255353,"z":-5.21203327},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.42436075,"y":9.019476,"z":-5.024401},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.87136793,"y":7.93374729,"z":-5.603659},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.30521345,"y":9.243269,"z":-5.14090824},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.304522,"y":8.609856,"z":-7.189282},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-0.907871246,"y":9.07306,"z":-8.26637},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.1549983,"y":8.58427,"z":-8.228435},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.64644289,"y":7.80147552,"z":-7.55442572},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.23964691,"y":8.324454,"z":-8.441858},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.089035,"y":8.88408,"z":-7.637499},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.22640753,"y":8.665569,"z":-7.44207144},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.31092262,"y":7.896153,"z":-9.30732},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.12988949,"y":8.367302,"z":-9.020579},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.00860023,"y":8.609098,"z":-9.051264},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.12009716,"y":8.294985,"z":-9.355734},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.606365,"y":7.54509068,"z":-8.734412},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.60876679,"y":8.068978,"z":-7.187188},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.89941788,"y":7.457593,"z":-7.310999},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.43608618,"y":8.417454,"z":-7.28336954},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.331551,"y":6.41342831,"z":-7.89077425},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.4102037,"y":6.531138,"z":-7.0497694},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.02046967,"y":7.173243,"z":-7.50516462},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.59822154,"y":6.063548,"z":-7.3198843},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.1775,"y":6.73452234,"z":-7.87450838},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.178368,"y":7.23004627,"z":-6.32741928},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.29362345,"y":6.59132,"z":-7.52778},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.177791,"y":6.43576431,"z":-8.680712},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.59064078,"y":7.83121967,"z":-8.01260948},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.79869747,"y":7.335576,"z":-8.194316},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.51518822,"y":7.775511,"z":-8.519254},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.58290863,"y":7.63807631,"z":-8.471344},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.70197535,"y":7.075415,"z":-9.429189},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.79974413,"y":7.35966635,"z":-7.925443},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.60100532,"y":7.27895832,"z":-9.37356},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}]},"time":1.4,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.95832825,"y":4.02774239,"z":-10.3346233},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.350125,"y":5.678371,"z":-9.088299},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.56454659,"y":5.14785147,"z":-9.429771},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.00429487,"y":5.098978,"z":-7.03962946},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.87161636,"y":3.65793,"z":-6.07397556},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.32605743,"y":4.37401056,"z":-7.165866},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-4.039121,"y":3.24690413,"z":-6.0493083},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.332563,"y":4.97960138,"z":-5.034913},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.84405732,"y":3.83423138,"z":-4.92507267},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.6139226,"y":4.575343,"z":-3.95458078},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.76010251,"y":4.192816,"z":-4.37899971},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.92808,"y":4.009306,"z":-4.48857},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.01398087,"y":5.65555954,"z":-5.38462},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.108387,"y":5.086625,"z":-6.684456},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.664289,"y":6.086856,"z":-6.60715771},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.66543031,"y":6.39137459,"z":-5.770017},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.98665357,"y":5.784502,"z":-5.63545036},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.14708376,"y":5.314264,"z":-6.08009338},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.73823333,"y":5.87017536,"z":-6.916876},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.01182079,"y":5.232753,"z":-7.17213154},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}]},"time":2.2166667,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib","$values":[]},"time":3.23333335,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.59238017,"y":8.123146,"z":-7.673087},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.44742918,"y":4.63143969,"z":-5.936741},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.00441384,"y":7.931679,"z":-3.71810341},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.23410749,"y":7.214319,"z":-5.736495},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.18863273,"y":7.483193,"z":-3.51853418},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.942043,"y":7.85212564,"z":-4.326611},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.34429264,"y":7.115423,"z":-2.40874887},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.25835586,"y":7.23714638,"z":-1.75225115},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.06116939,"y":7.487988,"z":-1.93516994},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.02285123,"y":7.56500149,"z":-0.540937066},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.62638044,"y":8.24696,"z":-1.047653},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.93518949,"y":7.580078,"z":-0.0239596367},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.88604,"y":7.60045338,"z":0.09933829},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.81970453,"y":7.67495537,"z":-0.115684509},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.97255206,"y":7.36065674,"z":0.5583396},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.98456788,"y":7.265751,"z":-0.06368804},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.51418924,"y":8.36637,"z":0.971297},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.80404067,"y":7.643744,"z":-0.0590441227},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.615113,"y":5.981772,"z":0.631145954},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.55171013,"y":6.201976,"z":1.44601059},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.6826818,"y":5.79049158,"z":0.1782682},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.600378,"y":6.127012,"z":1.65151668},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.7379725,"y":5.76715851,"z":0.9832072},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.19995856,"y":4.842266,"z":1.60364342},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.30362463,"y":4.49486637,"z":0.0471696854},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.91083336,"y":3.306299,"z":0.665184259},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.39905119,"y":4.44190741,"z":-0.2662301},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.83669949,"y":3.710018,"z":1.38904},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.2756443,"y":4.75497627,"z":-0.940212369},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.56200933,"y":4.300561,"z":-0.42793417},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-4.17785454,"y":3.08993554,"z":-0.2556957},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.852686,"y":3.82028747,"z":-0.7181182},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.70237541,"y":4.06700325,"z":-2.45835638},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.644872,"y":4.31838274,"z":-2.51080179},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.75050068,"y":4.189016,"z":-2.52574253},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.97352052,"y":3.608968,"z":-4.07870245},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.0682652,"y":5.531146,"z":-5.36653042},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.12675142,"y":5.572222,"z":-4.02078629},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.902453,"y":6.04371643,"z":-4.14821768},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.48229814,"y":6.84011745,"z":-5.12991333},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.36300015,"y":6.97064829,"z":-6.301191},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.22093821,"y":7.45319033,"z":-4.551113},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.19312787,"y":7.475009,"z":-4.82171},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.23545361,"y":7.23174143,"z":-6.16932964},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.11706138,"y":7.564671,"z":-5.273505},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-1.95208383,"y":7.939982,"z":-4.992616},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.20644045,"y":7.39059258,"z":-4.94704},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.67404461,"y":6.312633,"z":-5.65351343},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.2823925,"y":7.31892967,"z":-4.075411},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.57425642,"y":6.46952724,"z":-6.23516846},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.68053222,"y":6.311107,"z":-5.529941},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.323466,"y":7.100515,"z":-5.35369539},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.32955337,"y":7.010754,"z":-6.109316},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.52485752,"y":6.793906,"z":-4.15466642},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.41887426,"y":6.847471,"z":-5.83657169},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.58915663,"y":6.51196432,"z":-5.531888},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.31264,"y":5.13205051,"z":-3.845928},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-3.40246725,"y":4.889591,"z":-4.30726},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.91246629,"y":5.796954,"z":-5.71191835},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}},{"$type":"Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras","Options":0,"Position":{"x":-2.7258513,"y":6.367963,"z":-4.09960651},"Weight":0.3,"Color":{"r":1.0,"g":0.2948941,"b":0.0,"a":1.0},"Color2":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}]},"time":4.5,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[Needle.Timeline.ModulesTest+MyType,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
+--- !u!114 &7024229673171051821
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: Directions
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: Directions
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"Directions","Name":"Directions","DisplayName":"Directions","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[Direction,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[Direction, Needle.Timeline-Extras,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
+--- !u!114 &8088448223729737437
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: Points
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: Points
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"Points","Name":"Points","DisplayName":"Points","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule]], mscorlib]], Needle.Timeline]], mscorlib","$values":[]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'

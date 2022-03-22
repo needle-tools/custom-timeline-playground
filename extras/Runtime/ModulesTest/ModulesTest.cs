@@ -12,6 +12,14 @@ namespace Needle.Timeline
 		[Animate] private List<Vector3> Points;
 		[Animate, FormerlySerializedAs("Directions1")] private List<Direction> Directions;
 
+		[ContextMenu(nameof(ClearData))]
+		private void ClearData()
+		{
+			MyTypeList?.Clear();
+			Points?.Clear();
+			Directions?.Clear(); 
+		}
+
 		[System.Serializable]
 		private struct MyType 
 		{ 
@@ -19,10 +27,10 @@ namespace Needle.Timeline
 
 			public enum MyEnum
 			{
-				Sphere,
-				Cube
+				Sphere, 
+				Cube 
 			}
-
+ 
 			public Vector3 Position;
 			public float Weight;
 			public Color Color;
@@ -39,6 +47,7 @@ namespace Needle.Timeline
 				style.fontSize = 9;
 				var ct = Camera.current.transform;
 				var offset = ct.right * .2f + ct.up * .11f;
+				Gizmos.matrix = transform.localToWorldMatrix;
 				for (var index = 0; index < MyTypeList.Count; index++)
 				{
 					var t = MyTypeList[index];
@@ -56,7 +65,8 @@ namespace Needle.Timeline
 
 			if (Points != null)
 			{
-				Gizmos.color = Color.gray;
+				Gizmos.color = Color.white;
+				Gizmos.matrix = transform.localToWorldMatrix;
 				foreach (var pt in Points)
 				{
 					Gizmos.DrawSphere(pt, .1f);

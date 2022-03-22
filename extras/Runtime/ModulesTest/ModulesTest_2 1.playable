@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9027525854707364133
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
-  m_Name: GameObject (3)
-  m_EditorClassIdentifier: 
-  id: 0644a99c6abf00b4f8b931e8db539671@-9027525854707364133
-  data: {fileID: 11400000, guid: 309b5b1f4651a7641858a3c279a9eb46, type: 2}
-  clipData: []
---- !u!114 &-8027344607917623683
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
-  m_Name: GameObject (3)
-  m_EditorClassIdentifier: 
-  id: 0644a99c6abf00b4f8b931e8db539671@-8027344607917623683
-  data: {fileID: 11400000, guid: 58b30d5531401424c83854b64ef1ab91, type: 2}
-  clipData: []
 --- !u!114 &-7776424017619712088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
-  m_Name: GameObject (3)
+  m_Name: GameObject (1)
   m_EditorClassIdentifier: 
-  id: 0644a99c6abf00b4f8b931e8db539671@-7776424017619712088
+  id: 75ac66b6492e6b649aeef3fefee0055b@-7776424017619712088
   data: {fileID: 11400000, guid: f21c1af1b4de05b49a4ceccd176bfe26, type: 2}
   clipData: []
---- !u!114 &-5886035615961796639
+--- !u!114 &-5558656194414594912
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,33 +25,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
-  m_Name: GameObject (3)
+  m_Name: GameObject (1)
   m_EditorClassIdentifier: 
-  id: 0644a99c6abf00b4f8b931e8db539671@-5886035615961796639
-  data: {fileID: 11400000, guid: 04b38181347b5d84ebd3b4d3a5086190, type: 2}
+  id: 75ac66b6492e6b649aeef3fefee0055b@-5558656194414594912
+  data: {fileID: 11400000, guid: f21c1af1b4de05b49a4ceccd176bfe26, type: 2}
   clipData: []
---- !u!114 &-2733889783002861132
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
-  m_Name: GameObject (3)
-  m_EditorClassIdentifier: 
-  id: 0644a99c6abf00b4f8b931e8db539671@-2733889783002861132
-  data: {fileID: 11400000, guid: 58b30d5531401424c83854b64ef1ab91, type: 2}
-  clipData: []
---- !u!74 &-313435338647949588
+--- !u!74 &-5085378545539625889
 AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 0644a99c6abf00b4f8b931e8db539671@-9027525854707364133
+  m_Name: Clip Parameters
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []
+--- !u!74 &-2259875494224904982
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clip Parameters
   serializedVersion: 6
   m_Legacy: 1
   m_Compressed: 0
@@ -136,7 +142,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: ModulesTest_2
+  m_Name: ModulesTest_2 1
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
@@ -147,7 +153,7 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &735751109595346104
+--- !u!114 &3093716442127344980
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,12 +163,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
-  m_Name: GameObject (3)
+  m_Name: GameObject (1)
   m_EditorClassIdentifier: 
-  id: 0644a99c6abf00b4f8b931e8db539671@735751109595346104
-  data: {fileID: 11400000, guid: 7f87d08bad5753649ba1618812524cd8, type: 2}
+  id: 75ac66b6492e6b649aeef3fefee0055b@3093716442127344980
+  data: {fileID: 0}
   clipData: []
---- !u!74 &2995128824715795050
+--- !u!74 &4465798855352223766
 AnimationClip:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,57 +270,6 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
---- !u!74 &4546898455342765776
-AnimationClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clip Parameters
-  serializedVersion: 6
-  m_Legacy: 1
-  m_Compressed: 0
-  m_UseHighQualityCurve: 1
-  m_RotationCurves: []
-  m_CompressedRotationCurves: []
-  m_EulerCurves: []
-  m_PositionCurves: []
-  m_ScaleCurves: []
-  m_FloatCurves: []
-  m_PPtrCurves: []
-  m_SampleRate: 60
-  m_WrapMode: 0
-  m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
-  m_AnimationClipSettings:
-    serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 0}
-    m_AdditiveReferencePoseTime: 0
-    m_StartTime: 0
-    m_StopTime: 1
-    m_OrientationOffsetY: 0
-    m_Level: 0
-    m_CycleOffset: 0
-    m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 0
-    m_LoopBlendOrientation: 0
-    m_LoopBlendPositionY: 0
-    m_LoopBlendPositionXZ: 0
-    m_KeepOriginalOrientation: 0
-    m_KeepOriginalPositionY: 1
-    m_KeepOriginalPositionXZ: 0
-    m_HeightFromFeet: 0
-    m_Mirror: 0
-  m_EditorCurves: []
-  m_EulerEditorCurves: []
-  m_HasGenericRootTransform: 0
-  m_HasMotionFloatCurves: 0
-  m_Events: []
 --- !u!114 &4966992028615141060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -346,7 +301,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.5999999999999996
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -373,7 +328,25 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -388,88 +361,37 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: asset1
   - m_Version: 1
-    m_Start: 4.4
+    m_Start: 5
     m_ClipIn: 0
-    m_Asset: {fileID: 735751109595346104}
-    m_Duration: 5
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 4966992028615141060}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0.5999999999999996
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 6874041929368725911}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: asset3
-  - m_Version: 1
-    m_Start: 9.4
-    m_ClipIn: 0
-    m_Asset: {fileID: -9027525854707364133}
+    m_Asset: {fileID: -5558656194414594912}
     m_Duration: 5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4966992028615141060}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 1.5999999999999996
+    m_BlendOutDuration: 1.4666666666666668
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -482,23 +404,23 @@ MonoBehaviour:
     m_BlendInCurveMode: 0
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: -313435338647949588}
+    m_AnimationCurves: {fileID: 4465798855352223766}
     m_Recordable: 0
     m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: asset2
+    m_DisplayName: asset1
   - m_Version: 1
-    m_Start: 12.8
+    m_Start: 8.533333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: -5886035615961796639}
+    m_Asset: {fileID: 6555577712020711666}
     m_Duration: 5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4966992028615141060}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.5999999999999996
+    m_BlendInDuration: 1.4666666666666668
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -508,42 +430,24 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_BlendInCurveMode: 0
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 4546898455342765776}
+    m_AnimationCurves: {fileID: -2259875494224904982}
     m_Recordable: 0
     m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 1.5999999999999979
+    m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: TEST2
+    m_DisplayName: asset1
   - m_Version: 1
-    m_Start: 19.4
+    m_Start: 13.533333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: -8027344607917623683}
+    m_Asset: {fileID: 3093716442127344980}
     m_Duration: 5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4966992028615141060}
@@ -553,7 +457,25 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -584,187 +506,55 @@ MonoBehaviour:
     m_BlendInCurveMode: 0
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 6319843238376304522}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 1.5999999999999979
-    m_DisplayName: TEST1
-  - m_Version: 1
-    m_Start: 24.4
-    m_ClipIn: 0
-    m_Asset: {fileID: -2733889783002861132}
-    m_Duration: 5
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 4966992028615141060}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 2995128824715795050}
+    m_AnimationCurves: {fileID: -5085378545539625889}
     m_Recordable: 0
     m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
-    m_DisplayName: TEST1
+    m_DisplayName: New timeline clip 3
   m_Markers:
     m_Objects: []
   model:
     recording: 
-  dirtyCount: 5007
+  dirtyCount: 5407
   clipModels:
   - id: 0644a99c6abf00b4f8b931e8db539671@-7776424017619712088_ModulesTest_0
     clip: {fileID: 4511238098039518129}
     solo: 0
-  - id: 0644a99c6abf00b4f8b931e8db539671@735751109595346104_ModulesTest_0
-    clip: {fileID: 6874041929368725911}
+  - id: 75ac66b6492e6b649aeef3fefee0055b@-7776424017619712088_ModulesTest_0
+    clip: {fileID: 4511238098039518129}
     solo: 0
-  - id: 0644a99c6abf00b4f8b931e8db539671@-9027525854707364133_ModulesTest_0
-    clip: {fileID: -313435338647949588}
+  - id: 75ac66b6492e6b649aeef3fefee0055b@-5558656194414594912_ModulesTest_0
+    clip: {fileID: 4465798855352223766}
     solo: 0
-  - id: 0644a99c6abf00b4f8b931e8db539671@-5886035615961796639_ModulesTest_0
-    clip: {fileID: 4546898455342765776}
+  - id: 75ac66b6492e6b649aeef3fefee0055b@6555577712020711666_ModulesTest_0
+    clip: {fileID: -2259875494224904982}
     solo: 0
-  - id: 0644a99c6abf00b4f8b931e8db539671@-8027344607917623683_ModulesTest_0
-    clip: {fileID: 6319843238376304522}
+  - id: 75ac66b6492e6b649aeef3fefee0055b@-7776424017619712088_ModulesTest_1
+    clip: {fileID: 4511238098039518129}
     solo: 0
-  - id: 0644a99c6abf00b4f8b931e8db539671@-2733889783002861132_ModulesTest_0
-    clip: {fileID: 2995128824715795050}
+  - id: 75ac66b6492e6b649aeef3fefee0055b@-5558656194414594912_ModulesTest_1
+    clip: {fileID: 4465798855352223766}
     solo: 0
---- !u!74 &6319843238376304522
-AnimationClip:
+  - id: 75ac66b6492e6b649aeef3fefee0055b@6555577712020711666_ModulesTest_1
+    clip: {fileID: -2259875494224904982}
+    solo: 0
+  - id: 75ac66b6492e6b649aeef3fefee0055b@3093716442127344980_ModulesTest_0
+    clip: {fileID: -5085378545539625889}
+    solo: 0
+--- !u!114 &6555577712020711666
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clip Parameters
-  serializedVersion: 6
-  m_Legacy: 1
-  m_Compressed: 0
-  m_UseHighQualityCurve: 1
-  m_RotationCurves: []
-  m_CompressedRotationCurves: []
-  m_EulerCurves: []
-  m_PositionCurves: []
-  m_ScaleCurves: []
-  m_FloatCurves: []
-  m_PPtrCurves: []
-  m_SampleRate: 60
-  m_WrapMode: 0
-  m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
-  m_AnimationClipSettings:
-    serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 0}
-    m_AdditiveReferencePoseTime: 0
-    m_StartTime: 0
-    m_StopTime: 1
-    m_OrientationOffsetY: 0
-    m_Level: 0
-    m_CycleOffset: 0
-    m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 0
-    m_LoopBlendOrientation: 0
-    m_LoopBlendPositionY: 0
-    m_LoopBlendPositionXZ: 0
-    m_KeepOriginalOrientation: 0
-    m_KeepOriginalPositionY: 1
-    m_KeepOriginalPositionXZ: 0
-    m_HeightFromFeet: 0
-    m_Mirror: 0
-  m_EditorCurves: []
-  m_EulerEditorCurves: []
-  m_HasGenericRootTransform: 0
-  m_HasMotionFloatCurves: 0
-  m_Events: []
---- !u!74 &6874041929368725911
-AnimationClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clip Parameters
-  serializedVersion: 6
-  m_Legacy: 1
-  m_Compressed: 0
-  m_UseHighQualityCurve: 1
-  m_RotationCurves: []
-  m_CompressedRotationCurves: []
-  m_EulerCurves: []
-  m_PositionCurves: []
-  m_ScaleCurves: []
-  m_FloatCurves: []
-  m_PPtrCurves: []
-  m_SampleRate: 60
-  m_WrapMode: 0
-  m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
-  m_AnimationClipSettings:
-    serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 0}
-    m_AdditiveReferencePoseTime: 0
-    m_StartTime: 0
-    m_StopTime: 1
-    m_OrientationOffsetY: 0
-    m_Level: 0
-    m_CycleOffset: 0
-    m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 0
-    m_LoopBlendOrientation: 0
-    m_LoopBlendPositionY: 0
-    m_LoopBlendPositionXZ: 0
-    m_KeepOriginalOrientation: 0
-    m_KeepOriginalPositionY: 1
-    m_KeepOriginalPositionXZ: 0
-    m_HeightFromFeet: 0
-    m_Mirror: 0
-  m_EditorCurves: []
-  m_EulerEditorCurves: []
-  m_HasGenericRootTransform: 0
-  m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
+  m_Name: GameObject (1)
+  m_EditorClassIdentifier: 
+  id: 75ac66b6492e6b649aeef3fefee0055b@6555577712020711666
+  data: {fileID: 11400000, guid: f21c1af1b4de05b49a4ceccd176bfe26, type: 2}
+  clipData: []
