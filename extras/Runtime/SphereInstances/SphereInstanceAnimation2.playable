@@ -204,6 +204,8 @@ MonoBehaviour:
     m_DisplayName: SpheresFromData
   m_Markers:
     m_Objects: []
+  model:
+    recording: 
   dirtyCount: 7975
   clipModels:
   - id: 8db177d8006fb474f8299ffea2540017@-2793290635219942520_SpheresFromData_0
@@ -464,6 +466,8 @@ MonoBehaviour:
     m_DisplayName: SpheresFromData
   m_Markers:
     m_Objects: []
+  model:
+    recording: 
   dirtyCount: 5706
   clipModels:
   - id: 8db177d8006fb474f8299ffea2540017@-4750693826580079858_SpheresFromData_0

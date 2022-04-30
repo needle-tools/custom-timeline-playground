@@ -212,7 +212,9 @@ MonoBehaviour:
     m_DisplayName: New timeline clip 3
   m_Markers:
     m_Objects: []
-  dirtyCount: 5720
+  model:
+    recording: 
+  dirtyCount: 10378
   clipModels:
   - id: f11d1b0d1984fe74abfcf6a31ced6d88@-7681196141625544987_TransformFromData_0
     clip: {fileID: 2876996711090740692}
@@ -327,5 +329,6 @@ MonoBehaviour:
   m_exportRoot:
     exposedName: 9b129fc35d4b4af4ba93155f1bc3aa7d
     defaultValue: {fileID: 0}
-  m_File: Assets/Recording4.glb
+  m_File: RecordingPointer.glb
   m_CaptureFrameRate: 60
+  m_RecordBlendShapes: 0

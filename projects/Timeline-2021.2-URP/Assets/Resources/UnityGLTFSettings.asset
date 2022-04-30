@@ -21,6 +21,8 @@ MonoBehaviour:
   useTextureFileTypeHeuristic: 1
   defaultJpegQuality: 90
   exportAnimations: 1
+  useAnimationPointer: 0
+  uniqueAnimationNames: 0
   bakeSkinnedMeshes: 0
   blendShapeExportProperties: -1
   blendShapeExportSparseAccessors: 0

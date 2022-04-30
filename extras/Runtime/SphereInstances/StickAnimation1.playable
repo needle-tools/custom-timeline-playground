@@ -147,6 +147,7 @@ MonoBehaviour:
     defaultValue: {fileID: 0}
   m_File: Assets/Recording3.glb
   m_CaptureFrameRate: 60
+  m_RecordBlendShapes: 1
 --- !u!74 &-3499308299129891093
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -580,6 +581,7 @@ MonoBehaviour:
     defaultValue: {fileID: 0}
   m_File: Assets/Recording.glb
   m_CaptureFrameRate: 60
+  m_RecordBlendShapes: 1
 --- !u!114 &1349533954473224291
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1812,6 +1814,7 @@ MonoBehaviour:
     defaultValue: {fileID: 0}
   m_File: Assets/Recording2.glb
   m_CaptureFrameRate: 60
+  m_RecordBlendShapes: 1
 --- !u!74 &5477764395488404935
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -2238,7 +2241,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 3.349999999999998
-    m_DisplayName: SticksClip 2
+    m_DisplayName: SticksFromData
   m_Markers:
     m_Objects: []
   model:
