@@ -332,3 +332,4 @@ MonoBehaviour:
   m_File: RecordingPointer.glb
   m_CaptureFrameRate: 60
   m_RecordBlendShapes: 0
+  m_RecordAnimationPointer: 0

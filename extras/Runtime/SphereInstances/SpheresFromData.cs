@@ -28,9 +28,14 @@ public class SpheresFromData : InstancesFromData<SphereLogic, SpheresFromData.Sp
         if (!inst.rend && inst.TryGetComponent(out Renderer r)) inst.rend = r;
         if (inst.rend )
         {
-            if (inst.block == null) inst.block = new MaterialPropertyBlock();
-            inst.block.SetColor(Color1, dat.mainColor);
-            inst.block.SetColor(BaseColor, dat.mainColor);
+            // MaterialPropertyBlock
+            // if (inst.block == null) inst.block = new MaterialPropertyBlock();
+            // inst.block.SetColor(Color1, dat.mainColor);
+            // inst.block.SetColor(BaseColor, dat.mainColor);
+            
+            // Enforce separate material instances for easier recording
+            inst.rend.material.SetColor(Color1, dat.mainColor);
+            inst.rend.material.SetColor(BaseColor, dat.mainColor);
             
             inst.rend.SetPropertyBlock(inst.block);
         }
