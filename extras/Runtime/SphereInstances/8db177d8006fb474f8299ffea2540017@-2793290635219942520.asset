@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4df81af81545e1984db029e0ace4ba, type: 3}
+  m_Name: 8db177d8006fb474f8299ffea2540017@-2793290635219942520
+  m_EditorClassIdentifier: 
+  Id: 
+  ClipData:
+  - {fileID: 459527421216824682}
+--- !u!114 &459527421216824682
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: data
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"8db177d8006fb474f8299ffea2540017@-2793290635219942520_SpheresFromData_0_data","Name":"data","IsRecording":false,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.87071407,"y":0.690972447,"z":10.305481},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.9305955,"y":2.29794526,"z":10.1059008},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.34224236,"y":3.42865419,"z":10.6994333},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.53795028,"y":3.56599665,"z":10.5195265},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.962390959,"y":3.01912737,"z":10.4940529},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.429359,"y":5.25879526,"z":10.7213144},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.843064547,"y":4.279287,"z":10.056716},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.7401904,"y":5.4820447,"z":10.5852184},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.5519886,"y":5.93384075,"z":9.749213},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.942015946,"y":6.104231,"z":9.87936},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.07781893,"y":6.360601,"z":10.3124561},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.56092119,"y":6.79957247,"z":9.900571},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.243249357,"y":5.56378746,"z":9.186471},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.21811891,"y":5.72689867,"z":9.766941},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.2736442,"y":6.94908237,"z":9.198877},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.688495457,"y":6.80805826,"z":9.37842},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.44957,"y":7.31035233,"z":8.586963},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.163278639,"y":6.96889973,"z":7.9110074},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.5718356,"y":6.667334,"z":7.30536556},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.53539813,"y":7.38315725,"z":5.700581},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.44753623,"y":6.911196,"z":5.37383127},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.90179133,"y":6.480208,"z":5.111202},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.180617,"y":6.40818834,"z":4.41884041},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.49295,"y":6.83515263,"z":4.417254},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.48037124,"y":6.658864,"z":3.79486871},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.07051,"y":7.774379,"z":3.61013675},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.03075314,"y":7.709178,"z":2.34231758},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.14193058,"y":5.973728,"z":2.98925972},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.65401959,"y":5.935707,"z":2.01356435},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.36819267,"y":5.41956568,"z":1.68050444},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.39146757,"y":6.22694874,"z":1.49505329},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.34755087,"y":5.284897,"z":1.0871793},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.40817142,"y":4.728517,"z":-0.107775122},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.411125,"y":4.548776,"z":1.27836072},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.87608862,"y":4.25059,"z":-0.0165524185},"radius":1.0,"forceFactor":1.0},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.48750544,"y":3.62844443,"z":0.180304348},"radius":1.0,"forceFactor":1.0}]},"time":0.0,"easeInWeight":0.5,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
