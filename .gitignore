@@ -11,3 +11,4 @@ projects/**/builds
 projects/*/ProjectSettings/Logs
 projects/*/Webserver
 projects/*/Recordings
+projects/**/RiderScriptEditorPersistedState.asset

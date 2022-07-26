@@ -2,9 +2,7 @@
   "dependencies": {
     "com.needle.console": "file:../../../../needle-console/package",
     "com.needle.custom-undo-integration": "file:../../../../Unity-Custom-Undo/package",
-    "com.needle.inspector": "file:../../../../inspector/package",
     "com.needle.package-credentials": "1.1.0",
-    "com.needle.package-tools": "0.9.1-pre.2",
     "com.needle.timeline-editor": "file:../../../../../package",
     "com.needle.timeline-editor-extras": "file:../../../extras",
     "com.needle.transform-extensions": "file:../../../../transform-changed-helper/package",
@@ -20,7 +18,7 @@
     "com.unity.timeline": "file:../../../../com.unity.timeline",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.6",
-    "org.khronos.unitygltf": "file:../../../../../../needle-tiny-playground/modules/needle-tiny/modules/UnityGLTF/UnityGLTF/Assets/UnityGLTF",
+    "org.khronos.unitygltf": "1.10.1-pre",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -58,7 +56,8 @@
       "name": "needle",
       "url": "https://packages.needle.tools",
       "scopes": [
-        "com.needle"
+        "com.needle",
+        "org.khronos"
       ]
     }
   ]
