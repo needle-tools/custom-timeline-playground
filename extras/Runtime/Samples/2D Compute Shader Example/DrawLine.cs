@@ -26,26 +26,34 @@ public class DrawLine : Animated
 	public Renderer Rend;
 
 	public Vector2Int OutputSize = new Vector2Int(512, 512);
-	
-	private Color Color; 
+
+	public bool RandomColor = true;
+	public Color Color;
 
 	[TransformInfo]
 	public List<Transform> TransformList = new List<Transform>();
 	public Transform[] TransformArray;
 
-	private List<Point> Points;
 	public struct Point 
 	{
 		public Vector2 Pos;
+		public float Size;
+		public Color Color;
 	}
-
+	
+	private List<Point> Points;
+	
 	[Animate(AllowInterpolation = true)]
 	public List<Point> AnimatedPoints;
 
 	public bool ShowPoints = true;
+	public bool ShowSimulation = true;
 
 	public int Points_Count = 100;
 	public float PointSpacing = .2f;
+
+	[Header("Gizmos")]
+	public bool RenderDirectionGizmos = true;
 
 	private void OnValidate()
 	{
@@ -106,7 +114,7 @@ public class DrawLine : Animated
 		{
 			Points_Count = (int)Random.Range(10, 1000);
 		}
-		if(Time.frameCount % 90 == 0)
+		if(RandomColor && Time.frameCount % 90 == 0)
 			Color = Random.ColorHSV(0,1,.3f,1,.5f,1);
 		
 		
@@ -124,6 +132,7 @@ public class DrawLine : Animated
 	private void OnDrawGizmos()
 	{
 		if(Directions == null) return;
+		if (!RenderDirectionGizmos) return;
 		foreach(var dir in Directions) dir.RenderOnionSkin(OnionData.Default);
 	}
 }

@@ -132,7 +132,7 @@ MonoBehaviour:
     m_Objects: []
   model:
     recording: 
-  dirtyCount: 8242
+  dirtyCount: 13078
   clipModels:
   - id: cbca03fb13dbd8e44abf061a11bb3b6a@-1111696451228970280_DrawLine_0
     clip: {fileID: 5704139153917385696}
@@ -232,9 +232,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.8
-        value: 0.2
-        inSlope: -0.16
-        outSlope: -0.16
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -333,9 +333,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.8
-        value: 0.2
-        inSlope: -0.16
-        outSlope: -0.16
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334

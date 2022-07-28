@@ -226,6 +226,8 @@ MonoBehaviour:
   Output: {fileID: 33414065}
   Rend: {fileID: 561184114}
   OutputSize: {x: 1024, y: 1024}
+  RandomColor: 0
+  Color: {r: 0.30196077, g: 0.72784597, b: 0.8156863, a: 1}
   TransformList:
   - {fileID: 818813558}
   - {fileID: 618394110}
@@ -240,8 +242,10 @@ MonoBehaviour:
   - {fileID: 84204543}
   - {fileID: 772524362}
   ShowPoints: 1
-  Points_Count: 159
-  PointSpacing: 0.19947517
+  ShowSimulation: 1
+  Points_Count: 687
+  PointSpacing: 0.1
+  RenderDirectionGizmos: 1
 --- !u!320 &130069901
 PlayableDirector:
   m_ObjectHideFlags: 0

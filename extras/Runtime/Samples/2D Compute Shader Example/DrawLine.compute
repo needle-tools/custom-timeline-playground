@@ -49,12 +49,14 @@ uint DirectionsCount;
 struct Point
 {
     float2 Pos;
+    float Size;
+    float4 Color;
 };
 
 RWStructuredBuffer<Point> Points;
 uint PointsCount;
 float PointSpacing;
-bool ShowPoints;
+bool ShowPoints, ShowSimulation;
 
 StructuredBuffer<float3> TransformArray;
 int TransformArrayCount;
@@ -91,12 +93,11 @@ void CSMain(uint3 id : SV_DispatchThreadID)
     if(ShowPoints)
     {
         float b = .3;
-        float2 lastPoint = AnimatedPoints[0].Pos;
         for(int i =1; i< AnimatedPointsCount; i++)
         {
+            Point pt = AnimatedPoints[i];
             //DrawLine(Output, texSize, AnimatedPoints[i].Pos, lastPoint, 0);
-            DrawCircle(Output, texSize, AnimatedPoints[i].Pos.xy, 2, float4(b, b, b, 1));
-            lastPoint = AnimatedPoints[i].Pos;
+            DrawCircle(Output, texSize, pt.Pos.xy, pt.Size + 1, pt.Color);
         }
     }
 }
@@ -105,6 +106,7 @@ void CSMain(uint3 id : SV_DispatchThreadID)
 void CSPoints(uint3 id : SV_DispatchThreadID)
 {
     if (id.x >= PointsCount) return;
+    if(!ShowSimulation) return;
     uint width, height;
     Output.GetDimensions(width, height);
     const uint2 texSize = uint2(width, height);
