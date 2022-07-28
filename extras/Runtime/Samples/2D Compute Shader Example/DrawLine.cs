@@ -1,17 +1,26 @@
 ﻿using System.Collections.Generic;
+using JetBrains.Annotations;
 using Needle.Timeline;
 using Needle.Timeline.ResourceProviders;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 // this script automatically binds c# fields to compute shader
+// Note that many of the fields in this c# script match names in the compute shader that is assigned from Unity
+// the shader and the c# script are both automatically parsed and matching types will be automatically assigned
+// the logic for this is handled in the Animated base class at the moment
+// in the future I want to make this simpler but also a bit more explicit since it is VERY magic so a little bit confusing too
 
 public class DrawLine : Animated
 { 
+	// compute shaders will be found and parsed by the Animated class automatically
+	[UsedImplicitly] 
 	public ComputeShader Shader;
-	[Animate] public List<Direction> Directions; 
-	public Transform Start;
-	public Transform End;
+	
+	// this will be animated from the timeline:
+	[Animate] 
+	public List<Direction> Directions; 
+	
 	[TextureInfo]//(256, 256, FilterMode = FilterMode.Point)]
 	public RenderTexture Output; 
 	public Renderer Rend;
@@ -31,7 +40,9 @@ public class DrawLine : Animated
 	}
 
 	[Animate(AllowInterpolation = true)]
-	public List<Point> AnimatedPoints; 
+	public List<Point> AnimatedPoints;
+
+	public bool ShowPoints = true;
 
 	public int Points_Count = 100;
 	public float PointSpacing = .2f;
@@ -93,7 +104,7 @@ public class DrawLine : Animated
 		}
 		if (PointSpacing < .00001f)
 		{
-			Points_Count = (int)Random.Range(10, 300);
+			Points_Count = (int)Random.Range(10, 1000);
 		}
 		if(Time.frameCount % 90 == 0)
 			Color = Random.ColorHSV(0,1,.3f,1,.5f,1);
@@ -101,7 +112,7 @@ public class DrawLine : Animated
 		
 		yield return new DispatchInfo { KernelIndex = 0, GroupsX = 1 };
 		yield return new DispatchInfo { KernelIndex = 2, GroupsX = Points?.Count }; 
-		yield return new DispatchInfo { KernelName = "CSBlend" };
+		yield return new DispatchInfo { KernelName = "CSBlend"};
 	}
 
 	protected override void OnAfterEvaluation()

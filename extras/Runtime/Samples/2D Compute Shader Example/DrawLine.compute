@@ -35,6 +35,7 @@ float4 _Time;
 float3 Start, End;
 RWTexture2D<float4> Output;
 
+// Automatically bound from Unity C#
 float4 Color;
 
 struct Direction
@@ -53,6 +54,7 @@ struct Point
 RWStructuredBuffer<Point> Points;
 uint PointsCount;
 float PointSpacing;
+bool ShowPoints;
 
 StructuredBuffer<float3> TransformArray;
 int TransformArrayCount;
@@ -86,13 +88,16 @@ void CSMain(uint3 id : SV_DispatchThreadID)
         DrawCircle(Output, texSize, pos.xy, 5, float4(1, 0, 1, 1));
     }
 
-    float b = .3;
-    float2 lastPoint = AnimatedPoints[0].Pos;
-    for(int i =1; i< AnimatedPointsCount; i++)
+    if(ShowPoints)
     {
-        //DrawLine(Output, texSize, AnimatedPoints[i].Pos, lastPoint, 0);
-        DrawCircle(Output, texSize, AnimatedPoints[i].Pos.xy, 2, float4(b, b, b, 1));
-        lastPoint = AnimatedPoints[i].Pos;
+        float b = .3;
+        float2 lastPoint = AnimatedPoints[0].Pos;
+        for(int i =1; i< AnimatedPointsCount; i++)
+        {
+            //DrawLine(Output, texSize, AnimatedPoints[i].Pos, lastPoint, 0);
+            DrawCircle(Output, texSize, AnimatedPoints[i].Pos.xy, 2, float4(b, b, b, 1));
+            lastPoint = AnimatedPoints[i].Pos;
+        }
     }
 }
 
@@ -187,8 +192,8 @@ void CSDirections(uint3 id : SV_DispatchThreadID)
 
 
 #pragma kernel CSBlend
-[numthreads(32, 32,1)]
+[numthreads(32, 32, 1)]
 void CSBlend(uint3 id : SV_DispatchThreadID)
 {
-    Output[id.xy] = lerp(Output[id.xy], 0, _Time.w*1.3);
+    Output[id.xy] = lerp(Output[id.xy], 0, _Time.w*3);
 }
