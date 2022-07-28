@@ -1,0 +1,836 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4740175141755201570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf3b3963a2c49bda34535c25f157d87, type: 3}
+  m_Name: Code Control Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 872669948857970836}
+    m_Duration: 7.05
+    m_TimeScale: 1.052009456264777
+    m_ParentTrack: {fileID: -4740175141755201570}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 7907731651656681381}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: Infinity
+    m_PreExtrapolationTime: 0
+    m_DisplayName: e4e8b472d315a47419e35e32f0739d6e@872669948857970836
+  m_Markers:
+    m_Objects: []
+  model:
+    recording: 
+  dirtyCount: 8382
+  clipModels:
+  - id: e4e8b472d315a47419e35e32f0739d6e@872669948857970836_SpheresFromData_0
+    clip: {fileID: 7907731651656681381}
+    solo: 0
+  - id: _SpheresFromData_0
+    clip: {fileID: 7907731651656681381}
+    solo: 0
+--- !u!114 &-175622260972628704
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8025f9ecf4d5ea6f3229a74dbbb1c, type: 3}
+  m_Name: 0.0_data
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: e4e8b472d315a47419e35e32f0739d6e@872669948857970836_SpheresFromData_0_data
+  <Content>k__BackingField: '{"$type":"Needle.Timeline.CustomAnimationCurve`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","DefaultEasing":{"$type":"Needle.Timeline.CurveEasing.QuadraticInOutEasing,
+    Needle.Timeline"},"Id":"e4e8b472d315a47419e35e32f0739d6e@872669948857970836_SpheresFromData_0_data","Name":"data","DisplayName":"data","IsRecording":true,"Keyframes":{"$type":"System.Collections.Generic.List`1[[Needle.Timeline.ICustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline]], mscorlib","$values":[{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.192339018,"y":-2.882575,"z":-2.97407627},"radius":1.0,"force":50.0,"drag":0.104773059,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.5363234,"y":-2.36247778,"z":-3.691896},"radius":1.0,"force":50.0,"drag":0.100230612,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.12389362,"y":-1.60087514,"z":-3.1878624},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.0195183158,"y":-1.763741,"z":-3.207149},"radius":1.0,"force":50.0,"drag":0.100000709,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.519171834,"y":-2.609029,"z":-3.79200721},"radius":1.0,"force":50.0,"drag":0.100003466,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.41814822,"y":-0.968837261,"z":-3.4921124},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5334597,"y":-1.56847394,"z":-4.0972476},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5072907,"y":-1.16226757,"z":-3.75957632},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.484521925,"y":-1.68976855,"z":-3.94004488},"radius":1.0,"force":50.0,"drag":0.100000039,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.6222235,"y":-1.27358282,"z":-3.805574},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5047288,"y":-0.8489319,"z":-3.242081},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.32578123,"y":-0.673136,"z":-3.857814},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.64959228,"y":0.0956693,"z":-4.4781785},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.755142,"y":-0.622451663,"z":-3.96281815},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.784817636,"y":0.8018422,"z":-3.97992587},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.68132281,"y":0.5493109,"z":-3.59798217},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.348526537,"y":0.174598247,"z":-4.58208275},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.7103046,"y":1.05742359,"z":-3.51603556},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.978305161,"y":1.98487771,"z":-3.785302},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5075784,"y":2.14553857,"z":-4.814709},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.6779974,"y":2.9111166,"z":-5.86783552},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.5251314,"y":2.208408,"z":-4.8849473},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.04843545,"y":4.08390331,"z":-6.19278765},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.14052081,"y":4.19488,"z":-5.366662},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.361339,"y":4.325736,"z":-6.50642},"radius":1.0,"force":50.0,"drag":0.100000873,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.52295327,"y":5.007818,"z":-6.15996552},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.6121,"y":6.37601948,"z":-7.15718031},"radius":1.0,"force":50.0,"drag":0.100000247,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.09579372,"y":5.677099,"z":-6.777591},"radius":1.0,"force":50.0,"drag":0.100002564,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.918142,"y":7.119594,"z":-6.98481655},"radius":1.0,"force":50.0,"drag":0.104362175,"mainColor":{"r":1.0,"g":0.94344,"b":0.94344,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.284274,"y":7.466032,"z":-7.19902},"radius":1.0,"force":50.0,"drag":0.106508255,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.1601181,"y":7.108632,"z":-8.4523},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":0.9383712,"b":0.9383712,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.4960566,"y":7.026579,"z":-9.06575},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":0.9735792,"b":0.9735792,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.1086063,"y":6.831874,"z":-8.492749},"radius":1.0,"force":50.0,"drag":0.100149676,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.9667559,"y":7.133885,"z":-9.120445},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.93343,"y":7.310266,"z":-9.656828},"radius":1.0,"force":50.0,"drag":0.999997735,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.8560867,"y":7.421867,"z":-9.946429},"radius":1.0,"force":50.0,"drag":0.999964237,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.39652,"y":7.643632,"z":-10.1126451},"radius":1.0,"force":50.0,"drag":0.9991998,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.31185,"y":7.048006,"z":-9.215248},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.0511456,"y":7.801733,"z":-10.1135225},"radius":1.0,"force":50.0,"drag":0.9939336,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.1161556,"y":6.51920033,"z":-9.687262},"radius":1.0,"force":50.0,"drag":0.9999999,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.179903,"y":5.70487976,"z":-10.4523106},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.6916676,"y":5.524356,"z":-9.642149},"radius":1.0,"force":50.0,"drag":0.9999998,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.5911121,"y":6.765814,"z":-10.1373844},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.82385,"y":6.29736376,"z":-9.546789},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.6678219,"y":5.488924,"z":-9.906559},"radius":1.0,"force":50.0,"drag":0.9999999,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.4262848,"y":5.40974,"z":-9.305152},"radius":1.0,"force":50.0,"drag":0.9999556,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.9546776,"y":3.12592983,"z":-9.681891},"radius":1.0,"force":50.0,"drag":0.9624837,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.5670719,"y":3.87565756,"z":-9.005919},"radius":1.0,"force":50.0,"drag":0.7141488,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.3624516,"y":3.22639465,"z":-9.216151},"radius":1.0,"force":50.0,"drag":0.5796645,"mainColor":{"r":1.0,"g":0.8765691,"b":0.8765691,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.5674343,"y":1.99196577,"z":-8.650851},"radius":1.0,"force":50.0,"drag":0.911665559,"mainColor":{"r":1.0,"g":0.141339332,"b":0.141339332,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.7684479,"y":1.27789223,"z":-8.116207},"radius":1.0,"force":50.0,"drag":0.989468,"mainColor":{"r":1.0,"g":0.020787593,"b":0.020787593,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.4753246,"y":1.86311078,"z":-8.292182},"radius":1.0,"force":50.0,"drag":0.9602512,"mainColor":{"r":1.0,"g":0.08806327,"b":0.08806327,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5913525,"y":-0.184947252,"z":-6.78300667},"radius":1.0,"force":50.0,"drag":0.970114052,"mainColor":{"r":1.0,"g":0.006605532,"b":0.006605532,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.3247375,"y":1.17059147,"z":-7.32788754},"radius":1.0,"force":50.0,"drag":0.9632355,"mainColor":{"r":1.0,"g":0.00491792429,"b":0.00491792429,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.9728422,"y":-0.132171929,"z":-6.30799},"radius":1.0,"force":50.0,"drag":0.996012449,"mainColor":{"r":1.0,"g":0.024575647,"b":0.024575647,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.3811607,"y":0.136930332,"z":-7.426098},"radius":1.0,"force":50.0,"drag":0.998427033,"mainColor":{"r":1.0,"g":0.0062784045,"b":0.0062784045,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.916342,"y":-0.008294195,"z":-6.18402958},"radius":1.0,"force":50.0,"drag":0.9976194,"mainColor":{"r":1.0,"g":0.2788541,"b":0.2788541,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.862562,"y":-0.113618731,"z":-5.91680336},"radius":1.0,"force":50.0,"drag":0.99661237,"mainColor":{"r":1.0,"g":0.386143565,"b":0.386143565,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.68305,"y":0.177563041,"z":-6.709173},"radius":1.0,"force":50.0,"drag":0.9988999,"mainColor":{"r":1.0,"g":0.450338483,"b":0.450338483,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.052185,"y":-0.00511845946,"z":-5.83161545},"radius":1.0,"force":50.0,"drag":0.9999696,"mainColor":{"r":1.0,"g":0.9461892,"b":0.9461892,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.81714058,"y":0.09047142,"z":-5.45385647},"radius":1.0,"force":50.0,"drag":0.9999591,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.886197,"y":0.181428909,"z":-5.97053337},"radius":1.0,"force":50.0,"drag":0.9984888,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.814451,"y":0.5510211,"z":-5.644823},"radius":1.0,"force":50.0,"drag":0.9966487,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.24477625,"y":0.5156381,"z":-5.44852257},"radius":1.0,"force":50.0,"drag":0.9793147,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.58158255,"y":0.928890944,"z":-4.78397},"radius":1.0,"force":50.0,"drag":0.9854145,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.41058874,"y":0.855414867,"z":-5.96351767},"radius":1.0,"force":50.0,"drag":0.9920969,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.26713848,"y":2.18676138,"z":-5.43041229},"radius":1.0,"force":50.0,"drag":0.249667,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.47352457,"y":1.64502776,"z":-4.832809},"radius":1.0,"force":50.0,"drag":0.174953684,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.543008,"y":2.11834526,"z":-5.41301775},"radius":1.0,"force":50.0,"drag":0.4184378,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.22036648,"y":1.86370051,"z":-5.961331},"radius":1.0,"force":50.0,"drag":0.174211428,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.57077241,"y":2.16754913,"z":-5.44687939},"radius":1.0,"force":50.0,"drag":0.100451812,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.522114,"y":1.70415676,"z":-5.26540327},"radius":1.0,"force":50.0,"drag":0.226522371,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.716596,"y":2.5640502,"z":-6.42556667},"radius":1.0,"force":50.0,"drag":0.124188609,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.98204374,"y":1.84711707,"z":-5.6165204},"radius":1.0,"force":50.0,"drag":0.1261427,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.963341,"y":3.21638966,"z":-5.04860163},"radius":1.0,"force":50.0,"drag":0.100038074,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.49902153,"y":2.17576981,"z":-5.39213467},"radius":1.0,"force":50.0,"drag":0.118741468,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.6008563,"y":4.02384329,"z":-5.594986},"radius":1.0,"force":50.0,"drag":0.100000069,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.19624329,"y":3.94613433,"z":-6.33795643},"radius":1.0,"force":50.0,"drag":0.100000188,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.33866549,"y":3.57449722,"z":-5.78504324},"radius":1.0,"force":50.0,"drag":0.100000508,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.01144361,"y":3.99519277,"z":-6.66910028},"radius":1.0,"force":50.0,"drag":0.100015655,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.940235,"y":3.23327327,"z":-6.24770355},"radius":1.0,"force":50.0,"drag":0.100362,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.027902,"y":4.230823,"z":-5.8263},"radius":1.0,"force":50.0,"drag":0.100000218,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":0.0,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.75550556,"y":-2.68490052,"z":-15.2283354},"radius":3.0,"force":1.4905386,"drag":0.692931,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.18489552,"y":-3.44509935,"z":-13.5732231},"radius":3.0,"force":1.26278293,"drag":0.3109587,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.161182,"y":-2.57975578,"z":-13.0962219},"radius":3.0,"force":2.2656126,"drag":0.325359046,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.82157564,"y":-1.42167163,"z":-14.9963989},"radius":3.0,"force":5.872656,"drag":0.605518162,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.267823,"y":-3.21977043,"z":-13.0195627},"radius":3.0,"force":1.0910027,"drag":0.329552323,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.237994,"y":-3.53738761,"z":-13.6554279},"radius":3.0,"force":3.69624186,"drag":0.365589321,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.78766,"y":-0.31855166,"z":-11.8953543},"radius":3.0,"force":3.908643,"drag":0.378393471,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.76501,"y":-1.99553847,"z":-13.715251},"radius":3.0,"force":1.98320878,"drag":0.9401332,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":0.7719904,"easeInWeight":0.5,"easeOutWeight":0.585078359},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.84593964,"y":-2.41121864,"z":-2.70856071},"radius":1.0,"force":50.0,"drag":0.103019148,"mainColor":{"r":0.9998403,"g":0.288613141,"b":0.00266762916,"a":0.9998403}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.63616657,"y":-2.11702228,"z":-1.82617581},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.99976486,"g":0.291573524,"b":0.007914132,"a":0.99976486}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.61486149,"y":-2.264693,"z":-3.19282222},"radius":1.0,"force":50.0,"drag":0.100003004,"mainColor":{"r":0.99951756,"g":0.287604868,"b":0.00540819438,"a":0.99951756}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.57527256,"y":-1.83237875,"z":-2.87278867},"radius":1.0,"force":50.0,"drag":0.100003555,"mainColor":{"r":0.980000854,"g":0.305789739,"b":0.009161562,"a":0.9993132}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.126931,"y":-1.26938367,"z":-1.740019},"radius":1.0,"force":50.0,"drag":0.10127712,"mainColor":{"r":0.9662939,"g":0.32919094,"b":0.0239202343,"a":0.9993258}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.144205,"y":0.126634046,"z":-2.66447115},"radius":1.0,"force":50.0,"drag":0.10000363,"mainColor":{"r":0.8396611,"g":0.441886723,"b":0.02121716,"a":0.999204159}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.277171,"y":-1.27953267,"z":-3.80815029},"radius":1.0,"force":50.0,"drag":0.100006238,"mainColor":{"r":0.607000947,"g":0.6491538,"b":0.0108082946,"a":0.9991614}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.4975,"y":-0.132384852,"z":-2.55234528},"radius":1.0,"force":50.0,"drag":0.100080326,"mainColor":{"r":0.6447813,"g":0.6146976,"b":0.009564901,"a":0.9992628}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.70946074,"y":3.01952553,"z":-1.90407443},"radius":1.0,"force":50.0,"drag":0.100004837,"mainColor":{"r":0.9981826,"g":0.279948771,"b":0.02445096,"a":0.9981826}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.168630779,"y":2.82510376,"z":-5.421588},"radius":1.0,"force":50.0,"drag":0.100000389,"mainColor":{"r":0.472934037,"g":0.26199308,"b":0.447703838,"a":0.9976947}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.677859,"y":-0.520268261,"z":-5.419848},"radius":1.0,"force":50.0,"drag":0.100001186,"mainColor":{"r":0.380529583,"g":0.862069,"b":0.00557818,"a":0.999601066}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.8234567,"y":-3.30561,"z":-7.60077572},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.5628135,"g":0.678548157,"b":0.02417073,"a":0.997818053}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.09097052,"y":5.519979,"z":-5.914115},"radius":1.0,"force":50.0,"drag":0.100017242,"mainColor":{"r":0.004733074,"g":0.0423329957,"b":0.987954259,"a":0.9999911}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-5.056042,"y":-0.2488892,"z":-4.47675037},"radius":1.0,"force":50.0,"drag":0.10000021,"mainColor":{"r":0.99450326,"g":0.2539957,"b":0.08809766,"a":0.99450326}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.76937568,"y":-0.6462313,"z":-9.52044},"radius":1.0,"force":50.0,"drag":0.100001216,"mainColor":{"r":0.127585337,"g":0.264320225,"b":0.708895564,"a":0.999576151}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.01004982,"y":1.421852,"z":-9.397489},"radius":1.0,"force":50.0,"drag":0.100001164,"mainColor":{"r":0.139189065,"g":0.2303084,"b":0.7279695,"a":0.9994859}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.076753,"y":2.57358527,"z":-9.07336},"radius":1.0,"force":50.0,"drag":0.10005565,"mainColor":{"r":0.182027131,"g":0.349188864,"b":0.5972578,"a":0.9993654}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-3.480331,"y":3.51668572,"z":-9.028053},"radius":1.0,"force":50.0,"drag":0.100000039,"mainColor":{"r":0.0211478267,"g":0.07098373,"b":0.951786637,"a":0.9999288}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.312078029,"y":5.16848946,"z":-8.281654},"radius":1.0,"force":50.0,"drag":0.100000083,"mainColor":{"r":0.0528342538,"g":0.176135048,"b":0.8387182,"a":0.999891341}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.39204368,"y":4.6808877,"z":-8.905521},"radius":1.0,"force":50.0,"drag":0.100000039,"mainColor":{"r":0.04139496,"g":0.148938537,"b":0.870367467,"a":0.999920845}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.8302479,"y":1.828177,"z":-10.1774607},"radius":1.0,"force":50.0,"drag":0.10000021,"mainColor":{"r":0.2347251,"g":0.435916871,"b":0.488038421,"a":0.999169052}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.751520932,"y":3.48092771,"z":-9.851226},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.13625671,"g":0.2621198,"b":0.7076058,"a":0.999510348}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.415646166,"y":3.09080863,"z":-10.6457129},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":0.308142275,"g":0.489766061,"b":0.394516766,"a":0.998800933}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.41555917,"y":3.68533278,"z":-10.6636066},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.460602552,"g":0.7698938,"b":0.04840634,"a":0.998287737}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.398231924,"y":3.23151088,"z":-10.8245573},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.308962941,"g":0.529950142,"b":0.361520052,"a":0.9988954}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.40286076,"y":3.8102262,"z":-10.8069477},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":0.287934422,"g":0.88347894,"b":0.0660891458,"a":0.999524}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.90471578,"y":3.80234075,"z":-13.1336794},"radius":1.0,"force":50.0,"drag":0.100003928,"mainColor":{"r":0.5096769,"g":0.714765668,"b":0.07294098,"a":0.997992635}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.82717252,"y":3.60622334,"z":-13.3210411},"radius":1.0,"force":50.0,"drag":0.100565776,"mainColor":{"r":0.58662343,"g":0.6285315,"b":0.1106854,"a":0.9974729}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.80746424,"y":3.510777,"z":-13.3475256},"radius":1.0,"force":50.0,"drag":0.103014067,"mainColor":{"r":0.855381,"g":0.340025216,"b":0.20806025,"a":0.9955921}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.015305,"y":3.95149612,"z":-13.8291407},"radius":1.0,"force":50.0,"drag":0.184147,"mainColor":{"r":0.946689069,"g":0.2368591,"b":0.255275339,"a":0.9950239}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.95199966,"y":4.46055746,"z":-13.5640383},"radius":1.0,"force":50.0,"drag":0.148817316,"mainColor":{"r":0.9032157,"g":0.288490146,"b":0.2259169,"a":0.9952646}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.4756403,"y":3.59977913,"z":-14.3675165},"radius":1.0,"force":50.0,"drag":0.712368131,"mainColor":{"r":0.994869351,"g":0.174632058,"b":0.301699281,"a":0.994869351}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.11474752,"y":3.92373085,"z":-13.76306},"radius":1.0,"force":50.0,"drag":0.2733368,"mainColor":{"r":0.9523123,"g":0.235511959,"b":0.244455144,"a":0.9949244}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.72951722,"y":3.72239137,"z":-15.1773806},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.99502337,"g":0.16774331,"b":0.320418835,"a":0.99502337}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.71623158,"y":3.768886,"z":-14.9642153},"radius":1.0,"force":50.0,"drag":0.7927173,"mainColor":{"r":0.994851768,"g":0.175535053,"b":0.299248844,"a":0.994851768}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.74402213,"y":3.73025322,"z":-15.1873245},"radius":1.0,"force":50.0,"drag":0.986336052,"mainColor":{"r":0.9950179,"g":0.1678367,"b":0.32016328,"a":0.9950179}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.66853237,"y":3.52637458,"z":-15.8615551},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.995176256,"g":0.08745843,"b":0.5373464,"a":0.995176256}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.66168928,"y":3.52534,"z":-15.8559818},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.995090544,"g":0.12257009,"b":0.442461163,"a":0.995090544}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.17800665,"y":3.902822,"z":-15.6035118},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.9951762,"g":0.0852166638,"b":0.5434004,"a":0.9951762}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.67871237,"y":3.44837713,"z":-16.0555267},"radius":1.19646347,"force":50.0,"drag":1.0,"mainColor":{"r":0.995243967,"g":0.07409109,"b":0.5734975,"a":0.995243967}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.04125619,"y":5.13548136,"z":-19.2573261},"radius":2.62716126,"force":50.0,"drag":1.0,"mainColor":{"r":0.9983125,"g":0.0437361337,"b":0.6578556,"a":0.9983125}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.86432528,"y":5.45549,"z":-18.4496727},"radius":2.957161,"force":50.0,"drag":1.0,"mainColor":{"r":0.998719156,"g":0.0322344527,"b":0.689232,"a":0.998719156}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.20890355,"y":6.539891,"z":-26.6005783},"radius":2.98658371,"force":50.0,"drag":1.0,"mainColor":{"r":0.999375165,"g":0.0142485052,"b":0.7383128,"a":0.999375165}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.736704,"y":9.168505,"z":-20.6120853},"radius":2.91768026,"force":50.0,"drag":1.0,"mainColor":{"r":0.9982814,"g":0.0446075536,"b":0.655478,"a":0.9982814}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.53974867,"y":8.574614,"z":-21.7872486},"radius":2.999955,"force":50.0,"drag":1.0,"mainColor":{"r":0.999418259,"g":0.0133188488,"b":0.7408568,"a":0.999418259}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.700239,"y":2.84712052,"z":-18.91071},"radius":2.96051049,"force":50.0,"drag":1.0,"mainColor":{"r":0.84498775,"g":0.015902549,"b":0.781881,"a":0.999519169}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.511741,"y":2.461698,"z":-21.746809},"radius":2.95060062,"force":50.0,"drag":1.0,"mainColor":{"r":0.4811694,"g":0.0170374084,"b":0.8921466,"a":0.99998194}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.718248,"y":2.80336523,"z":-18.926096},"radius":2.64559555,"force":50.0,"drag":1.0,"mainColor":{"r":0.885999441,"g":0.0041435333,"b":0.8014044,"a":0.9999668}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.7252779,"y":4.644599,"z":-20.3878269},"radius":2.60961056,"force":50.0,"drag":1.0,"mainColor":{"r":0.2054285,"g":0.02571448,"b":0.9542462,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.692,"y":4.260977,"z":-23.816555},"radius":2.52138019,"force":50.0,"drag":1.0,"mainColor":{"r":0.347817361,"g":0.0211063884,"b":0.9225329,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.6616964,"y":3.94557977,"z":-21.1421413},"radius":2.72465158,"force":50.0,"drag":1.0,"mainColor":{"r":0.529296935,"g":0.0152332224,"b":0.8821131,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.72044,"y":4.664798,"z":-20.370779},"radius":1.3787961,"force":50.0,"drag":1.0,"mainColor":{"r":0.411718339,"g":0.0190383829,"b":0.908300638,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.7705593,"y":4.58351755,"z":-20.4553528},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.220513821,"g":0.0252262782,"b":0.950886369,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.130167,"y":1.661132,"z":-20.945507},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.5652424,"g":0.0140699288,"b":0.874107242,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.8806038,"y":1.30019736,"z":-22.3896275},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.448739022,"g":0.0178403575,"b":0.9000551,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.4060163,"y":1.82887661,"z":-20.8873844},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.7807136,"g":0.0070967,"b":0.8261167,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.70514,"y":0.658632755,"z":-21.84763},"radius":1.00293243,"force":50.0,"drag":1.0,"mainColor":{"r":0.473216176,"g":0.0170795321,"b":0.8945188,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.405489,"y":0.5059155,"z":-21.6516685},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.622702956,"g":0.0122249983,"b":0.861269832,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.553957,"y":0.7556913,"z":-21.0626526},"radius":1.0,"force":50.0,"drag":1.0,"mainColor":{"r":0.551678061,"g":0.0145147853,"b":0.8771124,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.5255013,"y":0.8897677,"z":-21.82047},"radius":1.00289488,"force":50.0,"drag":1.0,"mainColor":{"r":0.250632554,"g":0.0242746919,"b":0.9441158,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.1154919,"y":-0.179323778,"z":-23.32576},"radius":1.0806936,"force":50.0,"drag":1.0,"mainColor":{"r":0.2687026,"g":0.0246690474,"b":0.9374393,"a":0.999993}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.8577271,"y":-0.7284631,"z":-21.3147717},"radius":1.19504893,"force":50.0,"drag":1.0,"mainColor":{"r":0.858084857,"g":0.0210246742,"b":0.7601098,"a":0.9959536}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.8053722,"y":0.23249656,"z":-21.6121655},"radius":1.17674756,"force":50.0,"drag":1.0,"mainColor":{"r":0.8495825,"g":0.0159615558,"b":0.7763323,"a":0.995873451}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.8610344,"y":-0.391816854,"z":-20.1517086},"radius":1.14774227,"force":50.0,"drag":1.0,"mainColor":{"r":0.975116134,"g":0.0352637,"b":0.685075462,"a":0.995689}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.8260441,"y":-0.751711547,"z":-18.9791737},"radius":1.24744892,"force":50.0,"drag":1.0,"mainColor":{"r":0.996665657,"g":0.103993051,"b":0.4938494,"a":0.996665657}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.0315876,"y":-2.45192266,"z":-18.6059818},"radius":1.41591489,"force":50.0,"drag":1.0,"mainColor":{"r":0.9991437,"g":0.16969575,"b":0.318344057,"a":0.9991437}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.3169422,"y":-2.518565,"z":-17.8686848},"radius":1.4866569,"force":50.0,"drag":1.0,"mainColor":{"r":0.999514043,"g":0.217628464,"b":0.18918857,"a":0.999514043}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.6097488,"y":-2.70976949,"z":-17.3240471},"radius":1.42049778,"force":50.0,"drag":1.0,"mainColor":{"r":0.999614537,"g":0.2464194,"b":0.111516468,"a":0.999614537}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.1815872,"y":-4.938729,"z":-12.57103},"radius":1.42380261,"force":50.0,"drag":1.0,"mainColor":{"r":0.9999353,"g":0.278926581,"b":0.0239795558,"a":0.9999353}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.6781445,"y":-4.70175,"z":-12.0422335},"radius":1.56579292,"force":50.0,"drag":1.0,"mainColor":{"r":0.999950051,"g":0.280540556,"b":0.01963226,"a":0.999950051}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.1951542,"y":-4.57681465,"z":-9.897425},"radius":1.15440536,"force":50.0,"drag":1.0,"mainColor":{"r":0.999992,"g":0.286742061,"b":0.002917996,"a":0.999992}}]},"time":2.36165953,"easeInWeight":0.414921552,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.242751,"y":-0.41977,"z":0.365646839},"radius":8.344982,"force":49.173542,"drag":12.2682018,"mainColor":{"r":0.28203088,"g":0.08290473,"b":0.204636335,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5687294,"y":-0.0624218,"z":-3.99030733},"radius":8.969461,"force":44.48998,"drag":4.947832,"mainColor":{"r":0.42723155,"g":0.124664262,"b":0.300855368,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.99519444,"y":0.841687441,"z":-0.408646584},"radius":8.365844,"force":48.9482231,"drag":14.5422211,"mainColor":{"r":0.5269402,"g":0.039298337,"b":0.337408,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.016695,"y":5.6702795,"z":-5.18679571},"radius":8.424922,"force":46.9921646,"drag":12.04597,"mainColor":{"r":0.6998538,"g":0.18424508,"b":0.4994517,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.32691336,"y":-0.992492437,"z":-5.31169033},"radius":9.746911,"force":49.6973,"drag":12.6625185,"mainColor":{"r":0.396973282,"g":0.128566951,"b":0.2850736,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.5167656,"y":-2.63416338,"z":-8.698715},"radius":8.51614952,"force":41.4758568,"drag":4.651467,"mainColor":{"r":0.676018953,"g":0.114666209,"b":0.5077165,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.337742,"y":1.55966485,"z":-2.085785},"radius":8.87083149,"force":48.3781052,"drag":15.0037546,"mainColor":{"r":0.176639751,"g":0.08860493,"b":0.142423168,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.34366226,"y":0.439895749,"z":-9.176376},"radius":9.985642,"force":50.0,"drag":7.17682266,"mainColor":{"r":0.7517952,"g":0.08515813,"b":0.4681204,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.03889,"y":5.171268,"z":-3.17820644},"radius":8.856904,"force":48.2515144,"drag":11.5671053,"mainColor":{"r":0.334542274,"g":0.07739828,"b":0.234597877,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.508873,"y":0.826696038,"z":-2.256782},"radius":9.790847,"force":49.2299576,"drag":12.3566465,"mainColor":{"r":0.363177,"g":0.103689454,"b":0.262445748,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.25067472,"y":2.71211481,"z":-3.71428061},"radius":9.513592,"force":48.3713875,"drag":10.2865429,"mainColor":{"r":0.479587168,"g":0.0891778544,"b":0.327846438,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.2309895,"y":1.19829273,"z":-2.77372265},"radius":9.936361,"force":49.7554169,"drag":6.056608,"mainColor":{"r":0.5305042,"g":0.02703497,"b":0.3506331,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.30549,"y":3.912782,"z":-6.75530672},"radius":9.947311,"force":50.0,"drag":7.265125,"mainColor":{"r":0.793365359,"g":0.0358633958,"b":0.541805,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.194705,"y":-1.8399334,"z":-7.37632656},"radius":9.467937,"force":46.81467,"drag":6.097337,"mainColor":{"r":0.927503347,"g":0.045453988,"b":0.580316246,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.84647,"y":2.97985744,"z":-2.31531382},"radius":9.94051,"force":50.0,"drag":10.1467609,"mainColor":{"r":0.4817685,"g":0.07541658,"b":0.325047582,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.6198015,"y":3.50136614,"z":-9.602156},"radius":9.6792345,"force":49.8630028,"drag":13.1198854,"mainColor":{"r":0.5212456,"g":0.32861957,"b":0.348804951,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.9383907,"y":0.0246174335,"z":-7.827169},"radius":8.527346,"force":43.00784,"drag":7.151023,"mainColor":{"r":0.784130037,"g":0.09434372,"b":0.5243253,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.330565,"y":-0.7150035,"z":-9.988039},"radius":9.450343,"force":46.8474731,"drag":5.4744463,"mainColor":{"r":0.545703351,"g":0.197114244,"b":0.355949342,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.0625114,"y":4.99835253,"z":-5.44534874},"radius":8.046293,"force":47.388504,"drag":23.7311249,"mainColor":{"r":0.543310642,"g":0.06505893,"b":0.384293377,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.1010008,"y":-0.117061138,"z":0.284595966},"radius":8.474421,"force":48.30753,"drag":17.020422,"mainColor":{"r":0.387335777,"g":0.187957436,"b":0.3098432,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.1506567,"y":-3.27905369,"z":-1.87059879},"radius":3.79279,"force":37.3885,"drag":28.6546783,"mainColor":{"r":0.8998399,"g":0.90031904,"b":0.7684115,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5452671,"y":2.0791285,"z":-4.11665344},"radius":9.864835,"force":49.4128723,"drag":5.046076,"mainColor":{"r":0.800549,"g":0.0119666327,"b":0.5040358,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5996342,"y":4.09505749,"z":-2.70761633},"radius":9.984704,"force":50.0,"drag":6.210657,"mainColor":{"r":0.719955266,"g":0.00215406646,"b":0.4536588,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.127985,"y":-0.8239274,"z":-7.341761},"radius":4.33070374,"force":38.4354973,"drag":28.9696732,"mainColor":{"r":0.6162395,"g":0.3916677,"b":0.369253546,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.92018,"y":2.42337,"z":-4.73427439},"radius":5.97070932,"force":35.93918,"drag":15.0868359,"mainColor":{"r":0.399689764,"g":0.116005614,"b":0.272672474,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.698593,"y":0.589663,"z":-8.995113},"radius":9.564441,"force":47.4973755,"drag":5.914558,"mainColor":{"r":0.841935754,"g":0.08040752,"b":0.528150141,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.030386,"y":2.32191181,"z":-0.182080746},"radius":9.785146,"force":50.0,"drag":13.0893869,"mainColor":{"r":0.2639974,"g":0.127203852,"b":0.210829735,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.3352165,"y":3.808236,"z":-8.634553},"radius":9.896659,"force":50.0,"drag":8.966427,"mainColor":{"r":0.674898267,"g":0.133383214,"b":0.485964954,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.9760361,"y":0.6474807,"z":-3.4122138},"radius":9.708909,"force":48.37912,"drag":5.607286,"mainColor":{"r":0.5111482,"g":0.0476167127,"b":0.347548634,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.2396393,"y":0.175798655,"z":-4.201578},"radius":8.67676,"force":43.3372726,"drag":5.571946,"mainColor":{"r":0.265008539,"g":0.173360854,"b":0.207374662,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.347167,"y":1.91560054,"z":-8.661088},"radius":9.747095,"force":48.7052231,"drag":6.66706038,"mainColor":{"r":0.8642484,"g":0.07069608,"b":0.5470906,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.06493568,"y":2.8461802,"z":0.356502533},"radius":8.701011,"force":50.0,"drag":16.6574173,"mainColor":{"r":0.472897142,"g":0.022357218,"b":0.297785372,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.2212791,"y":1.60544026,"z":-7.56597853},"radius":7.204497,"force":45.06863,"drag":18.6677914,"mainColor":{"r":0.724992931,"g":0.141735226,"b":0.484747142,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.58536625,"y":-0.218322515,"z":1.78380108},"radius":7.9073844,"force":49.58649,"drag":15.3172522,"mainColor":{"r":0.597705543,"g":0.1352438,"b":0.417960137,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.84834576,"y":-0.4294386,"z":1.03692245},"radius":8.415671,"force":50.0,"drag":12.54676,"mainColor":{"r":0.461758524,"g":0.0513088033,"b":0.30222863,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.7581978,"y":-0.2538209,"z":-5.47670364},"radius":7.688269,"force":41.1961823,"drag":9.156296,"mainColor":{"r":0.6806091,"g":0.182838619,"b":0.412153035,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.4854517,"y":-10.0765352,"z":-6.07834625},"radius":9.929266,"force":49.56549,"drag":2.0,"mainColor":{"r":0.984844565,"g":0.9858778,"b":0.701453447,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.433103,"y":-13.991724,"z":-4.600799},"radius":9.418516,"force":46.4280243,"drag":2.0,"mainColor":{"r":0.09283669,"g":0.0929647,"b":0.0577256046,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.22039032,"y":-14.3641,"z":-7.26351357},"radius":9.579167,"force":47.4148827,"drag":2.0,"mainColor":{"r":0.0606042333,"g":0.0525656864,"b":0.0452453122,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.47567,"y":-9.887702,"z":-5.35646725},"radius":9.251226,"force":45.40039,"drag":2.0,"mainColor":{"r":0.454586565,"g":0.35492456,"b":0.288562268,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.114077,"y":-9.980541,"z":-4.681209},"radius":8.802613,"force":42.6446266,"drag":2.0,"mainColor":{"r":0.231225342,"g":0.23152113,"b":0.150082976,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.042285,"y":-17.0626068,"z":-5.19485331},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.0550174378,"g":0.05508339,"b":0.0369287319,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.79610157,"y":-17.2159157,"z":-8.210822},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.0843021348,"g":0.08434924,"b":0.07138029,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.73408127,"y":-7.0646286,"z":-3.01610374},"radius":9.09314,"force":44.429287,"drag":2.0,"mainColor":{"r":0.259052843,"g":0.259263426,"b":0.201295063,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.009026,"y":-13.671669,"z":-9.770706},"radius":8.879858,"force":43.11913,"drag":2.0,"mainColor":{"r":0.183721736,"g":0.0315999538,"b":0.124194853,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.99983191,"y":-11.7226725,"z":-6.65911865},"radius":7.35098171,"force":33.7274628,"drag":2.0,"mainColor":{"r":0.201354638,"g":0.0149120288,"b":0.12622115,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.938135,"y":-10.5821676,"z":-3.72807264},"radius":9.684709,"force":48.06321,"drag":2.0,"mainColor":{"r":0.498537183,"g":0.4992669,"b":0.298380733,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.87860942,"y":-11.3896818,"z":-9.666519},"radius":7.13017,"force":32.37104,"drag":2.0,"mainColor":{"r":0.282213,"g":0.01890275,"b":0.178241342,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.13421965,"y":-6.910589,"z":-10.3078175},"radius":7.76417,"force":36.265625,"drag":2.0,"mainColor":{"r":0.507234633,"g":0.0253945366,"b":0.315668166,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.5078337,"y":-8.57495,"z":-13.0326929},"radius":6.53035069,"force":28.6864452,"drag":2.0,"mainColor":{"r":0.686561048,"g":0.0218194127,"b":0.422324747,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.271616,"y":-13.7784824,"z":-6.868892},"radius":8.438384,"force":40.4072151,"drag":2.0,"mainColor":{"r":0.23457101,"g":0.0182240587,"b":0.146860033,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-4.03761435,"y":-7.3739686,"z":-4.524757},"radius":8.12112,"force":38.4583054,"drag":2.0,"mainColor":{"r":0.350087076,"g":0.0157384779,"b":0.219182014,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.4412951,"y":-0.727164745,"z":-6.19773},"radius":8.484227,"force":40.68882,"drag":2.0,"mainColor":{"r":0.3443729,"g":0.0417703055,"b":0.226244122,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.7989285,"y":-1.12641382,"z":-8.312595},"radius":9.661992,"force":47.9236679,"drag":2.0,"mainColor":{"r":0.5717178,"g":0.08018049,"b":0.364525139,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-3.91691923,"y":-0.298291445,"z":-10.13726},"radius":9.501966,"force":46.9406548,"drag":2.0,"mainColor":{"r":0.19446069,"g":0.08430259,"b":0.151645437,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-2.39008784,"y":4.1211834,"z":-8.066551},"radius":7.59238434,"force":35.2103577,"drag":2.0,"mainColor":{"r":0.0939222649,"g":0.0939222649,"b":0.0939222649,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.79630947,"y":1.38595426,"z":-15.6329079},"radius":8.565642,"force":41.1889458,"drag":2.0,"mainColor":{"r":0.27317965,"g":0.00581121957,"b":0.170382947,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.04175925,"y":4.20143032,"z":-9.66149},"radius":6.62246,"force":29.25225,"drag":2.0,"mainColor":{"r":0.56039387,"g":0.07619176,"b":0.3721986,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.8514564,"y":-4.0649147,"z":-14.6483479},"radius":9.105458,"force":44.5049553,"drag":2.0,"mainColor":{"r":0.122282133,"g":0.122346558,"b":0.104615577,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.27600741,"y":-0.0397219658,"z":-11.4592953},"radius":8.815022,"force":42.7208557,"drag":2.0,"mainColor":{"r":0.208950371,"g":0.0284490641,"b":0.13291429,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-2.12309456,"y":-1.57022333,"z":-15.6218147},"radius":9.589037,"force":47.4755173,"drag":2.0,"mainColor":{"r":0.441569239,"g":0.09101032,"b":0.305317163,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.48060465,"y":4.73452473,"z":-9.022976},"radius":8.370944,"force":39.9929428,"drag":2.0,"mainColor":{"r":0.631064832,"g":0.143665582,"b":0.4528253,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.05243349,"y":-1.38895607,"z":-11.0529652},"radius":9.006579,"force":43.89756,"drag":2.0,"mainColor":{"r":0.5956762,"g":0.0172143951,"b":0.3652992,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.41582632,"y":3.58826971,"z":-17.1003723},"radius":7.852177,"force":36.80623,"drag":2.0,"mainColor":{"r":0.0512794666,"g":0.0473248921,"b":0.0537281334,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.6938524,"y":5.614012,"z":-6.78156376},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.746836,"g":0.0194279477,"b":0.531136,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.4715309,"y":4.111723,"z":-8.588629},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.7294027,"g":0.11801222,"b":0.502995551,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.675251,"y":4.76390839,"z":-12.6295433},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.748642,"g":0.478192717,"b":0.4496699,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.7724314,"y":2.207353,"z":-15.5253382},"radius":8.83688,"force":42.8551178,"drag":2.0,"mainColor":{"r":0.465070456,"g":0.296800733,"b":0.5184282,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.0764265,"y":0.434451342,"z":-9.730542},"radius":8.815295,"force":42.72253,"drag":2.0,"mainColor":{"r":0.6426417,"g":0.112293541,"b":0.494189978,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.807709,"y":0.815533161,"z":-11.7368174},"radius":9.876074,"force":49.2387428,"drag":2.0,"mainColor":{"r":0.740844,"g":0.1231142,"b":0.4344058,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.33061,"y":3.91569638,"z":-6.22349},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.786358953,"g":0.0281686764,"b":0.5259117,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.6719055,"y":8.344363,"z":-10.7012768},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.8360394,"g":0.8360835,"b":0.823966861,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.506465,"y":3.81391716,"z":-7.22783375},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.820037544,"g":0.0343580581,"b":0.555904031,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.089859,"y":1.23145771,"z":-7.014084},"radius":9.546964,"force":47.2170639,"drag":2.0,"mainColor":{"r":0.4827663,"g":0.16918546,"b":0.381432533,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.6939049,"y":3.02625751,"z":-9.184518},"radius":9.895983,"force":49.36104,"drag":2.0,"mainColor":{"r":0.5951126,"g":0.2003697,"b":0.434978366,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.0056686,"y":9.362417,"z":-13.346344},"radius":9.54198,"force":47.18645,"drag":2.0,"mainColor":{"r":0.9989875,"g":1.0,"b":0.7212721,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.2947569,"y":3.61186314,"z":-10.0435944},"radius":9.986597,"force":49.9176674,"drag":2.0,"mainColor":{"r":0.5128037,"g":0.316602767,"b":0.372133583,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.6584778,"y":10.7140331,"z":-8.151087},"radius":8.775401,"force":42.4774666,"drag":2.0,"mainColor":{"r":0.993085265,"g":0.9931682,"b":0.970349848,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.7624807,"y":2.97607064,"z":-5.46109056},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.813911259,"g":0.01776834,"b":0.5220761,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.5239983,"y":2.71751761,"z":-11.8833447},"radius":8.633623,"force":41.60654,"drag":2.0,"mainColor":{"r":0.264043838,"g":0.07684604,"b":0.379958063,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.23478,"y":4.32188225,"z":-5.588125},"radius":9.595952,"force":47.51799,"drag":2.0,"mainColor":{"r":0.250496864,"g":0.117110044,"b":0.239139676,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.2038918,"y":1.03514147,"z":-6.61894655},"radius":5.56724072,"force":22.770195,"drag":2.0,"mainColor":{"r":0.613269,"g":0.458494753,"b":0.312550336,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.5389462,"y":8.1984005,"z":-7.167948},"radius":9.450018,"force":46.62154,"drag":2.0,"mainColor":{"r":0.9007064,"g":0.307443768,"b":0.6420378,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.7267532,"y":9.446003,"z":-14.0714483},"radius":9.634936,"force":47.7574654,"drag":2.0,"mainColor":{"r":0.5445031,"g":0.5449035,"b":0.434669346,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.6151524,"y":9.050395,"z":-8.019192},"radius":10.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.9095963,"g":0.910335243,"b":0.70692426,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":22.195116,"y":-16.5788765,"z":-1.99116278},"radius":2.11784935,"force":44.9324722,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.348196,"y":-12.9737091,"z":-5.25192928},"radius":2.065291,"force":47.192482,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":23.4795036,"y":-10.1466045,"z":1.37348557},"radius":2.18982863,"force":41.837368,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":22.580864,"y":-7.87921429,"z":0.09925985},"radius":2.17436337,"force":42.5023727,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":24.1888142,"y":-17.6990929,"z":4.20954},"radius":2.329074,"force":35.8498268,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":22.18941,"y":-17.3750076,"z":2.61315536},"radius":2.274031,"force":38.2166748,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.9442959,"y":-17.5703487,"z":-2.50532055},"radius":2.05382776,"force":47.68541,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":22.9257946,"y":-15.82906,"z":4.76922941},"radius":2.29486585,"force":37.3207626,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.9922619,"y":-19.8815269,"z":-2.49976683},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.1788158,"y":-20.1788864,"z":-2.06586123},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.9988779,"g":0.9988779,"b":0.9988779,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":24.3082657,"y":-20.6235867,"z":-0.332897663},"radius":2.3239758,"force":36.06904,"drag":2.0,"mainColor":{"r":0.986045539,"g":0.977696359,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.41954,"y":-19.03496,"z":-2.21073341},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.4306717,"y":-14.7097,"z":-2.40539455},"radius":2.15300632,"force":43.42073,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":24.3545189,"y":-18.4392757,"z":2.05807257},"radius":2.3567338,"force":34.6604424,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.33359,"y":-13.8911533,"z":2.00800157},"radius":2.2018218,"force":41.32166,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.0157719,"y":-11.0764961,"z":-2.08203125},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.004034,"y":-22.2612915,"z":0.6099272},"radius":2.13231444,"force":44.3104744,"drag":2.0,"mainColor":{"r":0.970770538,"g":0.970770538,"b":0.970770538,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.720125,"y":-15.1743469,"z":3.52396917},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.695281565,"g":0.695281565,"b":0.695281565,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.7794342,"y":-17.2462254,"z":-5.80853939},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.296731055,"g":0.296825975,"b":0.270679861,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.24925,"y":-10.2228832,"z":-6.457009},"radius":2.40547,"force":32.5647964,"drag":2.0,"mainColor":{"r":0.2763135,"g":0.0141549734,"b":0.1717596,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.28849208,"y":-9.240342,"z":-8.502955},"radius":2.46934962,"force":29.8179665,"drag":2.0,"mainColor":{"r":0.426012576,"g":0.009255376,"b":0.261999369,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.99709654,"y":-12.36252,"z":-7.00468731},"radius":2.49273872,"force":28.8122368,"drag":2.0,"mainColor":{"r":0.123019733,"g":0.0399888866,"b":0.08303692,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.853587,"y":-12.075304,"z":-8.396101},"radius":2.140624,"force":43.95316,"drag":2.0,"mainColor":{"r":0.06550198,"g":0.0655338839,"b":0.0567502677,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-2.82629776,"y":-5.27183867,"z":-9.720245},"radius":2.19944358,"force":41.42392,"drag":2.0,"mainColor":{"r":0.0615518354,"g":0.0487979725,"b":0.0442291759,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.503628433,"y":-3.82097125,"z":-10.3950624},"radius":2.256813,"force":38.95704,"drag":2.0,"mainColor":{"r":0.387266427,"g":0.009439735,"b":0.237346739,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-4.78020859,"y":-2.80955458,"z":-12.5760851},"radius":2.01445246,"force":49.3785477,"drag":2.0,"mainColor":{"r":0.3821579,"g":0.259258538,"b":0.326757967,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.24666929,"y":-3.50298047,"z":-9.48352051},"radius":2.1829,"force":42.1353073,"drag":2.0,"mainColor":{"r":0.245075643,"g":0.03424918,"b":0.151426136,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.505287,"y":2.22519064,"z":-7.79796553},"radius":2.09236026,"force":46.02851,"drag":2.0,"mainColor":{"r":0.527085066,"g":0.256436944,"b":0.424870342,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.39695978,"y":0.1679318,"z":-16.7636185},"radius":2.05430174,"force":47.6650238,"drag":2.0,"mainColor":{"r":0.3185666,"g":0.0509896427,"b":0.214567214,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.61920023,"y":1.73523283,"z":-12.8658009},"radius":2.23566318,"force":39.86647,"drag":2.0,"mainColor":{"r":0.657543063,"g":0.017804971,"b":0.408122271,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.32452726,"y":4.841247,"z":-10.4640694},"radius":2.30377841,"force":36.93752,"drag":2.0,"mainColor":{"r":0.3627443,"g":0.168789908,"b":0.303089768,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.0412794948,"y":3.61699867,"z":-13.4916019},"radius":2.28237844,"force":37.8577347,"drag":2.0,"mainColor":{"r":0.180527568,"g":0.0203628037,"b":0.118276179,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.77147865,"y":7.831666,"z":-15.4018669},"radius":2.452419,"force":30.54598,"drag":2.0,"mainColor":{"r":0.3614262,"g":0.3614262,"b":0.3614262,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.92049456,"y":8.873439,"z":-9.296661},"radius":2.128549,"force":44.4723778,"drag":2.0,"mainColor":{"r":0.8830061,"g":0.7004669,"b":0.8120584,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.11273,"y":7.562439,"z":-18.0857372},"radius":2.46615553,"force":29.95531,"drag":2.0,"mainColor":{"r":0.132736772,"g":0.132736772,"b":0.132736772,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.996775,"y":6.29843426,"z":-8.688505},"radius":2.4262712,"force":31.6703472,"drag":2.0,"mainColor":{"r":0.624798954,"g":0.331632674,"b":0.510853767,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.757581,"y":10.5403271,"z":-16.6099377},"radius":2.16002,"force":43.1191368,"drag":2.0,"mainColor":{"r":0.7943803,"g":0.7943803,"b":0.7943803,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.835621,"y":9.847838,"z":-10.2899742},"radius":2.07330918,"force":46.84771,"drag":2.0,"mainColor":{"r":0.9123851,"g":0.828711033,"b":0.879863441,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.2192039,"y":9.922547,"z":-10.33659},"radius":2.08553147,"force":46.3221436,"drag":2.0,"mainColor":{"r":0.9996951,"g":1.0,"b":0.9160694,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.0673447,"y":7.394375,"z":-10.9938393},"radius":2.00500369,"force":49.78484,"drag":2.0,"mainColor":{"r":0.8673207,"g":0.8682738,"b":0.6059335,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.1457148,"y":3.088413,"z":-7.03410769},"radius":2.03644872,"force":48.4327126,"drag":2.0,"mainColor":{"r":0.5117821,"g":0.19640553,"b":0.3847303,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.9247885,"y":4.37297773,"z":-9.876781},"radius":2.01025152,"force":49.55918,"drag":2.0,"mainColor":{"r":0.590067267,"g":0.287637949,"b":0.4565016,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.1632862,"y":11.1221533,"z":-12.6019611},"radius":2.15157437,"force":43.4823036,"drag":2.0,"mainColor":{"r":0.7106758,"g":0.711295843,"b":0.540602863,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.8577108,"y":4.391165,"z":-5.71611071},"radius":2.029806,"force":48.71835,"drag":2.0,"mainColor":{"r":0.3264427,"g":0.104281321,"b":0.287142366,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.64245,"y":10.5712395,"z":-11.2672977},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.2686768,"y":13.3807,"z":-9.18835449},"radius":2.09642148,"force":45.8538742,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.088377,"y":5.211632,"z":-16.4665852},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.2938959,"g":0.2939406,"b":0.281622559,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.6589928,"y":11.3400555,"z":-12.1923809},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.901364863,"g":0.901364863,"b":0.901364863,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.1815147,"y":8.73589,"z":-13.4648323},"radius":2.046663,"force":47.9934845,"drag":2.0,"mainColor":{"r":0.803065658,"g":0.8039314,"b":0.56558603,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.5582924,"y":4.65800333,"z":-14.3586941},"radius":2.01223755,"force":49.4737854,"drag":2.0,"mainColor":{"r":0.443929374,"g":0.4435071,"b":0.3678177,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.3593483,"y":12.380477,"z":-12.8650436},"radius":2.07284045,"force":46.8678627,"drag":2.0,"mainColor":{"r":0.998521745,"g":1.0,"b":0.593058467,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":30.5913429,"y":10.4405336,"z":-14.3523464},"radius":2.20118427,"force":41.3490753,"drag":2.0,"mainColor":{"r":0.5268234,"g":0.294665843,"b":0.10659676,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":33.7667542,"y":7.186622,"z":-11.08762},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.492559165,"g":0.24355948,"b":0.04757257,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":33.20232,"y":8.794674,"z":-9.691648},"radius":2.00565267,"force":49.7569351,"drag":2.0,"mainColor":{"r":0.195919231,"g":0.09684451,"b":0.01886308,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":42.17208,"y":10.0116625,"z":-11.9994793},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.843914,"g":0.7710122,"b":0.03043921,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":42.02929,"y":15.185297,"z":-7.59940052},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.526798368,"g":0.2946432,"b":0.103879832,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":43.70549,"y":13.64041,"z":-4.130842},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.602056444,"g":0.40678668,"b":0.2530905,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":42.7798424,"y":10.1711054,"z":-3.34336853},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.6475896,"g":0.4756284,"b":0.161474749,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":45.7534142,"y":13.7995,"z":-3.8401618},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.96222043,"g":0.9436821,"b":0.9290906,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":40.94447,"y":7.703806,"z":-6.73604727},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.8911383,"g":0.839951,"b":0.3865426,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":48.0510139,"y":3.04747844,"z":-3.82640743},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.849181354,"g":0.775175154,"b":0.7169251,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":41.3862572,"y":3.664567,"z":-8.843596},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.899216652,"g":0.8528023,"b":0.253299475,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":40.0145531,"y":-0.7156315,"z":-6.95210457},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.866713762,"g":0.802495,"b":0.532610953,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":47.3968353,"y":2.32968855,"z":-1.08940268},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.858433068,"g":0.788992,"b":0.7296356,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":45.46833,"y":-2.59630823,"z":-7.357914},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.6703266,"g":0.50882566,"b":0.331944048,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":44.50406,"y":-2.878858,"z":-7.410923},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.613811135,"g":0.424754947,"b":0.193415269,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":42.2657738,"y":-6.938142,"z":-1.744091},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.9788624,"g":0.970379531,"b":0.6138414,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":43.9565735,"y":-9.680321,"z":-3.445712},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.9999769,"g":1.0,"b":0.9936293,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":35.6805878,"y":-12.9156322,"z":3.69353676},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":40.3519478,"y":-19.4592113,"z":1.94304848},"radius":2.0,"force":8.323626,"drag":1.44901693,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":37.56964,"y":-20.083271,"z":-0.6412897},"radius":2.31899619,"force":8.545245,"drag":1.78995442,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":34.619297,"y":-22.9088745,"z":0.01918912},"radius":2.451676,"force":9.419038,"drag":1.69849992,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":31.2806,"y":-27.8030014,"z":10.8249969},"radius":2.572308,"force":7.31724644,"drag":1.9039222,"mainColor":{"r":0.7451912,"g":0.592734039,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":36.61997,"y":-29.703495,"z":1.54419971},"radius":2.38738155,"force":8.160198,"drag":1.9043287,"mainColor":{"r":0.7586488,"g":0.6142436,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":35.58768,"y":-22.5387077,"z":9.750023},"radius":2.57728839,"force":7.58081245,"drag":1.19382572,"mainColor":{"r":0.780799448,"g":0.649689555,"b":0.9927334,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":33.96657,"y":-26.3927746,"z":7.820589},"radius":2.79327726,"force":7.181319,"drag":1.91512764,"mainColor":{"r":0.7610532,"g":0.6180865,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":38.50709,"y":-35.35997,"z":11.7980518},"radius":2.378784,"force":9.197982,"drag":1.67422664,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":34.6383743,"y":-35.5741539,"z":12.3569288},"radius":2.02107835,"force":15.5409727,"drag":1.67552638,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":35.5865936,"y":-32.431572,"z":4.87103653},"radius":2.69834375,"force":7.839514,"drag":1.85773253,"mainColor":{"r":0.9444256,"g":0.9111743,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":26.8940449,"y":-33.0537262,"z":9.9753685},"radius":2.48092914,"force":7.858906,"drag":1.64594531,"mainColor":{"r":0.8117446,"g":0.6991076,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":30.44038,"y":-31.2385387,"z":11.4388075},"radius":2.48544979,"force":7.76936054,"drag":1.95185506,"mainColor":{"r":0.7774446,"g":0.644285262,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":28.3082085,"y":-33.86308,"z":13.3898468},"radius":2.2489078,"force":8.641975,"drag":1.94830275,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":26.3439217,"y":-33.64039,"z":2.303574},"radius":2.67387557,"force":7.308396,"drag":1.6580807,"mainColor":{"r":0.8651287,"g":0.7850238,"b":0.9990117,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":28.5766315,"y":-29.4280415,"z":3.07273316},"radius":2.6550405,"force":7.749799,"drag":1.5546726,"mainColor":{"r":0.8099979,"g":0.6963159,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.2725964,"y":-33.0905457,"z":7.365692},"radius":2.1137526,"force":22.0265331,"drag":1.715402,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":28.012085,"y":-31.7914848,"z":6.52660465},"radius":2.54834485,"force":7.51535749,"drag":1.50856161,"mainColor":{"r":0.7532116,"g":0.605553269,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.1469727,"y":-34.965023,"z":9.235015},"radius":2.01479077,"force":35.8009377,"drag":1.87713552,"mainColor":{"r":0.9368412,"g":0.9368412,"b":0.9368412,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.2160683,"y":-34.0948143,"z":7.872796},"radius":2.14770913,"force":43.6485062,"drag":2.0,"mainColor":{"r":0.817892134,"g":0.817892134,"b":0.817892134,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.60751,"y":-35.0448837,"z":9.664148},"radius":2.02885842,"force":47.21316,"drag":2.0,"mainColor":{"r":0.84151417,"g":0.84151417,"b":0.84151417,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.3308,"y":-29.0365524,"z":4.74569035},"radius":2.55068469,"force":26.3205452,"drag":2.0,"mainColor":{"r":0.8480718,"g":0.8480718,"b":0.8480718,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.349987,"y":-28.5795574,"z":3.294585},"radius":2.64557481,"force":22.2403,"drag":2.0,"mainColor":{"r":0.234343082,"g":0.234343082,"b":0.234343082,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.84344,"y":-31.88997,"z":5.81143475},"radius":2.651342,"force":21.9922924,"drag":2.0,"mainColor":{"r":0.08393932,"g":0.08393932,"b":0.08393932,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.4831886,"y":-25.5103912,"z":5.867724},"radius":2.40405822,"force":32.6254959,"drag":2.0,"mainColor":{"r":0.6467052,"g":0.6467052,"b":0.6467052,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.8454,"y":-29.9751854,"z":-1.98733187},"radius":2.43354964,"force":31.3573742,"drag":2.0,"mainColor":{"r":0.13707009,"g":0.13707009,"b":0.13707009,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.9450216,"y":-28.1552982,"z":3.58773875},"radius":2.61091566,"force":23.7306252,"drag":2.0,"mainColor":{"r":0.578037,"g":0.578037,"b":0.578037,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.5941954,"y":-28.8194332,"z":0.692312956},"radius":2.681631,"force":20.6898632,"drag":2.0,"mainColor":{"r":0.268177181,"g":0.268177181,"b":0.268177181,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.6994638,"y":-24.999897,"z":6.20346069},"radius":2.38363051,"force":33.50388,"drag":2.0,"mainColor":{"r":0.8211208,"g":0.8211208,"b":0.8211208,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.1677828,"y":-28.5230064,"z":-2.7476325},"radius":2.21181035,"force":40.8921623,"drag":2.0,"mainColor":{"r":0.09447991,"g":0.09447991,"b":0.09447991,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.80715847,"y":-24.7289562,"z":-2.99633217},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.0773514956,"g":0.0773514956,"b":0.0773514956,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.25366664,"y":-19.0992355,"z":2.98769665},"radius":2.031003,"force":48.6668663,"drag":2.0,"mainColor":{"r":0.04371582,"g":0.0437291265,"b":0.04006638,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.421127558,"y":-18.58259,"z":-1.54500151},"radius":2.02175069,"force":49.0647163,"drag":2.0,"mainColor":{"r":0.0206090044,"g":0.0206381064,"b":0.0126267457,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.34061444,"y":-16.8815384,"z":0.934144735},"radius":2.10371852,"force":45.5401,"drag":2.0,"mainColor":{"r":0.0941547751,"g":0.0270455275,"b":0.0619306676,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-3.01321626,"y":-20.0362186,"z":-6.6948123},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.263511658,"g":0.2636763,"b":0.218370244,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.1726923,"y":-19.6049328,"z":-6.796936},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.10131523,"g":0.1013946,"b":0.0795439854,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-10.0522451,"y":-25.79057,"z":-1.928268},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.5907728,"g":0.5914788,"b":0.3971178,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-8.506746,"y":-25.35411,"z":-5.341254},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.818370759,"g":0.3100583,"b":0.556513369,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-10.37111,"y":-23.393362,"z":-5.157714},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.611808062,"g":0.6121817,"b":0.509338856,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-12.6858015,"y":-20.5149975,"z":-9.162489},"radius":2.0082016,"force":49.64733,"drag":2.0,"mainColor":{"r":0.8642258,"g":0.429183125,"b":0.5637416,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-17.4363289,"y":-21.2940559,"z":-3.84180069},"radius":2.03892922,"force":48.32605,"drag":2.0,"mainColor":{"r":0.491174221,"g":0.491464645,"b":0.411510974,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-15.263896,"y":-14.156352,"z":-6.128713},"radius":2.10616565,"force":45.4348755,"drag":2.0,"mainColor":{"r":0.432829052,"g":0.2072938,"b":0.3231893,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-20.6628971,"y":-15.1197252,"z":-8.02411652},"radius":2.28270435,"force":37.8437157,"drag":2.0,"mainColor":{"r":0.6487934,"g":0.648884833,"b":0.62372154,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-13.8961792,"y":-19.99996,"z":-8.489441},"radius":2.02749014,"force":48.8179245,"drag":2.0,"mainColor":{"r":0.895308852,"g":0.3567735,"b":0.5641763,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-17.7953911,"y":-17.3237381,"z":-2.26841021},"radius":2.11178851,"force":45.1930962,"drag":2.0,"mainColor":{"r":0.251035064,"g":0.251063764,"b":0.243169978,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-16.9263535,"y":-13.02043,"z":-11.5499191},"radius":2.13101816,"force":44.3662224,"drag":2.0,"mainColor":{"r":0.999644458,"g":1.0,"b":0.9021184,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-15.3223667,"y":-14.0981722,"z":-10.1311684},"radius":2.0589354,"force":47.46578,"drag":2.0,"mainColor":{"r":0.9646465,"g":0.6984032,"b":0.7031939,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-13.912138,"y":-15.0900316,"z":-9.891537},"radius":2.09834647,"force":45.7711,"drag":2.0,"mainColor":{"r":0.9698135,"g":0.235130891,"b":0.60977006,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-24.4013233,"y":-14.8776922,"z":-9.88375},"radius":2.43228626,"force":31.4116974,"drag":2.0,"mainColor":{"r":0.7866052,"g":0.7866052,"b":0.7866052,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-25.2092457,"y":-9.00324249,"z":-8.788793},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.58871454,"g":0.58871454,"b":0.58871454,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-18.6020489,"y":-10.1053476,"z":-17.1554527},"radius":2.3344624,"force":35.61812,"drag":2.0,"mainColor":{"r":0.725594461,"g":0.5780166,"b":0.6682352,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-18.0064754,"y":-6.432585,"z":-7.86358452},"radius":2.10143137,"force":45.63845,"drag":2.0,"mainColor":{"r":0.5724752,"g":0.5724752,"b":0.5724752,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-21.3962975,"y":-4.66634846,"z":-11.063467},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.9904331,"g":0.9904331,"b":0.9904331,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-21.6708412,"y":-9.554273,"z":-12.3358383},"radius":2.07495475,"force":46.776947,"drag":2.0,"mainColor":{"r":0.62764287,"g":0.62764287,"b":0.62764287,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-17.2068024,"y":-5.949759,"z":-16.2144127},"radius":2.00777078,"force":49.66585,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-23.0041523,"y":-8.621775,"z":-18.3411},"radius":2.01099849,"force":49.5270653,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-17.9714851,"y":-3.212206,"z":-10.9531136},"radius":2.03449845,"force":48.5165672,"drag":2.0,"mainColor":{"r":0.9939464,"g":0.9939464,"b":0.9939464,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-18.0307579,"y":-11.9957876,"z":-11.8705893},"radius":2.18641114,"force":41.984314,"drag":2.0,"mainColor":{"r":0.9999753,"g":0.8361565,"b":0.92952013,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-21.54356,"y":-8.950733,"z":-14.6122866},"radius":2.074711,"force":46.78742,"drag":2.0,"mainColor":{"r":0.754907,"g":0.754907,"b":0.754907,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-16.9516487,"y":-10.0771942,"z":-12.1662989},"radius":2.04340458,"force":48.1336021,"drag":2.0,"mainColor":{"r":0.748463452,"g":0.748463452,"b":0.748463452,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-22.49305,"y":-3.256077,"z":-16.986124},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.734069347,"g":0.734069347,"b":0.734069347,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-23.1414833,"y":-2.75094485,"z":-9.5157795},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.8848695,"g":0.8848695,"b":0.8848695,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-19.21635,"y":-2.05904984,"z":-15.8527126},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.71829,"g":0.71829,"b":0.71829,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-23.8419018,"y":-4.755891,"z":-15.2351532},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.7529779,"g":0.7529779,"b":0.7529779,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-20.0107918,"y":-0.787653446,"z":-13.2001677},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.8243235,"g":0.8243235,"b":0.8243235,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-21.5777168,"y":-15.2533455,"z":-32.3468742},"radius":2.71063113,"force":11.296957,"drag":2.0,"mainColor":{"r":0.755041,"g":0.6084772,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-15.6131477,"y":-15.4995689,"z":-39.01805},"radius":2.1318233,"force":37.78694,"drag":2.0,"mainColor":{"r":0.7677812,"g":0.629120767,"b":0.999530852,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-12.171752,"y":-12.61162,"z":-37.75222},"radius":2.47878814,"force":17.7149487,"drag":2.0,"mainColor":{"r":0.747673333,"g":0.5970037,"b":0.9988257,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-13.3103638,"y":-8.20288849,"z":-34.4893265},"radius":2.48565841,"force":16.7129288,"drag":2.0,"mainColor":{"r":0.7487245,"g":0.598381341,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-5.334689,"y":-4.294273,"z":-39.0859642},"radius":2.69416356,"force":12.9754868,"drag":2.0,"mainColor":{"r":0.8217732,"g":0.71688807,"b":0.6983342,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.4061556,"y":-4.39476156,"z":-39.9710426},"radius":2.474058,"force":23.6183586,"drag":2.0,"mainColor":{"r":0.845865667,"g":0.755938351,"b":0.604862332,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.039383,"y":1.51335192,"z":-36.9050331},"radius":2.21715975,"force":40.66214,"drag":2.0,"mainColor":{"r":0.8347695,"g":0.737989545,"b":0.6416196,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.28915834,"y":8.373204,"z":-36.2869835},"radius":2.007454,"force":14.5287437,"drag":2.0,"mainColor":{"r":0.7472639,"g":0.596139,"b":0.984121859,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.98168039,"y":9.342851,"z":-42.181015},"radius":2.02082944,"force":33.9905663,"drag":2.0,"mainColor":{"r":0.7732992,"g":0.638345063,"b":0.8819217,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.71665716,"y":5.24887228,"z":-37.2727928},"radius":2.179305,"force":33.98589,"drag":2.0,"mainColor":{"r":0.882611454,"g":0.815572262,"b":0.4494357,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.490305,"y":5.286998,"z":-42.7286873},"radius":2.46430469,"force":9.199008,"drag":2.0,"mainColor":{"r":0.939954758,"g":0.908533633,"b":0.224073514,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.24907446,"y":14.32383,"z":-39.46251},"radius":2.0,"force":9.588425,"drag":2.0,"mainColor":{"r":0.7761408,"g":0.642956,"b":0.870044053,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.21806335,"y":12.4495411,"z":-38.985733},"radius":2.0,"force":16.1457138,"drag":2.0,"mainColor":{"r":0.8145068,"g":0.705157161,"b":0.718467653,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.714344,"y":9.546753,"z":-44.192997},"radius":2.617948,"force":8.863923,"drag":2.0,"mainColor":{"r":0.819635034,"g":0.7133039,"b":0.727060139,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.83019829,"y":14.4753513,"z":-43.4040375},"radius":2.0,"force":26.5882282,"drag":2.0,"mainColor":{"r":0.7469606,"g":0.5955621,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.4758,"y":15.2416525,"z":-32.94629},"radius":2.15081048,"force":43.51515,"drag":2.0,"mainColor":{"r":0.5402426,"g":0.4420148,"b":0.6433932,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.1440544,"y":18.2503242,"z":-36.1642342},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.66571784,"g":0.536894143,"b":0.840163,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.3160076,"y":19.480238,"z":-29.5754738},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.758043468,"g":0.614245951,"b":0.998379052,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.8669729,"y":13.6649113,"z":-28.5433941},"radius":2.22854948,"force":40.1723824,"drag":2.0,"mainColor":{"r":0.5575281,"g":0.509094059,"b":0.6384783,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.00776,"y":18.054245,"z":-30.8430882},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.4319226,"g":0.349985272,"b":0.537495553,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.52681,"y":19.76147,"z":-29.08351},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.5955386,"g":0.4737311,"b":0.7991215,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.2098827,"y":13.7623215,"z":-19.6245518},"radius":2.091479,"force":46.0664024,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.1394768,"y":14.7222385,"z":-10.0747786},"radius":2.097393,"force":45.8121033,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":22.37264,"y":15.5207462,"z":4.573976},"radius":2.05523944,"force":47.6247025,"drag":2.0,"mainColor":{"r":0.9954299,"g":0.217094421,"b":0.6929135,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.8961582,"y":15.3999777,"z":-0.775664032},"radius":2.021465,"force":49.0770035,"drag":2.0,"mainColor":{"r":0.711094558,"g":0.205910429,"b":0.5147442,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":22.1908684,"y":18.0045433,"z":13.940465},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.363392353,"g":0.0575296432,"b":0.5046763,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":27.1413,"y":13.8879681,"z":11.1665859},"radius":2.055019,"force":47.6341858,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":23.8602314,"y":10.408102,"z":11.5911751},"radius":2.34168816,"force":35.30741,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.9390774,"y":13.27196,"z":13.051404},"radius":2.099375,"force":45.72688,"drag":2.0,"mainColor":{"r":0.549879,"g":0.2012204,"b":0.5983175,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":22.7484436,"y":16.53726,"z":23.4773216},"radius":2.07328081,"force":46.84893,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":24.7718868,"y":16.9370956,"z":17.7948914},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":0.819313943,"g":0.7410404,"b":0.862732649,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.5189972,"y":15.8083858,"z":25.1490211},"radius":2.0,"force":50.0,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.9696636,"y":17.6243324,"z":29.4444523},"radius":2.310022,"force":36.66905,"drag":2.0,"mainColor":{"r":0.759848535,"g":0.616161168,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":21.4238777,"y":10.2016163,"z":28.5738869},"radius":2.78205228,"force":16.3717632,"drag":2.0,"mainColor":{"r":0.7440156,"g":0.590854943,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.973011,"y":10.839716,"z":30.2598515},"radius":2.59190369,"force":24.5481567,"drag":2.0,"mainColor":{"r":0.7439279,"g":0.5907149,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":23.0713043,"y":15.1236553,"z":28.50642},"radius":2.687901,"force":20.4202652,"drag":2.0,"mainColor":{"r":0.7892719,"g":0.663189054,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":23.467453,"y":10.2372513,"z":30.9700031},"radius":2.60561562,"force":23.9585247,"drag":2.0,"mainColor":{"r":0.744044363,"g":0.590901,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.7731972,"y":9.86424351,"z":34.06645},"radius":2.46485257,"force":30.0113487,"drag":2.0,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}]},"time":3.75358033,"easeInWeight":0.5,"easeOutWeight":0.5},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.242751,"y":-0.41977,"z":0.365646839},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.002334548,"g":0.0484149344,"b":0.98915267,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5687294,"y":-0.0624218,"z":-3.99030733},"radius":1.0,"force":50.0,"drag":3.422658,"mainColor":{"r":0.0159970485,"g":0.103407919,"b":0.9429569,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.99519444,"y":0.841687441,"z":-0.408646584},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.00232114224,"g":0.0518347733,"b":0.986453,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.016695,"y":5.6702795,"z":-5.18679571},"radius":1.0,"force":50.0,"drag":4.997696,"mainColor":{"r":0.0367102027,"g":0.119937651,"b":0.959064245,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.32691336,"y":-0.992492437,"z":-5.31169033},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.000123811973,"g":0.0325458758,"b":0.9998301,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.5167656,"y":-2.63416338,"z":-8.698715},"radius":1.0,"force":50.0,"drag":4.99999952,"mainColor":{"r":0.03909877,"g":0.07875712,"b":0.960084736,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.337742,"y":1.55966485,"z":-2.085785},"radius":1.0,"force":50.0,"drag":0.110067062,"mainColor":{"r":0.0008303124,"g":0.0460140258,"b":0.9897628,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.34366226,"y":0.439895749,"z":-9.176376},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":0.004361011,"g":0.0369029939,"b":0.995426536,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.03889,"y":5.171268,"z":-3.17820644},"radius":1.0,"force":50.0,"drag":4.97745132,"mainColor":{"r":0.115960121,"g":0.4532371,"b":0.7572561,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.508873,"y":0.826696038,"z":-2.256782},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.0016546176,"g":0.04020994,"b":0.993615031,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.25067472,"y":2.71211481,"z":-3.71428061},"radius":1.0,"force":50.0,"drag":0.725088239,"mainColor":{"r":1.26800416E-07,"g":0.0323636644,"b":0.9999993,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.2309895,"y":1.19829273,"z":-2.77372265},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.005121654,"g":0.05665048,"b":0.980311751,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.30549,"y":3.912782,"z":-6.75530672},"radius":1.0,"force":50.0,"drag":4.831212,"mainColor":{"r":0.003915608,"g":0.03713781,"b":0.995367348,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.194705,"y":-1.8399334,"z":-7.37632656},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.276150823,"g":0.327038854,"b":0.7050551,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.84647,"y":2.97985744,"z":-2.31531382},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":4.365127E-05,"g":0.03281139,"b":0.9996577,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.6198015,"y":3.50136614,"z":-9.602156},"radius":1.0,"force":50.0,"drag":3.96392727,"mainColor":{"r":0.25197497,"g":0.2881938,"b":0.740098536,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.9383907,"y":0.0246174335,"z":-7.827169},"radius":1.0,"force":50.0,"drag":5.0,"mainColor":{"r":0.025217969,"g":0.0644404963,"b":0.9709205,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.330565,"y":-0.7150035,"z":-9.988039},"radius":1.0,"force":50.0,"drag":2.94282317,"mainColor":{"r":0.0506254025,"g":0.08512283,"b":0.9472956,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.0625114,"y":4.99835253,"z":-5.44534874},"radius":1.0,"force":50.0,"drag":4.515095,"mainColor":{"r":0.0804481,"g":0.223029,"b":0.833426058,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.1010008,"y":-0.117061138,"z":0.284595966},"radius":1.0,"force":50.0,"drag":1.91101241,"mainColor":{"r":0.00872585,"g":0.0535974652,"b":0.9899406,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.1506567,"y":-3.27905369,"z":-1.87059879},"radius":1.0,"force":50.0,"drag":4.99999857,"mainColor":{"r":0.16573225,"g":0.24490647,"b":0.958968163,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5452671,"y":2.0791285,"z":-4.11665344},"radius":1.0,"force":50.0,"drag":0.100004017,"mainColor":{"r":0.00135367806,"g":0.0362523347,"b":0.9966717,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5996342,"y":4.09505749,"z":-2.70761633},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.000276017352,"g":0.03439113,"b":0.9984226,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.127985,"y":-0.8239274,"z":-7.341761},"radius":1.0,"force":50.0,"drag":4.979368,"mainColor":{"r":0.00695431465,"g":0.0411785021,"b":0.9983591,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.92018,"y":2.42337,"z":-4.73427439},"radius":1.0,"force":50.0,"drag":4.99776554,"mainColor":{"r":0.007780999,"g":0.07540835,"b":0.967882752,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.698593,"y":0.589663,"z":-8.995113},"radius":1.0,"force":50.0,"drag":0.556903541,"mainColor":{"r":0.3379731,"g":0.37677905,"b":0.6505049,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.030386,"y":2.32191181,"z":-0.182080746},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.002562751,"g":0.0421381369,"b":0.9942625,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.3352165,"y":3.808236,"z":-8.634553},"radius":1.0,"force":50.0,"drag":4.722074,"mainColor":{"r":0.00497668,"g":0.0378313251,"b":0.9946003,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.9760361,"y":0.6474807,"z":-3.4122138},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.05882678,"g":0.229741722,"b":0.8339609,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.2396393,"y":0.175798655,"z":-4.201578},"radius":1.0,"force":50.0,"drag":4.999928,"mainColor":{"r":0.0789208561,"g":0.4072734,"b":0.7060872,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.347167,"y":1.91560054,"z":-8.661088},"radius":1.0,"force":50.0,"drag":3.74435258,"mainColor":{"r":0.0249203183,"g":0.05791639,"b":0.974094152,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.06493568,"y":2.8461802,"z":0.356502533},"radius":1.0,"force":50.0,"drag":0.100127295,"mainColor":{"r":0.008749717,"g":0.0588098541,"b":0.9858596,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.2212791,"y":1.60544026,"z":-7.56597853},"radius":1.0,"force":50.0,"drag":4.99816656,"mainColor":{"r":0.0222627874,"g":0.06778742,"b":0.9707217,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.58536625,"y":-0.218322515,"z":1.78380108},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":0.171486259,"g":0.3259059,"b":0.8996467,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.84834576,"y":-0.4294386,"z":1.03692245},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.0286545455,"g":0.142667338,"b":0.9350589,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":14.7581978,"y":-0.2538209,"z":-5.47670364},"radius":1.0,"force":50.0,"drag":4.999869,"mainColor":{"r":0.005918523,"g":0.05312935,"b":0.9851366,"a":1.0}}]},"time":4.133333,"easeInWeight":0.5,"easeOutWeight":0.12303742},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.3968743,"y":-2.55538487,"z":-2.53038526},"radius":1.0,"force":50.0,"drag":0.104138948,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.26771259,"y":-2.05690932,"z":-3.73154068},"radius":1.0,"force":50.0,"drag":0.5416238,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.310956776,"y":-1.27637434,"z":-2.81863642},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.7824084,"y":-0.77611196,"z":-3.47015023},"radius":1.0,"force":50.0,"drag":0.75067234,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.124643251,"y":-2.394268,"z":-3.993901},"radius":1.0,"force":50.0,"drag":0.100003004,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.03458369,"y":-1.19008017,"z":-4.183823},"radius":1.0,"force":50.0,"drag":0.750977755,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.246544749,"y":-1.15289247,"z":-3.83001947},"radius":1.0,"force":50.0,"drag":0.10133744,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.535728931,"y":-0.949416,"z":-4.47921228},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.382130384,"y":-0.7782619,"z":-3.83883262},"radius":1.0,"force":50.0,"drag":0.7479822,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.7237192,"y":-0.9945553,"z":-3.599813},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.3927442,"y":-0.375837535,"z":-3.30481386},"radius":1.0,"force":50.0,"drag":0.183044612,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.4752712,"y":-0.4245118,"z":-3.7137897},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.0715242,"y":0.602782667,"z":-4.780701},"radius":1.0,"force":50.0,"drag":0.7285539,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.4338686,"y":-0.7841973,"z":-4.41631174},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.4947241,"y":1.09119725,"z":-3.75877786},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.218618944,"y":0.9414992,"z":-4.39565229},"radius":1.0,"force":50.0,"drag":0.613332868,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.41667521,"y":0.1546729,"z":-5.01320076},"radius":1.0,"force":50.0,"drag":0.7509778,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.6236512,"y":0.821952045,"z":-4.37585831},"radius":1.0,"force":50.0,"drag":0.477676481,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.41846454,"y":2.38522577,"z":-4.00584364},"radius":1.0,"force":50.0,"drag":0.686556935,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":1.16750431,"y":1.84494627,"z":-4.13725328},"radius":1.0,"force":50.0,"drag":0.340597749,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.600728,"y":2.0887363,"z":-5.336792},"radius":1.0,"force":50.0,"drag":0.750977635,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.25489044,"y":2.191233,"z":-4.78287745},"radius":1.0,"force":50.0,"drag":0.100000538,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.58304238,"y":4.08538532,"z":-5.72977352},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.998792,"y":3.52811837,"z":-5.62905931},"radius":1.0,"force":50.0,"drag":0.748236835,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.029814,"y":4.073002,"z":-6.270986},"radius":1.0,"force":50.0,"drag":0.7506817,"mainColor":{"r":1.0,"g":0.7186331,"b":0.890640855,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.34340334,"y":4.42085457,"z":-6.53662252},"radius":1.0,"force":50.0,"drag":0.160700828,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.06622839,"y":5.83742046,"z":-6.23052025},"radius":1.0,"force":50.0,"drag":0.100000218,"mainColor":{"r":1.0,"g":0.9445471,"b":0.9784471,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.52615929,"y":5.428816,"z":-7.02429342},"radius":1.0,"force":50.0,"drag":0.714056849,"mainColor":{"r":1.0,"g":0.773969054,"b":0.912148356,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.1915388,"y":6.259757,"z":-6.510187},"radius":1.0,"force":50.0,"drag":0.103782646,"mainColor":{"r":1.0,"g":0.7123371,"b":0.8881938,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.942607,"y":6.49750566,"z":-6.80080175},"radius":1.0,"force":50.0,"drag":0.7566119,"mainColor":{"r":1.0,"g":0.774038732,"b":0.9121754,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.0521154,"y":6.418724,"z":-8.480038},"radius":1.0,"force":50.0,"drag":0.584161758,"mainColor":{"r":1.0,"g":0.7007554,"b":0.8836923,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.9073706,"y":6.471202,"z":-7.813979},"radius":1.0,"force":50.0,"drag":0.100016914,"mainColor":{"r":1.0,"g":0.5820046,"b":0.837537348,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.1235752,"y":6.13752842,"z":-8.369625},"radius":1.0,"force":50.0,"drag":0.750864,"mainColor":{"r":1.0,"g":0.460916936,"b":0.790474057,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.1189718,"y":6.157125,"z":-7.67178774},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":1.0,"g":0.356942832,"b":0.7500624,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.4607477,"y":6.282026,"z":-8.23613548},"radius":1.0,"force":50.0,"drag":0.8804307,"mainColor":{"r":1.0,"g":0.7751471,"b":0.912606239,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.4445248,"y":6.40213156,"z":-9.352614},"radius":1.0,"force":50.0,"drag":1.531362,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.5161552,"y":6.5723877,"z":-8.720576},"radius":1.0,"force":50.0,"drag":0.879738748,"mainColor":{"r":1.0,"g":0.708614051,"b":0.8867467,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.6817131,"y":6.10336733,"z":-8.521101},"radius":1.0,"force":50.0,"drag":1.32185638,"mainColor":{"r":1.0,"g":0.729030848,"b":0.894682169,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.1837749,"y":6.877073,"z":-8.824204},"radius":1.0,"force":50.0,"drag":0.8751722,"mainColor":{"r":1.0,"g":0.9623965,"b":0.985384643,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.2430058,"y":6.406419,"z":-9.089363},"radius":1.0,"force":50.0,"drag":1.53110421,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.2066441,"y":4.81511641,"z":-9.769365},"radius":1.0,"force":50.0,"drag":0.8804326,"mainColor":{"r":1.0,"g":0.9372831,"b":0.9756238,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.4727573,"y":4.44047546,"z":-9.516811},"radius":1.0,"force":50.0,"drag":1.53141022,"mainColor":{"r":1.0,"g":0.811841,"b":0.926868,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.6975155,"y":6.07416344,"z":-9.067708},"radius":1.0,"force":50.0,"drag":0.88177,"mainColor":{"r":1.0,"g":0.992173,"b":0.9969579,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.1658249,"y":5.51918364,"z":-9.497579},"radius":1.0,"force":50.0,"drag":0.8804326,"mainColor":{"r":1.0,"g":0.9897685,"b":0.996023357,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.8571835,"y":5.44672251,"z":-9.01268},"radius":1.0,"force":50.0,"drag":1.52841473,"mainColor":{"r":1.0,"g":0.7289863,"b":0.8946648,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.9758778,"y":4.80087042,"z":-8.368757},"radius":1.0,"force":50.0,"drag":0.880394161,"mainColor":{"r":1.0,"g":0.772001863,"b":0.911383748,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.2669182,"y":3.07095337,"z":-8.889079},"radius":1.0,"force":50.0,"drag":0.9309451,"mainColor":{"r":1.0,"g":0.37659204,"b":0.75769943,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.7253075,"y":3.51996255,"z":-8.177956},"radius":1.0,"force":50.0,"drag":0.6325576,"mainColor":{"r":1.0,"g":0.424582273,"b":0.776351869,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.4249153,"y":3.317583,"z":-8.889221},"radius":1.0,"force":50.0,"drag":1.1444937,"mainColor":{"r":1.0,"g":0.458743155,"b":0.7896292,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.3222427,"y":1.482888,"z":-8.481527},"radius":1.0,"force":50.0,"drag":0.803833663,"mainColor":{"r":1.0,"g":0.3141574,"b":0.733432949,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.715992,"y":1.50400281,"z":-7.34554338},"radius":1.0,"force":33.91378,"drag":0.871299863,"mainColor":{"r":1.0,"g":0.0259481464,"b":0.621414363,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.8302555,"y":2.08075738,"z":-8.466215},"radius":1.0,"force":50.0,"drag":1.35929739,"mainColor":{"r":1.0,"g":0.100570925,"b":0.6504181,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5046043,"y":-0.157106042,"z":-6.921726},"radius":2.4044013,"force":9.232709,"drag":7.569485,"mainColor":{"r":1.0,"g":0.0556941368,"b":0.632975757,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.7941017,"y":0.920085251,"z":-7.68129539},"radius":2.671265,"force":15.7685766,"drag":7.80636835,"mainColor":{"r":1.0,"g":0.0111322217,"b":0.615655839,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.6490183,"y":0.5494317,"z":-6.193386},"radius":2.92487526,"force":1.27438307,"drag":7.96835327,"mainColor":{"r":1.0,"g":0.003717076,"b":0.612773836,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.3439407,"y":0.1031869,"z":-6.401712},"radius":2.93496847,"force":0.256405056,"drag":7.983657,"mainColor":{"r":1.0,"g":0.00364976958,"b":0.6127476,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.6117344,"y":-0.442823142,"z":-5.610979},"radius":2.9958446,"force":2.22454858,"drag":7.878542,"mainColor":{"r":1.0,"g":0.2764824,"b":0.718789756,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":10.351819,"y":0.177693471,"z":-5.67764854},"radius":2.99896884,"force":4.36914253,"drag":7.854007,"mainColor":{"r":1.0,"g":0.09097424,"b":0.646688163,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.336231,"y":0.6980124,"z":-6.177556},"radius":2.994263,"force":26.3023186,"drag":7.43256235,"mainColor":{"r":1.0,"g":0.102386817,"b":0.6511238,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.125076,"y":-0.113899365,"z":-6.0322423},"radius":2.99676776,"force":37.02883,"drag":7.08397,"mainColor":{"r":1.0,"g":0.06694309,"b":0.6373479,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.159356,"y":0.400403082,"z":-5.35825825},"radius":2.95459461,"force":50.0,"drag":7.849335,"mainColor":{"r":1.0,"g":0.28495428,"b":0.722082555,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.392684,"y":0.235663876,"z":-6.372357},"radius":2.68918729,"force":50.0,"drag":3.154191,"mainColor":{"r":1.0,"g":0.264473438,"b":0.7141222,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.37454939,"y":0.786288559,"z":-4.9190836},"radius":2.21119,"force":50.0,"drag":1.91309762,"mainColor":{"r":1.0,"g":0.6288757,"b":0.855754733,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.92105436,"y":0.9530683,"z":-5.871795},"radius":1.99043751,"force":50.0,"drag":1.82926071,"mainColor":{"r":1.0,"g":0.382420272,"b":0.7599647,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.43110228,"y":0.8915049,"z":-4.60172844},"radius":2.05876684,"force":50.0,"drag":1.19601738,"mainColor":{"r":1.0,"g":0.4319116,"b":0.779200554,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.58355141,"y":0.76512605,"z":-5.72943926},"radius":2.56976676,"force":50.0,"drag":1.75280213,"mainColor":{"r":1.0,"g":0.351163328,"b":0.747816,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.942034,"y":2.150737,"z":-5.859616},"radius":1.0,"force":50.0,"drag":0.7139451,"mainColor":{"r":1.0,"g":0.475034356,"b":0.795961142,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.81780052,"y":1.804604,"z":-4.14339542},"radius":1.0,"force":50.0,"drag":0.1650128,"mainColor":{"r":1.0,"g":0.981689036,"b":0.992883,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.82879162,"y":2.05020452,"z":-5.699044},"radius":2.1386764,"force":50.0,"drag":1.02686679,"mainColor":{"r":1.0,"g":0.615574956,"b":0.850585163,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.66741562,"y":1.58709836,"z":-4.93236971},"radius":1.0,"force":50.0,"drag":0.164352253,"mainColor":{"r":1.0,"g":0.8616324,"b":0.9462205,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.873354,"y":1.82253253,"z":-4.58548927},"radius":1.0,"force":50.0,"drag":0.10039179,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.88200426,"y":1.44403434,"z":-5.293475},"radius":1.2838608,"force":50.0,"drag":0.8606739,"mainColor":{"r":1.0,"g":0.626980066,"b":0.8550181,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.65364456,"y":2.16764188,"z":-5.52333641},"radius":1.0,"force":50.0,"drag":0.120975092,"mainColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.25566,"y":1.5934298,"z":-5.40047359},"radius":1.0,"force":50.0,"drag":0.564093351,"mainColor":{"r":1.0,"g":0.8032114,"b":0.923514,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.967573,"y":2.90090418,"z":-4.43217134},"radius":1.0,"force":50.0,"drag":0.100033015,"mainColor":{"r":1.0,"g":0.9908354,"b":0.996437967,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.70064831,"y":2.64002466,"z":-5.364855},"radius":1.0,"force":50.0,"drag":0.7669233,"mainColor":{"r":1.0,"g":0.873629332,"b":0.9508834,"a":1.0}}]},"time":5.8,"easeInWeight":0.8769626,"easeOutWeight":0.34968698},{"$type":"Needle.Timeline.CustomKeyframe`1[[System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib]], Needle.Timeline","value":{"$type":"System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras]], mscorlib","$values":[{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.192339018,"y":-2.882575,"z":-2.97407627},"radius":1.0,"force":50.0,"drag":0.104773059,"mainColor":{"r":0.647362649,"g":0.151624188,"b":0.8313196,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.5363234,"y":-2.36247778,"z":-3.691896},"radius":1.0,"force":50.0,"drag":0.100230612,"mainColor":{"r":0.7384895,"g":0.005869173,"b":0.733049154,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.12389362,"y":-1.60087514,"z":-3.1878624},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":0.739890337,"g":0.0238176,"b":0.7393852,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.0195183158,"y":-1.763741,"z":-3.207149},"radius":1.0,"force":50.0,"drag":0.100000709,"mainColor":{"r":0.7537372,"g":0.08564333,"b":0.7570909,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.519171834,"y":-2.609029,"z":-3.79200721},"radius":1.0,"force":50.0,"drag":0.100003466,"mainColor":{"r":0.5970563,"g":0.0162700322,"b":0.801687837,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.41814822,"y":-0.968837261,"z":-3.4921124},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.635269344,"g":0.0303560346,"b":0.7897099,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5334597,"y":-1.56847394,"z":-4.0972476},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":0.759521544,"g":0.09573735,"b":0.7583723,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5072907,"y":-1.16226757,"z":-3.75957632},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.6681093,"g":0.0539763719,"b":0.7838915,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.484521925,"y":-1.68976855,"z":-3.94004488},"radius":1.0,"force":50.0,"drag":0.100000039,"mainColor":{"r":0.6463248,"g":0.000621858751,"b":0.773103654,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.6222235,"y":-1.27358282,"z":-3.805574},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.7130832,"g":0.08016624,"b":0.77353,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5047288,"y":-0.8489319,"z":-3.242081},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.776068747,"g":0.06532652,"b":0.738995,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.32578123,"y":-0.673136,"z":-3.857814},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.6399331,"g":0.0247727372,"b":0.7854098,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.64959228,"y":0.0956693,"z":-4.4781785},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.8700955,"g":0.07002301,"b":0.6978756,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.755142,"y":-0.622451663,"z":-3.96281815},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.782089353,"g":0.245667681,"b":0.806338549,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.784817636,"y":0.8018422,"z":-3.97992587},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.6387223,"g":0.0136877848,"b":0.781654239,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-1.68132281,"y":0.5493109,"z":-3.59798217},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.6546182,"g":0.0191391781,"b":0.776512861,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.348526537,"y":0.174598247,"z":-4.58208275},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.6747361,"g":0.00349704316,"b":0.7612449,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.7103046,"y":1.05742359,"z":-3.51603556},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.8317497,"g":0.0289686676,"b":0.6994326,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.978305161,"y":1.98487771,"z":-3.785302},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.792788267,"g":0.140241474,"b":0.760475934,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":-0.5075784,"y":2.14553857,"z":-4.814709},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.6253178,"g":0.008722654,"b":0.785846651,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.6779974,"y":2.9111166,"z":-5.86783552},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.6431479,"g":0.02103765,"b":0.7824897,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":0.5251314,"y":2.208408,"z":-4.8849473},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.5542604,"g":0.006833019,"b":0.817566037,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.04843545,"y":4.08390331,"z":-6.19278765},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.722878158,"g":0.00398168154,"b":0.739445448,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":2.14052081,"y":4.19488,"z":-5.366662},"radius":1.0,"force":50.0,"drag":0.100000009,"mainColor":{"r":0.686351,"g":0.0182094369,"b":0.7616585,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.361339,"y":4.325736,"z":-6.50642},"radius":1.0,"force":30.68196,"drag":0.100000873,"mainColor":{"r":0.65429765,"g":0.0122783687,"b":0.7715148,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.52295327,"y":5.007818,"z":-6.15996552},"radius":1.0,"force":50.0,"drag":0.1,"mainColor":{"r":0.70146805,"g":0.146779209,"b":0.8047254,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.6121,"y":6.37601948,"z":-7.15718031},"radius":1.0,"force":36.0522766,"drag":0.100000247,"mainColor":{"r":0.7698937,"g":0.27810967,"b":0.553288341,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":7.09579372,"y":5.677099,"z":-6.777591},"radius":1.0,"force":38.7227859,"drag":0.100002564,"mainColor":{"r":0.725749969,"g":0.364371032,"b":0.5098175,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.918142,"y":7.119594,"z":-6.98481655},"radius":1.0,"force":21.2890244,"drag":0.104362175,"mainColor":{"r":0.9844962,"g":0.9034196,"b":0.0200094189,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.284274,"y":7.466032,"z":-7.19902},"radius":1.0,"force":41.8472443,"drag":0.106508255,"mainColor":{"r":0.9121668,"g":0.8005001,"b":0.121843033,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.1601181,"y":7.108632,"z":-8.4523},"radius":1.0,"force":20.5299149,"drag":0.1,"mainColor":{"r":0.9988301,"g":0.921437562,"b":0.00139085,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.4960566,"y":7.026579,"z":-9.06575},"radius":1.0,"force":23.6077385,"drag":0.1,"mainColor":{"r":0.9757756,"g":0.8963999,"b":0.02851342,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":15.1086063,"y":6.831874,"z":-8.492749},"radius":1.0,"force":20.1498,"drag":0.100149676,"mainColor":{"r":0.9423726,"g":0.86016506,"b":0.06777064,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.9667559,"y":7.133885,"z":-9.120445},"radius":1.0,"force":20.2595139,"drag":0.100000009,"mainColor":{"r":0.861686945,"g":0.7726383,"b":0.162614658,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.93343,"y":7.310266,"z":-9.656828},"radius":1.0,"force":50.0,"drag":0.999997735,"mainColor":{"r":0.5194675,"g":0.400522619,"b":0.566479266,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.8560867,"y":7.421867,"z":-9.946429},"radius":1.0,"force":50.0,"drag":0.999964237,"mainColor":{"r":0.173021287,"g":0.02554543,"b":0.979191,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.39652,"y":7.643632,"z":-10.1126451},"radius":1.0,"force":50.0,"drag":0.9991998,"mainColor":{"r":0.2636021,"g":0.102726653,"b":0.9875884,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.31185,"y":7.048006,"z":-9.215248},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":0.188874438,"g":0.04321775,"b":0.953193247,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.0511456,"y":7.801733,"z":-10.1135225},"radius":1.0,"force":50.0,"drag":0.9939336,"mainColor":{"r":0.15737547,"g":0.009261338,"b":0.9997777,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.1161556,"y":6.51920033,"z":-9.687262},"radius":1.0,"force":50.0,"drag":0.9999999,"mainColor":{"r":0.151275069,"g":0.00266482658,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.179903,"y":5.70487976,"z":-10.4523106},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":0.160434023,"g":0.0133300992,"b":0.9999621,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.6916676,"y":5.524356,"z":-9.642149},"radius":1.0,"force":50.0,"drag":0.9999998,"mainColor":{"r":0.1598406,"g":0.0127301672,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.5911121,"y":6.765814,"z":-10.1373844},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":0.150405526,"g":0.00164302,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.82385,"y":6.29736376,"z":-9.546789},"radius":1.0,"force":50.0,"drag":0.99999994,"mainColor":{"r":0.150253668,"g":0.00146457,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":19.6678219,"y":5.488924,"z":-9.906559},"radius":1.0,"force":50.0,"drag":0.9999999,"mainColor":{"r":0.14916639,"g":0.000186915786,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":20.4262848,"y":5.40974,"z":-9.305152},"radius":1.0,"force":50.0,"drag":0.9999556,"mainColor":{"r":0.151706591,"g":0.00317191146,"b":1.0,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.9546776,"y":3.12592983,"z":-9.681891},"radius":1.0,"force":50.0,"drag":0.9624837,"mainColor":{"r":0.174454391,"g":0.0283034239,"b":0.9793017,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.5670719,"y":3.87565756,"z":-9.005919},"radius":1.0,"force":39.238102,"drag":0.7141488,"mainColor":{"r":0.214657336,"g":0.0711747557,"b":0.9265105,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":18.3624516,"y":3.22639465,"z":-9.216151},"radius":1.0,"force":50.0,"drag":0.5796645,"mainColor":{"r":0.260081053,"g":0.120321088,"b":0.87231946,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.5674343,"y":1.99196577,"z":-8.650851},"radius":1.0,"force":16.04744,"drag":0.911665559,"mainColor":{"r":0.324791074,"g":0.185972348,"b":0.8163652,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":16.7684479,"y":1.27789223,"z":-8.116207},"radius":1.0,"force":6.98472166,"drag":0.989468,"mainColor":{"r":0.412017316,"g":0.280403972,"b":0.7129706,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":17.4753246,"y":1.86311078,"z":-8.292182},"radius":1.0,"force":11.5377884,"drag":0.9602512,"mainColor":{"r":0.391229063,"g":0.262581348,"b":0.722018063,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.5913525,"y":-0.184947252,"z":-6.78300667},"radius":1.0,"force":6.095277,"drag":1.9531548,"mainColor":{"r":0.5715996,"g":0.45601964,"b":0.52860266,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":13.3247375,"y":1.17059147,"z":-7.32788754},"radius":1.0,"force":6.527944,"drag":1.53489029,"mainColor":{"r":0.670649648,"g":0.5654981,"b":0.387608021,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":11.9728422,"y":-0.132171929,"z":-6.30799},"radius":1.0,"force":6.02421761,"drag":1.93865013,"mainColor":{"r":0.561748862,"g":0.4327481,"b":0.544953048,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":12.3811607,"y":0.136930332,"z":-7.426098},"radius":1.0,"force":6.026728,"drag":1.80381274,"mainColor":{"r":0.6714467,"g":0.564048469,"b":0.3887193,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.916342,"y":-0.008294195,"z":-6.18402958},"radius":1.0,"force":6.064075,"drag":1.99722934,"mainColor":{"r":0.693133354,"g":0.573328435,"b":0.3765414,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":9.862562,"y":-0.113618731,"z":-5.91680336},"radius":1.0,"force":6.01564,"drag":1.8862282,"mainColor":{"r":0.515549,"g":0.336990923,"b":0.617128551,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.68305,"y":0.177563041,"z":-6.709173},"radius":1.0,"force":6.576136,"drag":1.94642246,"mainColor":{"r":0.4781555,"g":0.330750167,"b":0.63350147,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":8.052185,"y":-0.00511845946,"z":-5.83161545},"radius":1.0,"force":8.595374,"drag":0.9999696,"mainColor":{"r":0.39508462,"g":0.1655754,"b":0.778736234,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":6.81714058,"y":0.09047142,"z":-5.45385647},"radius":1.0,"force":24.2449074,"drag":0.9999591,"mainColor":{"r":0.5854359,"g":0.058337152,"b":0.765239835,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.886197,"y":0.181428909,"z":-5.97053337},"radius":1.0,"force":29.62372,"drag":0.9984888,"mainColor":{"r":0.5459612,"g":0.0273784027,"b":0.800904751,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.814451,"y":0.5510211,"z":-5.644823},"radius":1.0,"force":16.59442,"drag":0.9966487,"mainColor":{"r":0.5408398,"g":0.0151826609,"b":0.811448,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.24477625,"y":0.5156381,"z":-5.44852257},"radius":1.0,"force":15.9662352,"drag":0.9793147,"mainColor":{"r":0.5577978,"g":0.008577213,"b":0.811867535,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.58158255,"y":0.928890944,"z":-4.78397},"radius":1.0,"force":28.0712643,"drag":0.9854145,"mainColor":{"r":0.5798332,"g":0.00157409732,"b":0.802509665,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.41058874,"y":0.855414867,"z":-5.96351767},"radius":1.0,"force":13.6891184,"drag":0.9920969,"mainColor":{"r":0.523495138,"g":0.017947359,"b":0.8181171,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.26713848,"y":2.18676138,"z":-5.43041229},"radius":1.0,"force":13.813755,"drag":0.249667,"mainColor":{"r":0.6384364,"g":0.008267831,"b":0.77129215,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.47352457,"y":1.64502776,"z":-4.832809},"radius":1.0,"force":18.8088875,"drag":0.174953684,"mainColor":{"r":0.640648365,"g":0.0008926352,"b":0.775801361,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.543008,"y":2.11834526,"z":-5.41301775},"radius":1.0,"force":13.8321457,"drag":0.4184378,"mainColor":{"r":0.442610532,"g":0.016703628,"b":0.854957,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.22036648,"y":1.86370051,"z":-5.961331},"radius":1.0,"force":14.2876616,"drag":0.174211428,"mainColor":{"r":0.5027796,"g":0.00705822138,"b":0.841166139,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.57077241,"y":2.16754913,"z":-5.44687939},"radius":1.0,"force":14.81476,"drag":0.100451812,"mainColor":{"r":0.414709538,"g":0.0004871538,"b":0.878836155,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.522114,"y":1.70415676,"z":-5.26540327},"radius":1.0,"force":18.11185,"drag":0.226522371,"mainColor":{"r":0.451057136,"g":0.0008181304,"b":0.862363756,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.716596,"y":2.5640502,"z":-6.42556667},"radius":1.0,"force":15.2997417,"drag":0.124188609,"mainColor":{"r":0.434922069,"g":0.0384477377,"b":0.8542612,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":3.98204374,"y":1.84711707,"z":-5.6165204},"radius":1.0,"force":15.1622467,"drag":0.1261427,"mainColor":{"r":0.573401,"g":0.00616780762,"b":0.8085654,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.963341,"y":3.21638966,"z":-5.04860163},"radius":1.0,"force":13.79239,"drag":0.100038074,"mainColor":{"r":0.6074985,"g":0.000135123788,"b":0.7906475,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.49902153,"y":2.17576981,"z":-5.39213467},"radius":1.0,"force":21.90334,"drag":0.118741468,"mainColor":{"r":0.538699567,"g":0.00180329743,"b":0.822718143,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.6008563,"y":4.02384329,"z":-5.594986},"radius":1.0,"force":16.3216362,"drag":0.100000069,"mainColor":{"r":0.5370831,"g":0.000358865655,"b":0.82289505,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.19624329,"y":3.94613433,"z":-6.33795643},"radius":1.0,"force":30.4304,"drag":0.100000188,"mainColor":{"r":0.5836378,"g":0.0135333827,"b":0.806752741,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.33866549,"y":3.57449722,"z":-5.78504324},"radius":1.0,"force":16.33006,"drag":0.100000508,"mainColor":{"r":0.564165235,"g":0.000316453225,"b":0.8105093,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.01144361,"y":3.99519277,"z":-6.66910028},"radius":1.0,"force":27.331913,"drag":0.100015655,"mainColor":{"r":0.528822,"g":0.0235456619,"b":0.81163615,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":4.940235,"y":3.23327327,"z":-6.24770355},"radius":1.0,"force":15.3801374,"drag":0.100362,"mainColor":{"r":0.479867935,"g":0.01925014,"b":0.836593151,"a":1.0}},{"$type":"SpheresFromData+SphereData,
+    Needle.Timeline-Extras","position":{"x":5.027902,"y":4.230823,"z":-5.8263},"radius":1.0,"force":21.9826984,"drag":0.100000218,"mainColor":{"r":0.735459745,"g":0.00210243231,"b":0.7325154,"a":1.0}}]},"time":7.289799,"easeInWeight":0.650313,"easeOutWeight":0.5}]},"SupportedTypes":{"$type":"System.Type[],
+    mscorlib","$values":["System.Collections.Generic.List`1[[SpheresFromData+SphereData,
+    Needle.Timeline-Extras, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: SphereBasicPhysics-Timeline
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: -4740175141755201570}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &872669948857970836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f060644c554507a7ce922fce767b2e, type: 3}
+  m_Name: Timeline1
+  m_EditorClassIdentifier: 
+  id: e4e8b472d315a47419e35e32f0739d6e@872669948857970836
+  data: {fileID: 11400000, guid: e0d96fb3b5d83874b80691a63488af61, type: 2}
+  clipData: []
+--- !u!74 &7907731651656681381
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: e4e8b472d315a47419e35e32f0739d6e@872669948857970836
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []
