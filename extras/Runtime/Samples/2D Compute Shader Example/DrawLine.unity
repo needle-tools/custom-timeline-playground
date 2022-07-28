@@ -207,7 +207,7 @@ MonoBehaviour:
   ShowPoints: 0
   ShowSimulation: 1
   RandomPointsCount: 0
-  Points_Count: 2000
+  Points_Count: 3000
   PointSpacing: 0.1
   RenderDirectionGizmos: 0
 --- !u!320 &130069901

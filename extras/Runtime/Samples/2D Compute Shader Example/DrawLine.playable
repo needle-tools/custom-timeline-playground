@@ -132,7 +132,7 @@ MonoBehaviour:
     m_Objects: []
   model:
     recording: 
-  dirtyCount: 16331
+  dirtyCount: 18361
   clipModels:
   - id: cbca03fb13dbd8e44abf061a11bb3b6a@-1111696451228970280_DrawLine_0
     clip: {fileID: 5704139153917385696}
