@@ -37,7 +37,7 @@ public class DrawLine : Animated
 	public struct Point 
 	{
 		public Vector2 Pos;
-		public float Size;
+		public float Size; 
 		public Color Color;
 	}
 	
@@ -48,6 +48,7 @@ public class DrawLine : Animated
 
 	public bool ShowPoints = true;
 	public bool ShowSimulation = true;
+	public bool RandomPointsCount = false;
 
 	public int Points_Count = 100;
 	public float PointSpacing = .2f;
@@ -110,7 +111,7 @@ public class DrawLine : Animated
 			// Debug.Log("Points: " + Points.Count());
 			SetDirty(nameof(Points));
 		}
-		if (PointSpacing < .00001f)
+		if (RandomPointsCount && PointSpacing < .00001f)
 		{
 			Points_Count = (int)Random.Range(10, 1000);
 		}
