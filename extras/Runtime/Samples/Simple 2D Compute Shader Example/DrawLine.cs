@@ -4,6 +4,8 @@ using Needle.Timeline.ResourceProviders;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+// this script automatically binds c# fields to compute shader
+
 public class DrawLine : Animated
 { 
 	public ComputeShader Shader;
@@ -34,11 +36,14 @@ public class DrawLine : Animated
 	public int Points_Count = 100;
 	public float PointSpacing = .2f;
 
-	// private void OnValidate()
-	// {
-	// 	foreach(var t in TransformArray)
-	// 		t.OnHasChanged(OnRequestEvaluation);
-	// }
+	private void OnValidate()
+	{
+		foreach (var t in TransformArray)
+		{
+			if(t.hasChanged) OnRequestEvaluation();
+			t.hasChanged = false;
+		}
+	}
 
 	[ContextMenu("Reset now")]
 	public override void OnReset()
@@ -66,6 +71,8 @@ public class DrawLine : Animated
 			{
 				var t = transform.GetChild(i);
 				TransformArray[i] = t;
+				if(t.hasChanged) OnRequestEvaluation();
+				t.hasChanged = false;
 				// t.OnHasChanged(OnRequestEvaluation);
 			}
 		}
